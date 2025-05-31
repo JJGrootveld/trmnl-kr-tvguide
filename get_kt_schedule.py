@@ -2,44 +2,32 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import re
-from datetime import datetime, timezone # Added timezone
-import time # Added time for epoch timestamp
-import os # Added os for environment variables
+from datetime import datetime, timezone, timedelta 
+import time
+import os
 
-# --- Configuration (can be overridden by environment variables) ---
-# You can set these in your GitHub Actions secrets/variables
-# For local testing, you can set them in your environment or just use these defaults.
-DEFAULT_CHANNEL_ID = os.environ.get('TV_CHANNEL_ID', '7') # Default to '7' (KBS2) if env var not set
-# We will always fetch for the current day in KST for the automated script
-# DEFAULT_DATE_YYYYMMDD = None # This will mean current day based on server's interpretation
-
-# Output filename - make it consistent
+# --- Configuration ---
+DEFAULT_CHANNEL_ID = os.environ.get('TV_CHANNEL_ID', '7')
 OUTPUT_JSON_FILENAME = os.environ.get('OUTPUT_FILENAME', 'tv_schedule.json')
 ERROR_JSON_FILENAME = f"ERROR_{OUTPUT_JSON_FILENAME}"
 
-def fetch_schedule_html_post(channel_id, date_str_yyyymmdd=None, channel_type="4", view_type_val="1"):
-    """
-    Fetches HTML content from the KT TV schedule URL using POST.
-    - channel_id: The service channel number (e.g., '7' for KBS2).
-    - date_str_yyyymmdd: The date in 'YYYYMMDD' format (e.g., '20250601').
-                         If None or empty, fetches for the current day (server default).
-    - channel_type: The channel type (e.g., '4').
-    - view_type_val: The view type (e.g., '1' for daily schedule).
-    """
-    url = "https://tv.kt.com/tv/channel/pSchedule.asp"
+KST_OFFSET_HOURS = 9
+KST_TIMEZONE = timezone(timedelta(hours=KST_OFFSET_HOURS))
 
+# --- fetch_schedule_html_post function (remains the same) ---
+def fetch_schedule_html_post(channel_id, date_str_yyyymmdd=None, channel_type="4", view_type_val="1"):
+    # ... (your existing function code) ...
+    url = "https://tv.kt.com/tv/channel/pSchedule.asp"
     payload = {
         'ch_type': channel_type,
         'service_ch_no': channel_id,
         'view_type': view_type_val
     }
-
     if date_str_yyyymmdd:
         payload['seldate'] = date_str_yyyymmdd
         print(f"Fetching schedule for Channel ID: {channel_id}, Specific Date: {date_str_yyyymmdd}")
     else:
         print(f"Fetching schedule for Channel ID: {channel_id}, Current Day (server default)")
-
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
@@ -47,19 +35,16 @@ def fetch_schedule_html_post(channel_id, date_str_yyyymmdd=None, channel_type="4
         'X-Requested-With': 'XMLHttpRequest',
         'Origin': 'https://tv.kt.com'
     }
-
     try:
         print(f"Attempting to fetch schedule with payload: {payload}")
         response = requests.post(url, data=payload, headers=headers, timeout=15)
         response.raise_for_status()
-
         try:
             response.encoding = 'euc-kr'
             html_text = response.text
         except UnicodeDecodeError:
             response.encoding = response.apparent_encoding or 'utf-8'
             html_text = response.text
-            
         return html_text
     except requests.exceptions.RequestException as e:
         print(f"Error fetching URL {url}: {e}")
@@ -76,21 +61,19 @@ def fetch_schedule_html_post(channel_id, date_str_yyyymmdd=None, channel_type="4
             print(f"Response text: {decoded_error_text[:500]}...")
         return None
 
+# --- parse_schedule_to_json function (remains the same, returns a dict) ---
 def parse_schedule_to_json(html_content, channel_id_for_log="N/A", requested_date_str="N/A"):
-    """Parses the HTML content of the TV schedule and returns a dictionary (not JSON string yet)."""
+    # ... (your existing function code that returns a dictionary) ...
     if not html_content:
         return {
             "error_summary": "No HTML content received to parse.",
             "channel_id_requested": channel_id_for_log,
             "date_requested": requested_date_str if requested_date_str else "Current Day (default)"
         }
-
     soup = BeautifulSoup(html_content, 'html.parser')
     schedule_data = {}
-
     schedule_data['channel_id_requested'] = channel_id_for_log
     schedule_data['date_requested'] = requested_date_str if requested_date_str else "Current Day (default)"
-
     date_tag = soup.find('strong', class_='day')
     if date_tag:
         date_str_raw = date_tag.get_text(strip=True)
@@ -106,7 +89,6 @@ def parse_schedule_to_json(html_content, channel_id_for_log="N/A", requested_dat
             schedule_data['date_displayed'] = "N/A (parsing error)"
         else:
              schedule_data['date_displayed'] = "N/A (date tag not found in HTML)"
-
     channel_logo_tag = soup.find('h5', class_='b_logo')
     if channel_logo_tag and channel_logo_tag.find('img'):
         img_tag = channel_logo_tag.find('img')
@@ -121,52 +103,38 @@ def parse_schedule_to_json(html_content, channel_id_for_log="N/A", requested_dat
     else:
         schedule_data['channel_name'] = f'Channel ID: {channel_id_for_log}'
         schedule_data['channel_logo_url'] = ''
-    
     schedule_data['programs'] = []
     schedule_table = soup.find('table', class_='board tb_schedule')
-
     if schedule_table and schedule_table.find('tbody'):
         rows = schedule_table.find('tbody').find_all('tr')
         for row in rows:
             cells = row.find_all('td')
             if len(cells) < 4: continue
-            
             hour_str = cells[0].get_text(strip=True)
-            
             minute_p_tags = cells[1].find_all('p')
             program_p_tags = cells[2].find_all('p')
             category_p_tags = cells[3].find_all('p')
-            
             num_programs_in_slot = len(program_p_tags)
-
             for i in range(num_programs_in_slot):
                 program_entry = {}
                 program_p_current = program_p_tags[i]
-                
                 minute_str = "00"
                 if i < len(minute_p_tags): minute_str = minute_p_tags[i].get_text(strip=True)
                 program_entry['time'] = f"{hour_str}:{minute_str}"
-                
                 temp_program_soup = BeautifulSoup(str(program_p_current), 'html.parser')
                 current_p_for_text = temp_program_soup.p 
-                
                 is_on_air = False
                 program_title = "N/A"
-
                 if current_p_for_text:
                     online_strong_tag = current_p_for_text.find('strong', class_='online')
                     if online_strong_tag:
                         is_on_air = True
                         online_strong_tag.decompose()
-
                     for b_tag in current_p_for_text.find_all('b'):
                         b_tag.decompose()
-                    
                     program_title = current_p_for_text.get_text(separator=' ', strip=True)
-
                 program_entry['title'] = program_title
                 program_entry['is_on_air'] = is_on_air
-                
                 icons = []
                 for b_tag in program_p_current.find_all('b'):
                     img_icon_tag = b_tag.find('img')
@@ -177,80 +145,79 @@ def parse_schedule_to_json(html_content, channel_id_for_log="N/A", requested_dat
                         icon_src = img_icon_tag.get('src','')
                         icons.append(f"Icon (src: {icon_src})") 
                 program_entry['icons'] = icons
-                
                 genre_str = "N/A"
                 if i < len(category_p_tags): genre_str = category_p_tags[i].get_text(strip=True)
                 program_entry['genre'] = genre_str
-
                 schedule_data['programs'].append(program_entry)
     elif 'error_summary' not in schedule_data:
          schedule_data.setdefault('error_summary', "Schedule table ('board tb_schedule') not found in the HTML.")
-
     if not schedule_data.get('programs') and 'error_summary' not in schedule_data:
         schedule_data.setdefault('error_summary', "No programs found.")
-
-    return schedule_data # Return the dictionary
+    return schedule_data
 
 # --- Main execution block ---
 if __name__ == "__main__":
-    # --- Configuration for automated script ---
     target_channel_id = DEFAULT_CHANNEL_ID
-    # For automated script, we always fetch the current day.
-    # KT's server interprets an omitted 'seldate' as current day.
-    date_to_fetch = None 
-    
     default_channel_type = "4"
     default_view_type = "1"
-    # --- End Configuration ---
 
-    print(f"Automated run for Channel ID: {target_channel_id}, Date: {'Current Day'}")
+    date_to_fetch_param = None 
+    
+    now_kst_for_log = datetime.now(timezone.utc).astimezone(KST_TIMEZONE)
+    requested_date_context_str = f"Current Day (KST approx: {now_kst_for_log.strftime('%Y%m%d')})"
+
+    print(f"--- Script run at {now_kst_for_log.strftime('%Y-%m-%d %H:%M:%S KST')} ---")
+    print(f"\n--- Attempting to fetch schedule for {requested_date_context_str} ---")
+    
     html = fetch_schedule_html_post(
         channel_id=target_channel_id,
-        date_str_yyyymmdd=date_to_fetch,
+        date_str_yyyymmdd=date_to_fetch_param, 
         channel_type=default_channel_type,
         view_type_val=default_view_type
     )
     
-    final_data_to_write = {}
+    schedule_object_or_error = {}
+    output_filename_to_use = ERROR_JSON_FILENAME 
 
     if html:
         print("\nHTML fetched successfully. Parsing schedule...")
-        parsed_data = parse_schedule_to_json(html, target_channel_id, date_to_fetch)
+        parsed_data = parse_schedule_to_json(html, target_channel_id, requested_date_context_str)
         
-        # Add script run timestamps
-        parsed_data['script_run_epoch_utc'] = int(time.time())
-        parsed_data['script_run_iso_utc'] = datetime.now(timezone.utc).isoformat()
-        
-        final_data_to_write = parsed_data
-        output_filename_to_use = OUTPUT_JSON_FILENAME
-        print("\nJSON data prepared.")
+        if "error_summary" not in parsed_data:
+            parsed_data['script_run_epoch_utc'] = int(time.time())
+            parsed_data['script_run_iso_utc'] = datetime.now(timezone.utc).isoformat()
+            parsed_data['schedule_context_message'] = f"Displaying schedule for {parsed_data.get('date_displayed', 'current day')}."
             
-    else: # html is None, fetch failed
+            schedule_object_or_error = parsed_data 
+            output_filename_to_use = OUTPUT_JSON_FILENAME
+            print(f"\nJSON data prepared for: {parsed_data.get('date_displayed')}")
+        else:
+            error_data = parsed_data 
+            error_data['script_run_epoch_utc'] = int(time.time())
+            error_data['script_run_iso_utc'] = datetime.now(timezone.utc).isoformat()
+            schedule_object_or_error = error_data 
+            print(f"\nError JSON data prepared (from parsing): {error_data.get('error_summary')}")
+            
+    else: 
         print("\nFailed to fetch HTML. Error JSON will be generated.")
-        error_payload = {
-            'ch_type': default_channel_type,
-            'service_ch_no': target_channel_id,
-            'view_type': default_view_type
-        }
-        if date_to_fetch:
-            error_payload['seldate'] = date_to_fetch
-
         error_data = {
             "error_summary": "Failed to fetch HTML from server.",
             "channel_id_requested": target_channel_id,
-            "date_requested": date_to_fetch if date_to_fetch else "Current Day (default)",
-            "attempted_payload": error_payload,
+            "date_requested": requested_date_context_str,
             "script_run_epoch_utc": int(time.time()),
             "script_run_iso_utc": datetime.now(timezone.utc).isoformat()
         }
-        final_data_to_write = error_data
-        output_filename_to_use = ERROR_JSON_FILENAME
-        print("\nError JSON data prepared.")
+        schedule_object_or_error = error_data 
+        print("\nError JSON data prepared (from fetch failure).")
 
-    # Write the JSON data (either schedule or error) to the file
+    # ***MODIFICATION: Create a top-level dictionary with a "data" key holding an array of our object***
+    final_json_output_structure = {
+        "data": [schedule_object_or_error]  # The schedule/error object is the single element in the array
+    }
+
     try:
         with open(output_filename_to_use, 'w', encoding='utf-8') as f:
-            json.dump(final_data_to_write, f, indent=2, ensure_ascii=False)
-        print(f"\nData saved to {output_filename_to_use}")
+            json.dump(final_json_output_structure, f, indent=2, ensure_ascii=False)
+        print(f"\nData (as {{'data': [object]}}) saved to {output_filename_to_use}")
     except IOError as e:
         print(f"\nError saving data to file {output_filename_to_use}: {e}")
