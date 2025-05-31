@@ -199,7 +199,7 @@ def is_todays_schedule_still_relevant(programs_today, current_kst_time_obj):
         print("is_todays_schedule_still_relevant: No programs for today, so not relevant.")
         return False
 
-    LATE_NIGHT_CUTOFF_HOUR_KST = 2 # Consider "day" over around 2 AM KST for next day switch
+    LATE_NIGHT_CUTOFF_HOUR_KST = 1
 
     # Get current KST date for creating program datetime objects
     current_kst_date = current_kst_time_obj.date()
@@ -275,7 +275,7 @@ if __name__ == "__main__":
     if html_today:
         print("HTML for today fetched successfully. Parsing schedule...")
         # When parsing, the 'requested_date_str' is for logging/context within the JSON
-        parsed_data_today = parse_schedule_to_json(html_today, target_channel_id, f"Today ({now_kst.strftime('%Y%m%d')})")
+        parsed_data_today = parse_schedule_to_json(html_today, target_channel_id, f"{now_kst.strftime('%Y%m%d')}")
         
         if "error_summary" not in parsed_data_today and parsed_data_today.get("programs"):
             print(f"Today's schedule ({parsed_data_today.get('date_displayed')}) parsed successfully with {len(parsed_data_today.get('programs', []))} programs.")
