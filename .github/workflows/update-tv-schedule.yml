@@ -45,8 +45,15 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # Add the specific output file. Also add the error file in case it's generated.
-          git add ${{ env.OUTPUT_FILENAME }} ERROR_${{ env.OUTPUT_FILENAME }} || echo "No output files to add"
+          
+          # Add the output file if it exists
+          if [ -f "${{ env.OUTPUT_FILENAME }}" ]; then
+            git add ${{ env.OUTPUT_FILENAME }}
+          fi
+          # Add the error file if it exists
+          if [ -f "ERROR_${{ env.OUTPUT_FILENAME }}" ]; then
+            git add ERROR_${{ env.OUTPUT_FILENAME }}
+          fi
           
           # Check if there are any changes staged for commit
           if ! git diff --staged --quiet; then
