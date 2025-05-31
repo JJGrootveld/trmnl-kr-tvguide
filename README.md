@@ -42,7 +42,9 @@ pip install requests beautifulsoup4
 ```
 
 **Running the script:**
-`python get_kt_schedule.py`
+```bash
+python get_kt_schedule.py`
+```
 
 **The script will prompt you for:**
 Channel ID (e.g., 7 for KBS2)
