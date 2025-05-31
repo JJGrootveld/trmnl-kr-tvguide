@@ -1,6 +1,6 @@
 # Product Requirements Document: TV Guide Plugin
 
-**Version:** 1.0
+**Version:** 1.1
 **Date:** May 31, 2025
 **Author/Owner:** [Your Name/Plugin Developer]
 
@@ -27,6 +27,8 @@ This document outlines the requirements for a TV Guide Plugin designed to fetch 
 *   As a user, I want to see the program's start time, title, and genre.
 *   As a user, I want to quickly identify if a program is currently "ON AIR".
 *   As a user, I want to see the channel's name and logo for easy identification.
+*   *(New)* As a user, when viewing the schedule, I want the currently "ON AIR" program (or the next upcoming program if none are on air) to be centrally displayed among a fixed number of listed programs, making it easy to focus on current/imminent broadcasts.
+*   *(New)* As a user, I want the "ON AIR" status to be dynamically calculated based on the current time when viewing today's schedule.
 
 ## 5. Functional Requirements
 
@@ -52,7 +54,7 @@ This document outlines the requirements for a TV Guide Plugin designed to fetch 
         *   Title
         *   Genre
         *   Icons (list of strings, including `alt` text or `src` fallback)
-        *   On-air status (boolean: `true`/`false`)
+        *   On-air status (boolean: `true`/`false` - this is the server-provided status)
 *   **FR1.7: JSON Output:** The script must convert the extracted data into a structured JSON format. The top-level JSON object should include keys such as `channel_id_requested`, `date_requested`, `date_displayed`, `channel_name`, `channel_logo_url`, and a `programs` array.
 *   **FR1.8: User Input:** The script should prompt the user to input the `service_ch_no` (Channel ID) and optionally a date in YYYYMMDD format.
 *   **FR1.9: File Output:** The script should save the generated JSON to a local file, with a filename indicating the channel and date. Error logs should also be saved to a file if fetching fails.
@@ -61,18 +63,28 @@ This document outlines the requirements for a TV Guide Plugin designed to fetch 
 ### 5.2. Data Display (Liquid Template)
 
 *   **FR2.1: Display Channel Information:** The plugin UI must display:
-    *   Channel Logo (`channel_logo_url`)
     *   Channel Name (`channel_name`)
     *   Schedule Date (`date_displayed`)
-    *   Optionally, the requested date if different from the displayed date.
-*   **FR2.2: Program Listing:** The plugin UI must list TV programs from the `programs` array. Initially, this will be limited to the first 5 programs.
+*   **FR2.2: Program Listing (Enhanced):**
+    *   **FR2.2.1: Fixed Number of Programs:** The plugin UI must display a fixed number of programs (e.g., 5) at a time.
+    *   **FR2.2.2: Centered Target Program:** The display should attempt to center the "target" program in the 3rd position of the 5 displayed slots. The "target" program is determined by the following priority:
+        1.  A program for which `is_on_air` is `true` (from the Python script's JSON output).
+        2.  If no server-side `is_on_air` program is found and the schedule is for the current KST day: the next program scheduled to start after the current KST time.
+        3.  If neither of the above, default to the first program in the schedule.
+    *   **FR2.2.3: Slice Adjustment:** The slicing logic must adjust to prevent out-of-bounds errors, ensuring that if the target program is near the beginning or end of the full schedule, a valid slice of up to 5 programs is still displayed.
 *   **FR2.3: Program Details:** For each listed program, display:
     *   Broadcast Time (`program.time`)
     *   Program Title (`program.title`)
     *   Program Genre (`program.genre`)
-*   **FR2.4: On-Air Indicator:** If a program has `is_on_air: true`, an "ON AIR" visual indicator must be displayed next to it.
-*   **FR2.5: No Programs Message:** If the `programs` array is empty or unavailable, a message indicating "No program information available" should be displayed.
-*   **FR2.6: Plugin Title Bar:** A title bar at the bottom should display the plugin's instance name and optionally the channel logo (smaller).
+*   **FR2.4: On-Air Indicator (Enhanced):**
+    *   **FR2.4.1: Dynamic Calculation:** For schedules displayed for the current KST day, the "ON AIR" status for each program in the list of 5 should be dynamically calculated within the Liquid template. This involves:
+        *   Comparing the current KST time (converted to UTC epoch seconds) against the program's start time (converted from schedule date and program time in KST to UTC epoch seconds).
+        *   Determining the program's end time by using the start time of the *next* program in the full schedule.
+        *   For the last program of the day, a default duration (e.g., 1 hour) will be assumed for the on-air check.
+    *   **FR2.4.2: Visual Indicator:** If a program is determined to be "ON AIR" by this dynamic calculation, a visual "ON AIR" label must be displayed next to it.
+    *   **FR2.4.3: Non-Current Day Schedules:** For schedules of past or future dates, this dynamic "ON AIR" calculation will not apply, and no program will be marked "ON AIR" by this logic.
+*   **FR2.5: No Programs Message:** If the `programs` array is empty or unavailable (or if the slicing results in an empty list), a message indicating "No program information available" should be displayed.
+*   **FR2.6: Plugin Title Bar:** A title bar at the bottom should display the plugin's instance name and a generic TV icon.
 *   **FR2.7: Data Source:** The template will consume the JSON data generated by the Python script, accessed via variables like `{{ programs }}`, `{{ channel_name }}`, etc.
 
 ## 6. Technical Requirements
@@ -83,22 +95,24 @@ This document outlines the requirements for a TV Guide Plugin designed to fetch 
 *   **TR2: Plugin Display:**
     *   Templating Engine: Liquid.
     *   Assumes a plugin environment that can render Liquid templates and inject the JSON data.
+    *   Liquid logic will perform time conversions (KST to UTC epoch) and comparisons for dynamic "ON AIR" status.
 *   **TR3: Data Format:** JSON as specified in FR1.7. Example structure:
     ```json
     {
       "channel_id_requested": "7",
-      "date_requested": "20250531", 
-      "date_displayed": "2025-05-31",
+      "date_requested": "20250531", // or "Current Day (default)"
+      "date_displayed": "2025-05-31", // Expected in YYYY-MM-DD for Liquid date parsing
       "channel_name": "KBS2",
-      "channel_logo_url": "https://tv.kt.com/...",
+      "channel_logo_url": "https://tv.kt.com/...", // This field still exists in JSON
       "programs": [
         {
-          "time": "HH:MM",
+          "time": "HH:MM", // e.g., "13:55"
           "title": "Program Title",
           "genre": "Program Genre",
-          "is_on_air": true,
+          "is_on_air": true, // Server-provided status
           "icons": ["icon_alt_text_1", "Icon (src: /path/to/icon.png)"]
         }
+        // ... more programs
       ]
     }
     ```
@@ -107,30 +121,34 @@ This document outlines the requirements for a TV Guide Plugin designed to fetch 
 
 *   The display should be clean and easy to read.
 *   The "ON AIR" status should be prominent.
-*   Basic layout will be a single column, with programs listed vertically.
+*   The focused display of 5 programs with the current/next program centered aims to improve scannability.
+*   Channel name will be prominently displayed at the top.
 *   Styling will leverage classes potentially provided by the plugin environment (e.g., `layout`, `grid`, `item`, `text--gray-3`, `label--inverted`), supplemented by minimal inline styles for unique elements.
 
 ## 8. Release Criteria (MVP - Minimum Viable Product)
 
 *   Python script successfully fetches and parses data for a given channel and date (or current day) and saves it as valid JSON.
-*   Liquid template successfully displays the channel information and the first 5 programs with their time, title, genre, and on-air status from the generated JSON.
+*   Liquid template successfully displays the channel information.
+*   Liquid template displays a list of 5 programs (or fewer if not enough available), centered around the current/next program based on server-provided `is_on_air` flag or time comparison.
+*   Liquid template dynamically calculates and displays an "ON AIR" label for programs on the current day's schedule.
 *   Basic error handling is in place for data fetching.
 
 ## 9. Future Considerations / Out of Scope for MVP
 
-*   Displaying all programs, not just the first 5 (e.g., with pagination or scrolling).
+*   ~~Displaying all programs, not just the first 5 (e.g., with pagination or scrolling).~~ (Partially addressed by focused 5-item view)
 *   Mapping icon `src` paths to meaningful descriptions (e.g., "자막방송") instead of just "Icon (src: ...)".
 *   More sophisticated UI for selecting channels and dates (e.g., dropdowns, calendar pickers) if the plugin environment allows.
 *   Displaying program icons visually.
 *   Automatic refresh of schedule data.
-*   Timezone handling for program times if the source data is not already localized.
 *   More detailed error display within the plugin UI itself.
+*   Using a unique ID for programs from the Python script to improve reliability of lookups in Liquid.
 
 ## 10. Dependencies
 
 *   The plugin's functionality relies on the Python script to provide the necessary JSON data.
 *   The Python script relies on external libraries (`requests`, `BeautifulSoup4`).
 *   The stability and structure of the `tv.kt.com` website and its `pSchedule.asp` endpoint.
+*   The Liquid templating environment's `date` filter capabilities for epoch and formatted string conversions with timezone considerations.
 
 ---
 _End of Document_
