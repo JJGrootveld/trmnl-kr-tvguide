@@ -43,7 +43,7 @@ pip install requests beautifulsoup4
 
 **Running the script:**
 ```bash
-python get_kt_schedule.py`
+python get_kt_schedule.py
 ```
 
 **The script will prompt you for:**
