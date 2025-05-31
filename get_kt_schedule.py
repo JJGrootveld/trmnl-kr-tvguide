@@ -2,252 +2,205 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import re
-from datetime import datetime, timezone # Added timezone
-import time # Added time for epoch timestamp
-import os # Added os for environment variables
+from datetime import datetime, timezone, timedelta # Added timedelta
+import time
+import os
 
 # --- Configuration (can be overridden by environment variables) ---
-# You can set these in your GitHub Actions secrets/variables
-# For local testing, you can set them in your environment or just use these defaults.
-DEFAULT_CHANNEL_ID = os.environ.get('TV_CHANNEL_ID', '7') # Default to '7' (KBS2) if env var not set
-# We will always fetch for the current day in KST for the automated script
-# DEFAULT_DATE_YYYYMMDD = None # This will mean current day based on server's interpretation
-
-# Output filename - make it consistent
+DEFAULT_CHANNEL_ID = os.environ.get('TV_CHANNEL_ID', '7')
 OUTPUT_JSON_FILENAME = os.environ.get('OUTPUT_FILENAME', 'tv_schedule.json')
 ERROR_JSON_FILENAME = f"ERROR_{OUTPUT_JSON_FILENAME}"
 
-def fetch_schedule_html_post(channel_id, date_str_yyyymmdd=None, channel_type="4", view_type_val="1"):
+# Define KST timezone offset
+KST_OFFSET_HOURS = 9
+KST_TIMEZONE = timezone(timedelta(hours=KST_OFFSET_HOURS))
+
+# --- (fetch_schedule_html_post and parse_schedule_to_json functions remain the same) ---
+# ... (paste your existing fetch_schedule_html_post and parse_schedule_to_json here) ...
+# Make sure parse_schedule_to_json returns the schedule_data dictionary
+
+def is_todays_schedule_still_relevant(programs_today, current_kst_time):
     """
-    Fetches HTML content from the KT TV schedule URL using POST.
-    - channel_id: The service channel number (e.g., '7' for KBS2).
-    - date_str_yyyymmdd: The date in 'YYYYMMDD' format (e.g., '20250601').
-                         If None or empty, fetches for the current day (server default).
-    - channel_type: The channel type (e.g., '4').
-    - view_type_val: The view type (e.g., '1' for daily schedule).
+    Checks if today's schedule has relevant upcoming programs.
+    - programs_today: List of program dictionaries for today.
+    - current_kst_time: A datetime object representing the current time in KST.
     """
-    url = "https://tv.kt.com/tv/channel/pSchedule.asp"
+    if not programs_today:
+        return False # No programs for today, so not relevant
 
-    payload = {
-        'ch_type': channel_type,
-        'service_ch_no': channel_id,
-        'view_type': view_type_val
-    }
+    # Define a cut-off hour in KST (e.g., 2 AM - broadcasts for the "day" are likely over)
+    # If current KST hour is >= LATE_NIGHT_CUTOFF_HOUR_KST, consider fetching next day.
+    LATE_NIGHT_CUTOFF_HOUR_KST = 2 # 2 AM
 
-    if date_str_yyyymmdd:
-        payload['seldate'] = date_str_yyyymmdd
-        print(f"Fetching schedule for Channel ID: {channel_id}, Specific Date: {date_str_yyyymmdd}")
-    else:
-        print(f"Fetching schedule for Channel ID: {channel_id}, Current Day (server default)")
+    if current_kst_time.hour >= LATE_NIGHT_CUTOFF_HOUR_KST:
+        # Check if there are any programs scheduled after this late-night cutoff
+        # This handles cases where a "day's" schedule might run past midnight into the early morning.
+        # We are primarily interested if there are programs *after* current_kst_time.
+        pass # Continue to check upcoming programs
 
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-        'Referer': 'https://tv.kt.com/',
-        'X-Requested-With': 'XMLHttpRequest',
-        'Origin': 'https://tv.kt.com'
-    }
-
-    try:
-        print(f"Attempting to fetch schedule with payload: {payload}")
-        response = requests.post(url, data=payload, headers=headers, timeout=15)
-        response.raise_for_status()
-
+    for program in programs_today:
         try:
-            response.encoding = 'euc-kr'
-            html_text = response.text
-        except UnicodeDecodeError:
-            response.encoding = response.apparent_encoding or 'utf-8'
-            html_text = response.text
+            program_time_parts = program.get('time', '00:00').split(':')
+            program_hour = int(program_time_parts[0])
+            program_minute = int(program_time_parts[1])
             
-        return html_text
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching URL {url}: {e}")
-        if hasattr(e, 'response') and e.response is not None:
-            print(f"Response status: {e.response.status_code}")
-            error_text = e.response.content
-            try:
-                decoded_error_text = error_text.decode('euc-kr')
-            except UnicodeDecodeError:
-                try:
-                    decoded_error_text = error_text.decode(e.response.apparent_encoding or 'utf-8', errors='replace')
-                except Exception:
-                    decoded_error_text = str(error_text)
-            print(f"Response text: {decoded_error_text[:500]}...")
-        return None
+            # Compare with current KST time (only hour and minute for simplicity here)
+            # A more robust comparison would involve creating full datetime objects for each program.
+            if program_hour > current_kst_time.hour:
+                return True # Found a program later today
+            if program_hour == current_kst_time.hour and program_minute > current_kst_time.minute:
+                return True # Found a program later in the current hour
+        except (ValueError, IndexError):
+            continue # Skip malformed program times
 
-def parse_schedule_to_json(html_content, channel_id_for_log="N/A", requested_date_str="N/A"):
-    """Parses the HTML content of the TV schedule and returns a dictionary (not JSON string yet)."""
-    if not html_content:
-        return {
-            "error_summary": "No HTML content received to parse.",
-            "channel_id_requested": channel_id_for_log,
-            "date_requested": requested_date_str if requested_date_str else "Current Day (default)"
-        }
-
-    soup = BeautifulSoup(html_content, 'html.parser')
-    schedule_data = {}
-
-    schedule_data['channel_id_requested'] = channel_id_for_log
-    schedule_data['date_requested'] = requested_date_str if requested_date_str else "Current Day (default)"
-
-    date_tag = soup.find('strong', class_='day')
-    if date_tag:
-        date_str_raw = date_tag.get_text(strip=True)
-        match = re.match(r"(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일", date_str_raw)
-        if match:
-            year, month, day = match.groups()
-            schedule_data['date_displayed'] = f"{year}-{int(month):02d}-{int(day):02d}"
-        else:
-            schedule_data['date_displayed'] = date_str_raw
-    else:
-        if not soup.find('table', class_='board tb_schedule'):
-            schedule_data['error_summary'] = "Core schedule structure (date or table) not found in HTML."
-            schedule_data['date_displayed'] = "N/A (parsing error)"
-        else:
-             schedule_data['date_displayed'] = "N/A (date tag not found in HTML)"
-
-    channel_logo_tag = soup.find('h5', class_='b_logo')
-    if channel_logo_tag and channel_logo_tag.find('img'):
-        img_tag = channel_logo_tag.find('img')
-        schedule_data['channel_name'] = img_tag.get('alt', f'Channel ID: {channel_id_for_log}')
-        logo_src = img_tag.get('src', '')
-        if logo_src.startswith('http'):
-            schedule_data['channel_logo_url'] = logo_src
-        elif logo_src:
-            schedule_data['channel_logo_url'] = "https://tv.kt.com" + logo_src
-        else:
-            schedule_data['channel_logo_url'] = ''
-    else:
-        schedule_data['channel_name'] = f'Channel ID: {channel_id_for_log}'
-        schedule_data['channel_logo_url'] = ''
+    # If loop finishes, no programs found starting after current_kst_time
+    # Additionally, if it's past the late-night cutoff, we might also lean towards next day.
+    if current_kst_time.hour >= LATE_NIGHT_CUTOFF_HOUR_KST:
+         # If it's, for example, 3 AM, and the last program was at 1 AM, today is likely done.
+         # If the last program was at 3:30 AM, this function would have returned True above.
+         # This condition acts as a further incentive to check next day if it's very late.
+         print(f"Current KST hour {current_kst_time.hour} is at or past late-night cutoff {LATE_NIGHT_CUTOFF_HOUR_KST} AM and no further programs found for today.")
+         # return False # Can be more aggressive here if needed
     
-    schedule_data['programs'] = []
-    schedule_table = soup.find('table', class_='board tb_schedule')
+    print("No more upcoming programs found for today's schedule or it's very late.")
+    return False
 
-    if schedule_table and schedule_table.find('tbody'):
-        rows = schedule_table.find('tbody').find_all('tr')
-        for row in rows:
-            cells = row.find_all('td')
-            if len(cells) < 4: continue
-            
-            hour_str = cells[0].get_text(strip=True)
-            
-            minute_p_tags = cells[1].find_all('p')
-            program_p_tags = cells[2].find_all('p')
-            category_p_tags = cells[3].find_all('p')
-            
-            num_programs_in_slot = len(program_p_tags)
-
-            for i in range(num_programs_in_slot):
-                program_entry = {}
-                program_p_current = program_p_tags[i]
-                
-                minute_str = "00"
-                if i < len(minute_p_tags): minute_str = minute_p_tags[i].get_text(strip=True)
-                program_entry['time'] = f"{hour_str}:{minute_str}"
-                
-                temp_program_soup = BeautifulSoup(str(program_p_current), 'html.parser')
-                current_p_for_text = temp_program_soup.p 
-                
-                is_on_air = False
-                program_title = "N/A"
-
-                if current_p_for_text:
-                    online_strong_tag = current_p_for_text.find('strong', class_='online')
-                    if online_strong_tag:
-                        is_on_air = True
-                        online_strong_tag.decompose()
-
-                    for b_tag in current_p_for_text.find_all('b'):
-                        b_tag.decompose()
-                    
-                    program_title = current_p_for_text.get_text(separator=' ', strip=True)
-
-                program_entry['title'] = program_title
-                program_entry['is_on_air'] = is_on_air
-                
-                icons = []
-                for b_tag in program_p_current.find_all('b'):
-                    img_icon_tag = b_tag.find('img')
-                    alt_text = img_icon_tag.get('alt', '').strip() if img_icon_tag else ''
-                    if alt_text:
-                        icons.append(alt_text)
-                    elif img_icon_tag:
-                        icon_src = img_icon_tag.get('src','')
-                        icons.append(f"Icon (src: {icon_src})") 
-                program_entry['icons'] = icons
-                
-                genre_str = "N/A"
-                if i < len(category_p_tags): genre_str = category_p_tags[i].get_text(strip=True)
-                program_entry['genre'] = genre_str
-
-                schedule_data['programs'].append(program_entry)
-    elif 'error_summary' not in schedule_data:
-         schedule_data.setdefault('error_summary', "Schedule table ('board tb_schedule') not found in the HTML.")
-
-    if not schedule_data.get('programs') and 'error_summary' not in schedule_data:
-        schedule_data.setdefault('error_summary', "No programs found.")
-
-    return schedule_data # Return the dictionary
 
 # --- Main execution block ---
 if __name__ == "__main__":
-    # --- Configuration for automated script ---
     target_channel_id = DEFAULT_CHANNEL_ID
-    # For automated script, we always fetch the current day.
-    # KT's server interprets an omitted 'seldate' as current day.
-    date_to_fetch = None 
-    
     default_channel_type = "4"
     default_view_type = "1"
-    # --- End Configuration ---
 
-    print(f"Automated run for Channel ID: {target_channel_id}, Date: {'Current Day'}")
-    html = fetch_schedule_html_post(
+    # Get current time in KST
+    now_utc = datetime.now(timezone.utc)
+    now_kst = now_utc.astimezone(KST_TIMEZONE)
+    
+    # --- Stage 1: Fetch Today's Schedule ---
+    print(f"--- Attempting to fetch schedule for TODAY ({now_kst.strftime('%Y%m%d')}) ---")
+    # For KT server, omitting 'seldate' fetches the current day.
+    # However, to be explicit and for potential future use, let's use today's KST date.
+    # The KT server seems to determine "today" based on its own clock,
+    # so sending `None` for date_to_fetch is often the most reliable for "current server day".
+    # Let's stick to date_to_fetch = None for today initially.
+    date_to_fetch_today = None # This tells the server to use its current date.
+    # Or, if you want to be explicit with KST date:
+    # date_to_fetch_today = now_kst.strftime("%Y%m%d")
+
+    html_today = fetch_schedule_html_post(
         channel_id=target_channel_id,
-        date_str_yyyymmdd=date_to_fetch,
+        date_str_yyyymmdd=date_to_fetch_today, # Use None for server's current day
         channel_type=default_channel_type,
         view_type_val=default_view_type
     )
+
+    schedule_data_to_use = None
+    effective_date_for_output = now_kst.strftime("%Y-%m-%d") # Default to today
+
+    if html_today:
+        print("\nHTML for today fetched successfully. Parsing schedule...")
+        parsed_data_today = parse_schedule_to_json(html_today, target_channel_id, "Today")
+        
+        if "error_summary" not in parsed_data_today and parsed_data_today.get("programs"):
+            print("Today's schedule parsed successfully.")
+            # Analyze if today's schedule is still relevant
+            if is_todays_schedule_still_relevant(parsed_data_today.get("programs", []), now_kst):
+                print("Today's schedule is still relevant. Using today's data.")
+                schedule_data_to_use = parsed_data_today
+                effective_date_for_output = parsed_data_today.get('date_displayed', effective_date_for_output)
+            else:
+                print("Today's schedule seems over or sparse. Will attempt to fetch tomorrow's schedule.")
+        else:
+            print("Error parsing today's schedule or no programs found. Will attempt to fetch tomorrow's schedule.")
+            if "error_summary" in parsed_data_today:
+                print(f"Error details for today: {parsed_data_today['error_summary']}")
+
+    else: # html_today is None, fetch failed
+        print("\nFailed to fetch HTML for today. Will attempt to fetch tomorrow's schedule.")
+
+    # --- Stage 2: Fetch Tomorrow's Schedule (if today's wasn't used) ---
+    if schedule_data_to_use is None:
+        tomorrow_kst = now_kst + timedelta(days=1)
+        date_to_fetch_tomorrow = tomorrow_kst.strftime("%Y%m%d")
+        effective_date_for_output = tomorrow_kst.strftime("%Y-%m-%d") # Update for output context
+
+        print(f"\n--- Attempting to fetch schedule for TOMORROW ({date_to_fetch_tomorrow}) ---")
+        html_tomorrow = fetch_schedule_html_post(
+            channel_id=target_channel_id,
+            date_str_yyyymmdd=date_to_fetch_tomorrow,
+            channel_type=default_channel_type,
+            view_type_val=default_view_type
+        )
+
+        if html_tomorrow:
+            print("\nHTML for tomorrow fetched successfully. Parsing schedule...")
+            parsed_data_tomorrow = parse_schedule_to_json(html_tomorrow, target_channel_id, date_to_fetch_tomorrow)
+            if "error_summary" not in parsed_data_tomorrow and parsed_data_tomorrow.get("programs"):
+                print("Tomorrow's schedule parsed successfully. Using tomorrow's data.")
+                schedule_data_to_use = parsed_data_tomorrow
+                effective_date_for_output = parsed_data_tomorrow.get('date_displayed', effective_date_for_output)
+            else:
+                print("Error parsing tomorrow's schedule or no programs found for tomorrow.")
+                if "error_summary" in parsed_data_tomorrow:
+                     print(f"Error details for tomorrow: {parsed_data_tomorrow['error_summary']}")
+                # Fallback: if today had an error and tomorrow also has an error/no programs, create minimal error JSON
+                if schedule_data_to_use is None: # Still no valid data
+                     schedule_data_to_use = {
+                        "error_summary": "Failed to fetch relevant schedule for today and tomorrow.",
+                        "channel_id_requested": target_channel_id,
+                        "date_requested": f"Attempted Today & {date_to_fetch_tomorrow}"
+                    }
+        else:
+            print("\nFailed to fetch HTML for tomorrow.")
+            if schedule_data_to_use is None: # Still no valid data (today failed, tomorrow failed to fetch)
+                schedule_data_to_use = {
+                    "error_summary": "Failed to fetch HTML for both today and tomorrow.",
+                    "channel_id_requested": target_channel_id,
+                    "date_requested": f"Attempted Today & {date_to_fetch_tomorrow}"
+                }
     
+    # --- Prepare Final JSON Output ---
     final_data_to_write = {}
+    output_filename_to_use = ERROR_JSON_FILENAME # Default to error filename
 
-    if html:
-        print("\nHTML fetched successfully. Parsing schedule...")
-        parsed_data = parse_schedule_to_json(html, target_channel_id, date_to_fetch)
+    if schedule_data_to_use and "error_summary" not in schedule_data_to_use:
+        # Add script run timestamps to the chosen schedule data
+        schedule_data_to_use['script_run_epoch_utc'] = int(time.time())
+        schedule_data_to_use['script_run_iso_utc'] = datetime.now(timezone.utc).isoformat()
         
-        # Add script run timestamps
-        parsed_data['script_run_epoch_utc'] = int(time.time())
-        parsed_data['script_run_iso_utc'] = datetime.now(timezone.utc).isoformat()
-        
-        final_data_to_write = parsed_data
+        # Ensure 'date_requested' reflects what was effectively fetched
+        # The parse_schedule_to_json already sets 'date_requested' based on its input.
+        # We might want to add a field like 'effective_schedule_target_date_type': 'today' or 'tomorrow'
+        if schedule_data_to_use.get('date_displayed') == now_kst.strftime('%Y-%m-%d') or \
+           schedule_data_to_use.get('date_requested') == "Today": # A bit heuristic
+            schedule_data_to_use['schedule_context_message'] = f"Displaying schedule for today ({schedule_data_to_use.get('date_displayed')})."
+        else:
+            schedule_data_to_use['schedule_context_message'] = f"Displaying schedule for tomorrow ({schedule_data_to_use.get('date_displayed')}) as today's schedule is complete or unavailable."
+
+        final_data_to_write = schedule_data_to_use
         output_filename_to_use = OUTPUT_JSON_FILENAME
-        print("\nJSON data prepared.")
+        print(f"\nFinal JSON data prepared for: {schedule_data_to_use.get('date_displayed')}")
             
-    else: # html is None, fetch failed
-        print("\nFailed to fetch HTML. Error JSON will be generated.")
-        error_payload = {
-            'ch_type': default_channel_type,
-            'service_ch_no': target_channel_id,
-            'view_type': default_view_type
-        }
-        if date_to_fetch:
-            error_payload['seldate'] = date_to_fetch
+    else: # An error occurred, or no relevant schedule found
+        print("\nAn error occurred or no relevant schedule found. Error JSON will be generated.")
+        # Ensure schedule_data_to_use is at least an empty dict if it's None
+        if schedule_data_to_use is None:
+            schedule_data_to_use = {
+                "error_summary": "Unknown error or no data could be determined for today or tomorrow.",
+                "channel_id_requested": target_channel_id
+            }
 
-        error_data = {
-            "error_summary": "Failed to fetch HTML from server.",
-            "channel_id_requested": target_channel_id,
-            "date_requested": date_to_fetch if date_to_fetch else "Current Day (default)",
-            "attempted_payload": error_payload,
-            "script_run_epoch_utc": int(time.time()),
-            "script_run_iso_utc": datetime.now(timezone.utc).isoformat()
-        }
+        error_data = schedule_data_to_use # It already contains error_summary if it's an error dict
+        error_data['script_run_epoch_utc'] = int(time.time())
+        error_data['script_run_iso_utc'] = datetime.now(timezone.utc).isoformat()
+        if 'date_requested' not in error_data: # Ensure this key exists
+             error_data['date_requested'] = f"Attempted Today ({now_kst.strftime('%Y%m%d')}) & Tomorrow ({ (now_kst + timedelta(days=1)).strftime('%Y%m%d') })"
+        
         final_data_to_write = error_data
-        output_filename_to_use = ERROR_JSON_FILENAME
+        output_filename_to_use = ERROR_JSON_FILENAME # Already set, but for clarity
         print("\nError JSON data prepared.")
 
-    # Write the JSON data (either schedule or error) to the file
+    # Write the JSON data to the file
     try:
         with open(output_filename_to_use, 'w', encoding='utf-8') as f:
             json.dump(final_data_to_write, f, indent=2, ensure_ascii=False)
