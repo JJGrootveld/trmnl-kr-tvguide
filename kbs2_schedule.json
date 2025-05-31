@@ -32,7 +32,7 @@
         {
           "time": "05:00",
           "title": "트레킹노트 세상을 걷다 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -43,7 +43,7 @@
         {
           "time": "05:40",
           "title": "생생정보 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -207,8 +207,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1748723980,
-      "script_run_iso_utc": "2025-05-31T20:39:40.870140+00:00",
+      "script_run_epoch_utc": 1748724191,
+      "script_run_iso_utc": "2025-05-31T20:43:11.126088+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-01."
     }
   ]
