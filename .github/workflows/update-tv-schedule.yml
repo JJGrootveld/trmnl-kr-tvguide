@@ -1,0 +1,58 @@
+name: Update TV Schedule Data
+
+on:
+  schedule:
+    # Runs every 15 minutes
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows manual triggering from the Actions tab
+  push: # Also run on pushes to main (optional, good for testing changes to the script)
+    branches:
+      - main # Or your default branch name (e.g., master)
+
+jobs:
+  fetch-and-commit-schedule:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push changes back to the repo
+
+    # Optional: Define environment variables for your script
+    # You can also set these as Repository Secrets if they are sensitive,
+    # or as Repository Variables if they are not sensitive but you want to manage them outside the workflow file.
+    # For this example, we'll use the defaults in the script or define them here.
+    env:
+      TV_CHANNEL_ID: '7'             # Example: KBS2. Change if needed.
+      OUTPUT_FILENAME: 'kbs2_schedule.json' # Desired output filename
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Use the latest major version
+
+      - name: Set up Python
+        uses: actions/setup-python@v5 # Use the latest major version
+        with:
+          python-version: '3.10' # Specify a Python version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run script to fetch TV schedule
+        run: python get_kt_schedule.py
+        # The script will now use the TV_CHANNEL_ID and OUTPUT_FILENAME from env vars
+
+      - name: Commit and push if content changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # Add the specific output file. Also add the error file in case it's generated.
+          git add ${{ env.OUTPUT_FILENAME }} ERROR_${{ env.OUTPUT_FILENAME }} || echo "No output files to add"
+          
+          # Check if there are any changes staged for commit
+          if ! git diff --staged --quiet; then
+            git commit -m "Automated TV schedule update for ${{ env.OUTPUT_FILENAME }}"
+            git push
+            echo "Changes committed and pushed."
+          else
+            echo "No changes to commit. Data is likely the same."
+          fi
