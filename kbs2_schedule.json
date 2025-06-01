@@ -187,7 +187,7 @@
         {
           "time": "21:20",
           "title": "개그 콘서트",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -198,7 +198,7 @@
         {
           "time": "22:50",
           "title": "공부와 놀부",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "7세 이상 시청 가능",
             "Hd",
@@ -207,8 +207,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1748784358,
-      "script_run_iso_utc": "2025-06-01T13:25:58.527001+00:00",
+      "script_run_epoch_utc": 1748787353,
+      "script_run_iso_utc": "2025-06-01T14:15:53.524394+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-01."
     }
   ]
