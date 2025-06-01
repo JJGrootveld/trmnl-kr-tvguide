@@ -1,0 +1,41 @@
+name: Update KBS2 Schedule
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update_xml:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+
+      - name: Run script to generate TV guide XML
+        env:
+          TV_CHANNEL_ID: '7'
+          OUTPUT_XML_FILENAME: 'tv_schedule.xml'
+        run: python your_script_name.py
+
+      - name: Commit and push XML file
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated TV guide XML update"
+          file_pattern: "*.xml"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
+          commit_author: "GitHub Actions Bot <actions@github.com>"
