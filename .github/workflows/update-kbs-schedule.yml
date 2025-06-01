@@ -29,7 +29,7 @@ jobs:
         env:
           TV_CHANNEL_ID: '7'
           OUTPUT_XML_FILENAME: 'tv_schedule.xml'
-        run: python your_script_name.py
+        run: python get_kbs2_schedule.py
 
       - name: Commit and push XML file
         uses: stefanzweifel/git-auto-commit-action@v5
