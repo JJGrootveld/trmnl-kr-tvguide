@@ -1,0 +1,203 @@
+{%- assign kst_time_zone_offset_string = "+09:00" -%}
+{%- assign kst_offset_seconds = 9 | times: 3600 -%}
+
+{%- assign now_utc_seconds = "now" | date: "%s" | plus: 0 -%}
+{%- assign current_kst_yyyymmdd_string = "now" | date: "%s" | plus: kst_offset_seconds | date: "%Y%m%d" -%}
+{%- assign current_kst_hhmm_string = "now" | date: "%s" | plus: kst_offset_seconds | date: "%H%M" -%}
+
+{%- assign data_root = data[0] -%}
+{%- assign channel_name = data_root.channel_name | default: "TV Channel" -%}
+{%- assign date_displayed = data_root.date_displayed | default: "N/A" -%}
+{%- assign schedule_date_yyyymmdd_string = date_displayed | replace: "-", "" -%}
+{%- assign schedule_date_iso = date_displayed -%}
+
+{%- assign programs = data_root.programs -%}
+{%- assign total_programs = programs.size -%}
+
+{%- assign program_to_display_current = nil -%}
+{%- assign program_to_display_upcoming = nil -%}
+{%- assign found_current_program_index = -1 -%}
+{%- assign is_current_dynamically_on_air = false -%}
+
+{%- if programs and total_programs > 0 -%}
+
+  {%- for p_loop in programs -%}
+    {%- if p_loop.is_on_air == true -%}
+      {%- assign program_to_display_current = p_loop -%}
+      {%- assign found_current_program_index = forloop.index0 -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if program_to_display_current == nil and current_kst_yyyymmdd_string == schedule_date_yyyymmdd_string -%}
+    {%- for p_loop_dynamic_check in programs -%}
+      {%- assign current_program_idx_dynamic = forloop.index0 -%}
+      {%- assign program_start_iso_kst_calc = schedule_date_iso | append: "T" | append: p_loop_dynamic_check.time | append: ":00" | append: kst_time_zone_offset_string -%}
+      {%- assign program_start_utc_epoch_calc = program_start_iso_kst_calc | date: "%s" | plus: 0 -%}
+      
+      {%- assign temp_is_dynamically_on_air = false -%}
+      {%- assign next_program_original_idx_calc = current_program_idx_dynamic | plus: 1 -%}
+
+      {%- if next_program_original_idx_calc < total_programs -%}
+        {%- assign next_program_in_full_list_calc = programs[next_program_original_idx_calc] -%}
+        {%- assign next_program_start_iso_kst_calc = schedule_date_iso | append: "T" | append: next_program_in_full_list_calc.time | append: ":00" | append: kst_time_zone_offset_string -%}
+        {%- assign next_program_start_utc_epoch_calc = next_program_start_iso_kst_calc | date: "%s" | plus: 0 -%}
+        
+        {%- if now_utc_seconds >= program_start_utc_epoch_calc and now_utc_seconds < next_program_start_utc_epoch_calc -%}
+          {%- assign temp_is_dynamically_on_air = true -%}
+        {%- endif -%}
+      {%- else -%} 
+        {%- assign program_assumed_duration_seconds_calc = 3600 -%} 
+        {%- assign program_assumed_end_utc_epoch_calc = program_start_utc_epoch_calc | plus: program_assumed_duration_seconds_calc -%}
+        {%- if now_utc_seconds >= program_start_utc_epoch_calc and now_utc_seconds < program_assumed_end_utc_epoch_calc -%}
+          {%- assign temp_is_dynamically_on_air = true -%}
+        {%- endif -%}
+      {%- endif -%}
+
+      {%- if temp_is_dynamically_on_air == true -%}
+        {%- assign program_to_display_current = p_loop_dynamic_check -%}
+        {%- assign found_current_program_index = current_program_idx_dynamic -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- if program_to_display_current and current_kst_yyyymmdd_string == schedule_date_yyyymmdd_string -%}
+      {%- assign p_loop_for_badge_check = program_to_display_current -%}
+      {%- assign current_idx_for_badge_check = found_current_program_index -%}
+      {%- assign program_start_iso_kst_calc = schedule_date_iso | append: "T" | append: p_loop_for_badge_check.time | append: ":00" | append: kst_time_zone_offset_string -%}
+      {%- assign program_start_utc_epoch_calc = program_start_iso_kst_calc | date: "%s" | plus: 0 -%}
+      
+      {%- assign temp_is_on_air_for_badge = false -%}
+      {%- assign next_program_original_idx_calc = current_idx_for_badge_check | plus: 1 -%}
+      {%- if next_program_original_idx_calc < total_programs -%}
+        {%- assign next_program_in_full_list_calc = programs[next_program_original_idx_calc] -%}
+        {%- assign next_program_start_iso_kst_calc = schedule_date_iso | append: "T" | append: next_program_in_full_list_calc.time | append: ":00" | append: kst_time_zone_offset_string -%}
+        {%- assign next_program_start_utc_epoch_calc = next_program_start_iso_kst_calc | date: "%s" | plus: 0 -%}
+        {%- if now_utc_seconds >= program_start_utc_epoch_calc and now_utc_seconds < next_program_start_utc_epoch_calc -%}
+          {%- assign temp_is_on_air_for_badge = true -%}
+        {%- endif -%}
+      {%- else -%} 
+        {%- assign program_assumed_duration_seconds_calc = 3600 -%} 
+        {%- assign program_assumed_end_utc_epoch_calc = program_start_utc_epoch_calc | plus: program_assumed_duration_seconds_calc -%}
+        {%- if now_utc_seconds >= program_start_utc_epoch_calc and now_utc_seconds < program_assumed_end_utc_epoch_calc -%}
+          {%- assign temp_is_on_air_for_badge = true -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- assign is_current_dynamically_on_air = temp_is_on_air_for_badge -%}
+  {%- elsif program_to_display_current -%} 
+      {%- assign is_current_dynamically_on_air = false -%}
+  {%- endif -%}
+
+  {%- assign program_to_display_upcoming = nil -%}
+  {%- assign upcoming_found_by_index_method = false -%}
+
+  {%- if found_current_program_index != -1 -%}
+    {%- assign next_program_target_idx = found_current_program_index | plus: 1 -%}
+    {%- if next_program_target_idx < total_programs -%}
+      {%- for p_idx_loop_check in programs -%}
+        {%- if forloop.index0 == next_program_target_idx -%}
+          {%- assign program_to_display_upcoming = p_idx_loop_check -%}
+          {%- assign upcoming_found_by_index_method = true -%}
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if upcoming_found_by_index_method == false -%}
+    {%- if current_kst_yyyymmdd_string == schedule_date_yyyymmdd_string -%}
+      {%- assign min_loop_idx_for_time_search = 0 %}
+      {%- if found_current_program_index != -1 -%}
+        {%- assign min_loop_idx_for_time_search = found_current_program_index | plus: 1 %}
+      {%- endif %}
+
+      {%- for p_time_loop_check in programs -%}
+        {%- if forloop.index0 >= min_loop_idx_for_time_search -%}
+          {%- assign program_hhmm_string_loop = p_time_loop_check.time | remove: ":" -%}
+          {%- if program_hhmm_string_loop > current_kst_hhmm_string -%}
+              {%- assign is_this_item_same_as_current_display = false -%}
+              {%- if program_to_display_current != nil and p_time_loop_check.time == program_to_display_current.time and p_time_loop_check.title == program_to_display_current.title -%}
+                  {%- assign is_this_item_same_as_current_display = true -%}
+              {%- endif -%}
+
+              {%- if is_this_item_same_as_current_display == false -%}
+                  {%- assign program_to_display_upcoming = p_time_loop_check -%}
+                  {%- break -%}
+              {%- endif -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
+<div class="layout layout--col">
+  <div class="grid grid--cols-1">
+    <div class="item">
+      <div class="content" style="padding-bottom: 10px;">
+        <span class="title text--black" style="font-size: 1.8em; font-weight: bold;">{{ channel_name }}</span>
+        <span class="title text--black" style="display: block; font-size: 0.8em; margin-top: 3px;">
+          Schedule: {{ date_displayed }} (Current & Upcoming)
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="border--h-3 w-full"></div>
+
+  {%- if program_to_display_current -%}
+    <div class="item" style=" padding-bottom: 5px;">
+      <div class="content" style="position: relative;">
+        {% if is_current_dynamically_on_air %}
+          <div>
+            <span class="label label--inverted" style="margin-top: 8px; margin-bottom: 16px; background-color: black; color: white; padding: 3px 7px; border-radius: 4px; font-size: 0.75em; font-weight: bold;">ON AIR</span>
+          </div>
+        {% endif %}
+        <!--<span class="value" style="display:block; font-size: 0.8em; color: #555; margin-bottom: 4px; text-transform: uppercase; font-weight: 500;">Currently On Air</span>-->
+        <span class="value value--small" style="font-weight: bold; font-size: 1.5em; line-height: 130%;">{{ program_to_display_current.time }}</span>
+        <div>
+          <span class="value value--small" style="font-size: 2.5em; font-weight: bold; line-height: 120%">{{ program_to_display_current.title }}</span>
+        </div>
+        <div style="margin-top: 3px;">
+          <span class="value value--small" style="font-weight: bold; font-size: 0.95em;">{{ program_to_display_current.genre }}</span>
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- if program_to_display_current and program_to_display_upcoming -%}
+    <div class="border--h-5 w-full"></div>
+  {%- endif -%}
+
+  {%- if program_to_display_upcoming -%}
+    <div class="item" style="padding-top: {% if program_to_display_current %}5px{% else %}10px{% endif %}; padding-bottom: 10px;">
+      <div class="content">
+        <span class="value" style="display:block; font-size: 0.8em; color: #555; margin-bottom: 4px; text-transform: uppercase; font-weight: 500;">
+          {% if program_to_display_current %}Upcoming Next{% else %}Next Program{% endif %}
+        </span>
+        <span class="value value--small" style="font-weight: bold; font-size: 1.5em; line-height: 130%;">{{ program_to_display_upcoming.time }}</span>
+        <div>
+          <span class="value value--small" style="font-size: 2.5em; font-weight: bold; line-height: 120%;">{{ program_to_display_upcoming.title }}</span>
+        </div>
+        <div style="margin-top: 3px;">
+          <span class="value value--small" style="font-weight: bold; font-size: 0.9em;">{{ program_to_display_upcoming.genre }}</span>
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- if program_to_display_current == nil and program_to_display_upcoming == nil -%}
+    <div class="item" style="padding-top: 10px; padding-bottom: 10px;">
+      <div class="content">
+        {%- if programs and total_programs > 0 -%}
+          {%- if current_kst_yyyymmdd_string == schedule_date_yyyymmdd_string -%}
+            <span class="value">No program currently on air. Broadcasting may have ended or not yet started for today.</span>
+          {%- else -%}
+            <span class="value">No 'on air' or upcoming program information for this date.</span>
+          {%- endif -%}
+        {%- else -%}
+          <span class="value">No program information available for this channel/date.</span>
+        {%- endif -%}
+      </div>
+    </div>
+  {%- endif -%}
