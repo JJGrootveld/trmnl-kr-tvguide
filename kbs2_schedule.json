@@ -144,7 +144,7 @@
         {
           "time": "11:20",
           "title": "박원숙의 같이 삽시다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -155,7 +155,7 @@
         {
           "time": "12:40",
           "title": "영화가 좋다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -321,8 +321,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1748834391,
-      "script_run_iso_utc": "2025-06-02T03:19:51.682686+00:00",
+      "script_run_epoch_utc": 1748838563,
+      "script_run_iso_utc": "2025-06-02T04:29:23.257544+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-02."
     }
   ]
