@@ -166,7 +166,7 @@
         {
           "time": "17:15",
           "title": "주말드라마 독수리 5형제를 부탁해!",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -177,7 +177,7 @@
         {
           "time": "18:35",
           "title": "2TV 생생정보",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -242,8 +242,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1748942435,
-      "script_run_iso_utc": "2025-06-03T09:20:35.719217+00:00",
+      "script_run_epoch_utc": 1748946063,
+      "script_run_iso_utc": "2025-06-03T10:21:03.211215+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-03."
     }
   ]
