@@ -156,7 +156,7 @@
         <program>
           <time>15:55</time>
           <title>주말드라마 독수리 5형제를 부탁해!</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -167,7 +167,7 @@
         <program>
           <time>17:15</time>
           <title>주말드라마 독수리 5형제를 부탁해!</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -243,8 +243,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1748934983</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-03T07:16:23.234028+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1748938947</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-03T08:22:27.232344+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-03.</schedule_context_message>
     </schedule_entry>
   </data>
