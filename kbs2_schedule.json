@@ -199,7 +199,7 @@
         {
           "time": "20:30",
           "title": "셀럽병사의 비밀 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -210,7 +210,7 @@
         {
           "time": "21:45",
           "title": "스모킹 건",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -242,8 +242,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1748954350,
-      "script_run_iso_utc": "2025-06-03T12:39:10.752528+00:00",
+      "script_run_epoch_utc": 1748957554,
+      "script_run_iso_utc": "2025-06-03T13:32:34.487169+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-03."
     }
   ]
