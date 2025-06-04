@@ -1,0 +1,11 @@
+{
+  "data": [
+    {
+      "error_summary": "Failed to fetch HTML from server.",
+      "channel_id_requested": "7",
+      "date_requested": "Current Day (KST approx: 20250604)",
+      "script_run_epoch_utc": 1749037039,
+      "script_run_iso_utc": "2025-06-04T11:37:19.429442+00:00"
+    }
+  ]
+}
