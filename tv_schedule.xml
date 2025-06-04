@@ -32,7 +32,7 @@
         <program>
           <time>05:00</time>
           <title>무엇이든 물어보세요 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -43,7 +43,7 @@
         <program>
           <time>06:00</time>
           <title>굿모닝 대한민국 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -298,8 +298,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1749068046</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-04T20:14:06.454816+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1749071558</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-04T21:12:38.453777+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-05.</schedule_context_message>
     </schedule_entry>
   </data>
