@@ -143,7 +143,7 @@
         {
           "time": "13:35",
           "title": "무엇이든 물어보세요 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -165,7 +165,7 @@
         {
           "time": "15:15",
           "title": "월드 24",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -318,8 +318,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749015676,
-      "script_run_iso_utc": "2025-06-04T05:41:16.508702+00:00",
+      "script_run_epoch_utc": 1749017821,
+      "script_run_iso_utc": "2025-06-04T06:17:01.428407+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-04."
     }
   ]
