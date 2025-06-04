@@ -2,24 +2,13 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20250604)",
-      "date_displayed": "2025-06-04",
+      "date_requested": "Current Day (KST approx: 20250605)",
+      "date_displayed": "2025-06-05",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "00:25",
-          "title": "스튜디오 K 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "00:55",
+          "time": "00:40",
           "title": "KBS 재난방송센터",
           "is_on_air": false,
           "icons": [
@@ -30,7 +19,7 @@
           "genre": "교양/정보"
         },
         {
-          "time": "01:05",
+          "time": "00:50",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": false,
           "icons": [
@@ -52,15 +41,14 @@
         },
         {
           "time": "06:00",
-          "title": "걸어서 세계속으로 트래블홀릭",
+          "title": "굿모닝 대한민국 스페셜",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "시사/다큐"
+          "genre": "교양/정보"
         },
         {
           "time": "07:00",
@@ -108,6 +96,18 @@
         },
         {
           "time": "10:10",
+          "title": "KBS 아침 뉴스타임",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "뉴스"
+        },
+        {
+          "time": "10:30",
           "title": "인간극장 스페셜",
           "is_on_air": false,
           "icons": [
@@ -119,48 +119,49 @@
           "genre": "시사/다큐"
         },
         {
-          "time": "10:50",
-          "title": "신상출시 편스토랑",
+          "time": "11:10",
+          "title": "수목드라마 24시 헬스클럽",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "드라마"
         },
         {
-          "time": "12:20",
-          "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": false,
-          "icons": [
-            "12세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "13:35",
-          "title": "무엇이든 물어보세요 스페셜",
+          "time": "12:25",
+          "title": "동네 한 바퀴",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "교양/정보"
+          "genre": "시사/다큐"
         },
         {
-          "time": "14:45",
-          "title": "놓친예능 따라잡기",
+          "time": "13:30",
+          "title": "일일드라마 여왕의 집 스페셜",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "드라마"
+        },
+        {
+          "time": "15:00",
+          "title": "KBS 뉴스타임",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "뉴스"
         },
         {
           "time": "15:15",
@@ -198,40 +199,18 @@
         },
         {
           "time": "16:30",
-          "title": "영상앨범 산",
+          "title": "누가 누가 잘하나",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "시사/다큐"
-        },
-        {
-          "time": "17:00",
-          "title": "Why?",
-          "is_on_air": false,
-          "icons": [
-            "7세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "17:15",
-          "title": "다이노 파워즈 4",
-          "is_on_air": false,
-          "icons": [
-            "7세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "만화"
+          "genre": "음악"
         },
         {
           "time": "17:30",
-          "title": "꿀잼 영화가 좋다",
+          "title": "놓친예능 따라잡기",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -275,10 +254,10 @@
         },
         {
           "time": "20:30",
-          "title": "슈퍼맨이 돌아왔다",
+          "title": "옥탑방의 문제아들",
           "is_on_air": false,
           "icons": [
-            "12세 이상 시청 가능",
+            "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
@@ -298,7 +277,7 @@
         {
           "time": "23:05",
           "title": "아이 러브 스포츠",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -308,7 +287,7 @@
         },
         {
           "time": "23:30",
-          "title": "스튜디오 K",
+          "title": "사장님 귀는 당나귀 귀",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -318,9 +297,9 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749046194,
-      "script_run_iso_utc": "2025-06-04T14:09:54.995483+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-06-04."
+      "script_run_epoch_utc": 1749049402,
+      "script_run_iso_utc": "2025-06-04T15:03:22.328571+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-06-05."
     }
   ]
 }
