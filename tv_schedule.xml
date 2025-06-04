@@ -277,7 +277,7 @@
         <program>
           <time>20:30</time>
           <title>슈퍼맨이 돌아왔다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -288,7 +288,7 @@
         <program>
           <time>21:50</time>
           <title>수목드라마 24시 헬스클럽</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -319,8 +319,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1749040379</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-04T12:32:59.280598+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1749043873</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-04T13:31:13.544870+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-04.</schedule_context_message>
     </schedule_entry>
   </data>
