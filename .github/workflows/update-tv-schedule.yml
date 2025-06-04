@@ -3,7 +3,7 @@ name: Update TV Schedule Data
 on:
   schedule:
     # Runs at minute 0 every hour every day
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch: # Allows manual triggering from the Actions tab
   push: # Also run on pushes to main (optional, good for testing changes to the script)
     branches:
