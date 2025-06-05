@@ -255,7 +255,7 @@
         {
           "time": "20:30",
           "title": "옥탑방의 문제아들",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -266,7 +266,7 @@
         {
           "time": "21:50",
           "title": "수목드라마 24시 헬스클럽",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -297,8 +297,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749126163,
-      "script_run_iso_utc": "2025-06-05T12:22:43.790287+00:00",
+      "script_run_epoch_utc": 1749128714,
+      "script_run_iso_utc": "2025-06-05T13:05:14.186603+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-05."
     }
   ]
