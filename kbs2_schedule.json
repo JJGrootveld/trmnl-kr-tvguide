@@ -178,7 +178,7 @@
         {
           "time": "16:50",
           "title": "2025 프로야구 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -189,7 +189,7 @@
         {
           "time": "20:30",
           "title": "신상출시 편스토랑",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -220,8 +220,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749208224,
-      "script_run_iso_utc": "2025-06-06T11:10:24.974053+00:00",
+      "script_run_epoch_utc": 1749209708,
+      "script_run_iso_utc": "2025-06-06T11:35:08.859475+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-06."
     }
   ]
