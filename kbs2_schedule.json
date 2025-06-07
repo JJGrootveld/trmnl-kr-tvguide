@@ -10,7 +10,7 @@
         {
           "time": "00:10",
           "title": "수목드라마 24시 헬스클럽",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -22,7 +22,7 @@
         {
           "time": "01:25",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Sd"
@@ -207,8 +207,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1749312750,
-      "script_run_iso_utc": "2025-06-07T16:12:30.747452+00:00",
+      "script_run_epoch_utc": 1749314645,
+      "script_run_iso_utc": "2025-06-07T16:44:05.326697+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-08."
     }
   ]
