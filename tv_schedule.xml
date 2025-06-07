@@ -178,7 +178,7 @@
         <program>
           <time>21:20</time>
           <title>살림하는 남자들</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -189,7 +189,7 @@
         <program>
           <time>22:40</time>
           <title>방판뮤직 어디든 가요</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1749302607</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-07T13:23:27.831902+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1749305589</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-07T14:13:09.179150+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-07.</schedule_context_message>
     </schedule_entry>
   </data>
