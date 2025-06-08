@@ -120,7 +120,7 @@
         {
           "time": "12:40",
           "title": "방판뮤직 어디든 가요 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -131,7 +131,7 @@
         {
           "time": "14:00",
           "title": "살림하는 남자들",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -207,8 +207,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1749358113,
-      "script_run_iso_utc": "2025-06-08T04:48:33.278459+00:00",
+      "script_run_epoch_utc": 1749359500,
+      "script_run_iso_utc": "2025-06-08T05:11:40.681881+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-08."
     }
   ]
