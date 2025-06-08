@@ -43,7 +43,7 @@
         <program>
           <time>05:00</time>
           <title>무엇이든 물어보세요 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -54,7 +54,7 @@
         <program>
           <time>06:00</time>
           <title>걸어서 세계속으로 트래블홀릭</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -322,8 +322,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1749413752</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-08T20:15:52.092923+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1749417192</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-08T21:13:12.132148+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-09.</schedule_context_message>
     </schedule_entry>
   </data>
