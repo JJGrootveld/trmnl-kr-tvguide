@@ -77,7 +77,7 @@
         <program>
           <time>07:25</time>
           <title>굿모닝 대한민국</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -99,7 +99,7 @@
         <program>
           <time>09:40</time>
           <title>가는정 오는정 이민정</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -208,8 +208,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1749338143</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-07T23:15:43.062040+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1749345789</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-08T01:23:09.520150+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-08.</schedule_context_message>
     </schedule_entry>
   </data>
