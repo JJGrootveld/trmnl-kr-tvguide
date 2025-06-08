@@ -131,7 +131,7 @@
         {
           "time": "14:00",
           "title": "살림하는 남자들",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -142,7 +142,7 @@
         {
           "time": "15:20",
           "title": "주말드라마 독수리 5형제를 부탁해!",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -207,8 +207,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1749363376,
-      "script_run_iso_utc": "2025-06-08T06:16:16.417473+00:00",
+      "script_run_epoch_utc": 1749365202,
+      "script_run_iso_utc": "2025-06-08T06:46:42.781089+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-08."
     }
   ]
