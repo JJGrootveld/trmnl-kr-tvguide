@@ -142,7 +142,7 @@
         {
           "time": "15:20",
           "title": "주말드라마 독수리 5형제를 부탁해!",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -153,7 +153,7 @@
         {
           "time": "16:40",
           "title": "사장님 귀는 당나귀 귀",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -207,8 +207,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1749368030,
-      "script_run_iso_utc": "2025-06-08T07:33:50.005353+00:00",
+      "script_run_epoch_utc": 1749370431,
+      "script_run_iso_utc": "2025-06-08T08:13:51.981446+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-08."
     }
   ]
