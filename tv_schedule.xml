@@ -11,7 +11,7 @@
         <program>
           <time>00:05</time>
           <title>더 시즌즈 - 박보검의 칸타빌레 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -33,7 +33,7 @@
         <program>
           <time>01:30</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Sd</icon>
@@ -322,8 +322,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1749399473</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-08T16:17:53.536252+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1749402766</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-08T17:12:46.869682+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-09.</schedule_context_message>
     </schedule_entry>
   </data>
