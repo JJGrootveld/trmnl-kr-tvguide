@@ -98,7 +98,7 @@
         {
           "time": "09:40",
           "title": "가는정 오는정 이민정",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -109,7 +109,7 @@
         {
           "time": "11:00",
           "title": "1박 2일 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -207,8 +207,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1749344544,
-      "script_run_iso_utc": "2025-06-08T01:02:24.339139+00:00",
+      "script_run_epoch_utc": 1749352043,
+      "script_run_iso_utc": "2025-06-08T03:07:23.765127+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-08."
     }
   ]
