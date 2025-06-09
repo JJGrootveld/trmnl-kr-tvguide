@@ -223,7 +223,7 @@
         {
           "time": "16:30",
           "title": "세상의 모든 다큐",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -235,7 +235,7 @@
         {
           "time": "17:20",
           "title": "스튜디오 K 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -321,8 +321,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749457058,
-      "script_run_iso_utc": "2025-06-09T08:17:38.269142+00:00",
+      "script_run_epoch_utc": 1749458824,
+      "script_run_iso_utc": "2025-06-09T08:47:04.542214+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-09."
     }
   ]
