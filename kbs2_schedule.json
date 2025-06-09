@@ -2,24 +2,13 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20250609)",
-      "date_displayed": "2025-06-09",
+      "date_requested": "Current Day (KST approx: 20250610)",
+      "date_displayed": "2025-06-10",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "00:05",
-          "title": "더 시즌즈 - 박보검의 칸타빌레 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "01:20",
+          "time": "00:45",
           "title": "KBS 재난방송센터",
           "is_on_air": false,
           "icons": [
@@ -30,7 +19,7 @@
           "genre": "교양/정보"
         },
         {
-          "time": "01:30",
+          "time": "00:55",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": false,
           "icons": [
@@ -143,7 +132,7 @@
         },
         {
           "time": "11:20",
-          "title": "박원숙의 같이 삽시다",
+          "title": "사장님 귀는 당나귀 귀",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -153,15 +142,15 @@
           "genre": "연예/오락"
         },
         {
-          "time": "12:40",
-          "title": "영화가 좋다",
+          "time": "12:50",
+          "title": "한국인의 밥상",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "교양/정보"
         },
         {
           "time": "13:50",
@@ -222,26 +211,47 @@
         },
         {
           "time": "16:30",
-          "title": "세상의 모든 다큐",
+          "title": "어린이 동물티비",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "시사/다큐"
+          "genre": "교육"
         },
         {
-          "time": "17:20",
-          "title": "스튜디오 K 스페셜",
+          "time": "17:00",
+          "title": "라이즈맨",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "12세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "만화"
+        },
+        {
+          "time": "17:15",
+          "title": "슈팅스타 캐치 티니핑",
+          "is_on_air": false,
+          "icons": [
+            "7세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "만화"
+        },
+        {
+          "time": "17:30",
+          "title": "트레킹노트 세상을 걷다 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
         },
         {
           "time": "18:00",
@@ -278,7 +288,7 @@
         },
         {
           "time": "20:30",
-          "title": "박원숙의 같이 삽시다",
+          "title": "셀럽병사의 비밀",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -288,8 +298,8 @@
           "genre": "연예/오락"
         },
         {
-          "time": "21:50",
-          "title": "오래된 만남 추구 스페셜",
+          "time": "21:45",
+          "title": "스모킹 건",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -299,9 +309,9 @@
           "genre": "연예/오락"
         },
         {
-          "time": "23:20",
+          "time": "22:45",
           "title": "아이 러브 스포츠",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -310,8 +320,8 @@
           "genre": "스포츠"
         },
         {
-          "time": "23:45",
-          "title": "스모킹 건",
+          "time": "23:10",
+          "title": "개그 콘서트 스페셜",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -321,9 +331,9 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749480182,
-      "script_run_iso_utc": "2025-06-09T14:43:02.835500+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-06-09."
+      "script_run_epoch_utc": 1749481944,
+      "script_run_iso_utc": "2025-06-09T15:12:24.147815+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-06-10."
     }
   ]
 }
