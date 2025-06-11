@@ -203,7 +203,7 @@
         {
           "time": "15:45",
           "title": "쉿! 내 친구는 빅파이브 2",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -214,7 +214,7 @@
         {
           "time": "16:00",
           "title": "TV 유치원",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -344,8 +344,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1749624510,
-      "script_run_iso_utc": "2025-06-11T06:48:30.051432+00:00",
+      "script_run_epoch_utc": 1749625927,
+      "script_run_iso_utc": "2025-06-11T07:12:07.926135+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-11."
     }
   ]
