@@ -156,7 +156,7 @@
         {
           "time": "12:35",
           "title": "수목드라마 24시 헬스클럽",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -168,7 +168,7 @@
         {
           "time": "13:50",
           "title": "무엇이든 물어보세요 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -344,8 +344,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1749617252,
-      "script_run_iso_utc": "2025-06-11T04:47:32.857887+00:00",
+      "script_run_epoch_utc": 1749618796,
+      "script_run_iso_utc": "2025-06-11T05:13:16.821941+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-11."
     }
   ]
