@@ -121,7 +121,7 @@
         {
           "time": "11:10",
           "title": "수목드라마 남주의 첫날밤을 가져버렸다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -132,7 +132,7 @@
         {
           "time": "12:25",
           "title": "동네 한 바퀴",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -297,8 +297,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1749696190,
-      "script_run_iso_utc": "2025-06-12T02:43:10.810093+00:00",
+      "script_run_epoch_utc": 1749699722,
+      "script_run_iso_utc": "2025-06-12T03:42:02.882546+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-12."
     }
   ]
