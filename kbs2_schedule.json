@@ -2,8 +2,8 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20250612)",
-      "date_displayed": "2025-06-12",
+      "date_requested": "Current Day (KST approx: 20250613)",
+      "date_displayed": "2025-06-13",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
@@ -52,7 +52,7 @@
         },
         {
           "time": "07:00",
-          "title": "TV 유치원",
+          "title": "어린이 동물티비",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -120,36 +120,38 @@
         },
         {
           "time": "11:10",
-          "title": "수목드라마 남주의 첫날밤을 가져버렸다",
+          "title": "주말드라마 독수리 5형제를 부탁해!",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "12:30",
+          "title": "주말드라마 독수리 5형제를 부탁해!",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "13:50",
+          "title": "스튜디오 K",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "드라마"
-        },
-        {
-          "time": "12:25",
-          "title": "동네 한 바퀴",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "시사/다큐"
-        },
-        {
-          "time": "13:30",
-          "title": "일일드라마 여왕의 집 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "드라마"
+          "genre": "연예/오락"
         },
         {
           "time": "15:00",
@@ -165,15 +167,14 @@
         },
         {
           "time": "15:15",
-          "title": "월드 24",
+          "title": "어린이 동물티비",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "뉴스"
+          "genre": "교육"
         },
         {
           "time": "15:45",
@@ -188,29 +189,7 @@
         },
         {
           "time": "16:00",
-          "title": "TV 유치원",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교육"
-        },
-        {
-          "time": "16:30",
-          "title": "누가 누가 잘하나",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "음악"
-        },
-        {
-          "time": "17:30",
-          "title": "놓친예능 따라잡기",
+          "title": "불후의 명곡 스페셜",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -220,15 +199,15 @@
           "genre": "연예/오락"
         },
         {
-          "time": "18:00",
-          "title": "경제콘서트",
+          "time": "17:05",
+          "title": "뮤직뱅크",
           "is_on_air": false,
           "icons": [
-            "전체 시청 가능",
+            "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "뉴스"
+          "genre": "음악"
         },
         {
           "time": "18:35",
@@ -254,7 +233,7 @@
         },
         {
           "time": "20:30",
-          "title": "옥탑방의 문제아들",
+          "title": "신상출시 편스토랑",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -264,42 +243,31 @@
           "genre": "연예/오락"
         },
         {
-          "time": "21:50",
-          "title": "수목드라마 남주의 첫날밤을 가져버렸다",
+          "time": "22:00",
+          "title": "가는정 오는정 이민정",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "드라마"
+          "genre": "연예/오락"
         },
         {
-          "time": "23:05",
-          "title": "아이 러브 스포츠",
+          "time": "23:20",
+          "title": "더 시즌즈 - 박보검의 칸타빌레",
           "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "스포츠"
-        },
-        {
-          "time": "23:30",
-          "title": "수목드라마 남주의 첫날밤을 가져버렸다",
-          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "드라마"
+          "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749739379,
-      "script_run_iso_utc": "2025-06-12T14:42:59.012978+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-06-12."
+      "script_run_epoch_utc": 1749741149,
+      "script_run_iso_utc": "2025-06-12T15:12:29.845482+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-06-13."
     }
   ]
 }
