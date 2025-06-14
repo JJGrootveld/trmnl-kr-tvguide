@@ -135,7 +135,7 @@
         {
           "time": "15:10",
           "title": "신상출시 편스토랑",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -146,7 +146,7 @@
         {
           "time": "16:45",
           "title": "주말드라마 독수리 5형제를 부탁해!",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -199,8 +199,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749886441,
-      "script_run_iso_utc": "2025-06-14T07:34:01.423804+00:00",
+      "script_run_epoch_utc": 1749888831,
+      "script_run_iso_utc": "2025-06-14T08:13:51.136759+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-14."
     }
   ]
