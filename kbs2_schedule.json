@@ -179,7 +179,7 @@
         {
           "time": "21:20",
           "title": "살림하는 남자들",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -190,7 +190,7 @@
         {
           "time": "22:40",
           "title": "방판뮤직 어디든 가요",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -199,8 +199,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749907691,
-      "script_run_iso_utc": "2025-06-14T13:28:11.880243+00:00",
+      "script_run_epoch_utc": 1749908553,
+      "script_run_iso_utc": "2025-06-14T13:42:33.825596+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-14."
     }
   ]
