@@ -124,7 +124,7 @@
         <program>
           <time>13:55</time>
           <title>수목드라마 남주의 첫날밤을 가져버렸다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -136,7 +136,7 @@
         <program>
           <time>15:10</time>
           <title>신상출시 편스토랑</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -200,8 +200,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1749878134</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-14T05:15:34.454148+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1749882049</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-14T06:20:49.067128+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-14.</schedule_context_message>
     </schedule_entry>
   </data>
