@@ -136,7 +136,7 @@
         <program>
           <time>15:10</time>
           <title>신상출시 편스토랑</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -147,7 +147,7 @@
         <program>
           <time>16:45</time>
           <title>주말드라마 독수리 5형제를 부탁해!</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -200,8 +200,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1749885246</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-14T07:14:06.099984+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1749889105</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-14T08:18:25.756825+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-14.</schedule_context_message>
     </schedule_entry>
   </data>
