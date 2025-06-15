@@ -130,7 +130,7 @@
         {
           "time": "14:50",
           "title": "꿀잼 영화가 좋다 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -141,7 +141,7 @@
         {
           "time": "15:20",
           "title": "주말드라마 독수리 5형제를 부탁해!",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -205,8 +205,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1749968123,
-      "script_run_iso_utc": "2025-06-15T06:15:23.622978+00:00",
+      "script_run_epoch_utc": 1749969927,
+      "script_run_iso_utc": "2025-06-15T06:45:27.842300+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-15."
     }
   ]
