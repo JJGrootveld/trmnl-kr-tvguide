@@ -202,7 +202,7 @@
         <program>
           <time>16:00</time>
           <title>TV 유치원</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -225,7 +225,7 @@
         <program>
           <time>17:20</time>
           <title>스튜디오 K 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -311,8 +311,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1750058251</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-16T07:17:31.052295+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1750062167</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-16T08:22:47.025326+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-16.</schedule_context_message>
     </schedule_entry>
   </data>
