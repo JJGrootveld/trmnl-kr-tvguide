@@ -279,7 +279,7 @@
         <program>
           <time>19:50</time>
           <title>일일드라마 여왕의 집</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -290,7 +290,7 @@
         <program>
           <time>20:30</time>
           <title>셀럽병사의 비밀</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1750158839</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-17T11:13:59.807074+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1750163614</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-17T12:33:34.237522+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-17.</schedule_context_message>
     </schedule_entry>
   </data>
