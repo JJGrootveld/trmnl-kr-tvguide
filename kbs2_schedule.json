@@ -302,7 +302,7 @@
         {
           "time": "20:30",
           "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -313,7 +313,7 @@
         {
           "time": "21:50",
           "title": "수목드라마 남주의 첫날밤을 가져버렸다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -344,8 +344,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1750249380,
-      "script_run_iso_utc": "2025-06-18T12:23:00.377568+00:00",
+      "script_run_epoch_utc": 1750251980,
+      "script_run_iso_utc": "2025-06-18T13:06:20.260697+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-18."
     }
   ]
