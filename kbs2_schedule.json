@@ -31,7 +31,7 @@
         {
           "time": "05:00",
           "title": "무엇이든 물어보세요 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -42,7 +42,7 @@
         {
           "time": "06:00",
           "title": "굿모닝 대한민국 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -265,8 +265,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1750365655,
-      "script_run_iso_utc": "2025-06-19T20:40:55.420443+00:00",
+      "script_run_epoch_utc": 1750367436,
+      "script_run_iso_utc": "2025-06-19T21:10:36.240770+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-20."
     }
   ]
