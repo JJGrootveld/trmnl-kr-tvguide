@@ -21,7 +21,7 @@
         {
           "time": "01:00",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Sd"
@@ -265,8 +265,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1750347602,
-      "script_run_iso_utc": "2025-06-19T15:40:02.903759+00:00",
+      "script_run_epoch_utc": 1750349636,
+      "script_run_iso_utc": "2025-06-19T16:13:56.426869+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-20."
     }
   ]
