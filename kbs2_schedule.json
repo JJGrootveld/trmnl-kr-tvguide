@@ -247,7 +247,7 @@
           "title": "가는정 오는정 이민정",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "19세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
@@ -265,8 +265,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1750360140,
-      "script_run_iso_utc": "2025-06-19T19:09:00.654342+00:00",
+      "script_run_epoch_utc": 1750361620,
+      "script_run_iso_utc": "2025-06-19T19:33:40.768123+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-20."
     }
   ]
