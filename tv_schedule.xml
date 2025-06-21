@@ -101,7 +101,7 @@
         <program>
           <time>11:05</time>
           <title>2025 MLB 코리안 빅리거 출전경기 &lt;2안포함&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -123,7 +123,7 @@
         <program>
           <time>14:55</time>
           <title>꿀잼 영화가 좋다 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1750482899</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-21T05:14:59.893549+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1750486856</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-21T06:20:56.764761+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-21.</schedule_context_message>
     </schedule_entry>
   </data>
