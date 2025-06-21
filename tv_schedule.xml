@@ -65,7 +65,7 @@
         <program>
           <time>06:55</time>
           <title>영상앨범 산</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -76,7 +76,7 @@
         <program>
           <time>07:25</time>
           <title>굿모닝 대한민국</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -208,8 +208,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1750544021</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-21T22:13:41.519601+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1750547672</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-21T23:14:32.143219+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-22.</schedule_context_message>
     </schedule_entry>
   </data>
