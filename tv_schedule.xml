@@ -3,24 +3,24 @@
   <data>
     <schedule_entry>
       <channel_id_requested>7</channel_id_requested>
-      <date_requested>Current Day (KST approx: 20250621)</date_requested>
-      <date_displayed>2025-06-21</date_displayed>
+      <date_requested>Current Day (KST approx: 20250622)</date_requested>
+      <date_displayed>2025-06-22</date_displayed>
       <channel_name>KBS2</channel_name>
       <channel_logo_url>https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png</channel_logo_url>
       <programs>
         <program>
-          <time>01:00</time>
-          <title>트레킹노트 세상을 걷다 스페셜</title>
+          <time>00:15</time>
+          <title>수목드라마 남주의 첫날밤을 가져버렸다</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>전체 시청 가능</icon>
+            <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>시사/다큐</genre>
+          <genre>드라마</genre>
         </program>
         <program>
-          <time>01:40</time>
+          <time>01:30</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -31,31 +31,6 @@
         </program>
         <program>
           <time>05:00</time>
-          <title>사랑의 가족</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>교양/정보</genre>
-        </program>
-        <program>
-          <time>05:50</time>
-          <title>세상의 모든 다큐</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>시사/다큐</genre>
-        </program>
-        <program>
-          <time>06:40</time>
           <title>트레킹노트 세상을 걷다 스페셜</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -66,7 +41,40 @@
           <genre>시사/다큐</genre>
         </program>
         <program>
-          <time>07:10</time>
+          <time>05:40</time>
+          <title>생생정보 스페셜</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>교양/정보</genre>
+        </program>
+        <program>
+          <time>06:45</time>
+          <title>KBS 재난방송센터</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>교양/정보</genre>
+        </program>
+        <program>
+          <time>06:55</time>
+          <title>영상앨범 산</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>시사/다큐</genre>
+        </program>
+        <program>
+          <time>07:25</time>
           <title>굿모닝 대한민국</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -77,19 +85,19 @@
           <genre>교양/정보</genre>
         </program>
         <program>
-          <time>08:40</time>
-          <title>사장님 귀는 당나귀 귀</title>
+          <time>08:30</time>
+          <title>최수종의 여행사담 2</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>15세 이상 시청 가능</icon>
+            <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
           <genre>연예/오락</genre>
         </program>
         <program>
-          <time>09:55</time>
-          <title>영화가 좋다</title>
+          <time>09:40</time>
+          <title>오래된 만남 추구</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
@@ -100,18 +108,7 @@
         </program>
         <program>
           <time>11:05</time>
-          <title>2025 MLB 코리안 빅리거 출전경기 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>스포츠</genre>
-        </program>
-        <program>
-          <time>14:25</time>
-          <title>놓친예능 따라잡기 &lt;2안포함&gt;</title>
+          <title>1박 2일 스페셜</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
@@ -121,8 +118,43 @@
           <genre>연예/오락</genre>
         </program>
         <program>
-          <time>14:55</time>
-          <title>꿀잼 영화가 좋다 &lt;2안포함&gt;</title>
+          <time>12:50</time>
+          <title>수목드라마 남주의 첫날밤을 가져버렸다</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
+        </program>
+        <program>
+          <time>14:05</time>
+          <title>수목드라마 남주의 첫날밤을 가져버렸다</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
+        </program>
+        <program>
+          <time>15:20</time>
+          <title>주말드라마 독수리 5형제를 부탁해!</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
+        </program>
+        <program>
+          <time>16:40</time>
+          <title>사장님 귀는 당나귀 귀</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
@@ -132,7 +164,29 @@
           <genre>연예/오락</genre>
         </program>
         <program>
-          <time>15:25</time>
+          <time>18:10</time>
+          <title>1박 2일</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>연예/오락</genre>
+        </program>
+        <program>
+          <time>20:00</time>
+          <title>주말드라마 독수리 5형제를 부탁해!</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
+        </program>
+        <program>
+          <time>21:20</time>
           <title>크레이지 리치 코리안</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -143,53 +197,9 @@
           <genre>연예/오락</genre>
         </program>
         <program>
-          <time>16:45</time>
-          <title>주말드라마 독수리 5형제를 부탁해!</title>
+          <time>23:00</time>
+          <title>개그 콘서트</title>
           <is_on_air>False</is_on_air>
-          <icons>
-            <icon>15세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>드라마</genre>
-        </program>
-        <program>
-          <time>18:05</time>
-          <title>불후의 명곡</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>15세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>연예/오락</genre>
-        </program>
-        <program>
-          <time>20:05</time>
-          <title>주말드라마 독수리 5형제를 부탁해!</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>15세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>드라마</genre>
-        </program>
-        <program>
-          <time>21:25</time>
-          <title>살림하는 남자들</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>15세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>연예/오락</genre>
-        </program>
-        <program>
-          <time>22:45</time>
-          <title>방판뮤직 어디든 가요</title>
-          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,9 +208,9 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1750515277</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-21T14:14:37.648498+00:00</script_run_iso_utc>
-      <schedule_context_message>Displaying schedule for 2025-06-21.</schedule_context_message>
+      <script_run_epoch_utc>1750518873</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-21T15:14:33.770703+00:00</script_run_iso_utc>
+      <schedule_context_message>Displaying schedule for 2025-06-22.</schedule_context_message>
     </schedule_entry>
   </data>
 </data>
