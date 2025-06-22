@@ -119,7 +119,7 @@
         {
           "time": "12:50",
           "title": "수목드라마 남주의 첫날밤을 가져버렸다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -131,7 +131,7 @@
         {
           "time": "14:05",
           "title": "수목드라마 남주의 첫날밤을 가져버렸다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -207,8 +207,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1750567692,
-      "script_run_iso_utc": "2025-06-22T04:48:12.544147+00:00",
+      "script_run_epoch_utc": 1750569131,
+      "script_run_iso_utc": "2025-06-22T05:12:11.161948+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-22."
     }
   ]
