@@ -188,7 +188,7 @@
         <program>
           <time>21:20</time>
           <title>크레이지 리치 코리안</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -199,7 +199,7 @@
         <program>
           <time>23:00</time>
           <title>개그 콘서트</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -208,8 +208,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1750598626</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-22T13:23:46.323550+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1750601621</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-22T14:13:41.015511+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-22.</schedule_context_message>
     </schedule_entry>
   </data>
