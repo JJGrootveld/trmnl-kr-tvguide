@@ -2,13 +2,24 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20250624)",
-      "date_displayed": "2025-06-24",
+      "date_requested": "Current Day (KST approx: 20250625)",
+      "date_displayed": "2025-06-25",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "00:55",
+          "time": "00:30",
+          "title": "스튜디오 K 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "연예/오락"
+        },
+        {
+          "time": "01:00",
           "title": "KBS 재난방송센터",
           "is_on_air": false,
           "icons": [
@@ -19,7 +30,7 @@
           "genre": "교양/정보"
         },
         {
-          "time": "01:05",
+          "time": "01:10",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": false,
           "icons": [
@@ -97,7 +108,7 @@
         },
         {
           "time": "10:10",
-          "title": "KBS 아침 뉴스타임",
+          "title": "중계방송 김민석 국무총리 후보자 국회 인사청문회",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -105,10 +116,10 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "뉴스"
+          "genre": "시사/다큐"
         },
         {
-          "time": "10:30",
+          "time": "10:50",
           "title": "인간극장 스페셜",
           "is_on_air": false,
           "icons": [
@@ -120,40 +131,31 @@
           "genre": "시사/다큐"
         },
         {
-          "time": "11:10",
-          "title": "생활의 발견 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "11:20",
-          "title": "신상출시 편스토랑",
+          "time": "11:30",
+          "title": "수목드라마 남주의 첫날밤을 가져버렸다",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "드라마"
         },
         {
-          "time": "12:50",
-          "title": "한국인의 밥상",
+          "time": "12:45",
+          "title": "수목드라마 남주의 첫날밤을 가져버렸다",
           "is_on_air": false,
           "icons": [
-            "전체 시청 가능",
+            "15세 이상 시청 가능",
             "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "교양/정보"
+          "genre": "드라마"
         },
         {
-          "time": "13:50",
+          "time": "14:05",
           "title": "무엇이든 물어보세요 스페셜",
           "is_on_air": false,
           "icons": [
@@ -162,18 +164,6 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "교양/정보"
-        },
-        {
-          "time": "15:00",
-          "title": "KBS 뉴스타임",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "뉴스"
         },
         {
           "time": "15:15",
@@ -211,29 +201,29 @@
         },
         {
           "time": "16:30",
-          "title": "어린이 동물티비",
+          "title": "영상앨범 산",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "교육"
+          "genre": "시사/다큐"
         },
         {
           "time": "17:00",
-          "title": "라이즈맨 2",
+          "title": "Why?",
           "is_on_air": false,
           "icons": [
-            "12세 이상 시청 가능",
+            "7세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "만화"
+          "genre": "교양/정보"
         },
         {
           "time": "17:15",
-          "title": "슈팅스타 캐치 티니핑",
+          "title": "다이노 파워즈 4",
           "is_on_air": false,
           "icons": [
             "7세 이상 시청 가능",
@@ -244,14 +234,14 @@
         },
         {
           "time": "17:30",
-          "title": "트레킹노트 세상을 걷다 스페셜",
+          "title": "꿀잼 영화가 좋다",
           "is_on_air": false,
           "icons": [
-            "전체 시청 가능",
+            "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "시사/다큐"
+          "genre": "연예/오락"
         },
         {
           "time": "18:00",
@@ -288,28 +278,28 @@
         },
         {
           "time": "20:30",
-          "title": "셀럽병사의 비밀",
+          "title": "슈퍼맨이 돌아왔다",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "12세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "연예/오락"
         },
         {
-          "time": "21:45",
-          "title": "스모킹 건",
+          "time": "21:50",
+          "title": "수목드라마 남주의 첫날밤을 가져버렸다",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "드라마"
         },
         {
-          "time": "22:45",
+          "time": "23:05",
           "title": "아이 러브 스포츠",
           "is_on_air": false,
           "icons": [
@@ -320,9 +310,9 @@
           "genre": "스포츠"
         },
         {
-          "time": "23:10",
-          "title": "옥탑방의 문제아들",
-          "is_on_air": true,
+          "time": "23:30",
+          "title": "방판뮤직 어디든 가요 스페셜",
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -331,9 +321,9 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1750776170,
-      "script_run_iso_utc": "2025-06-24T14:42:50.438752+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-06-24."
+      "script_run_epoch_utc": 1750777968,
+      "script_run_iso_utc": "2025-06-24T15:12:48.358799+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-06-25."
     }
   ]
 }
