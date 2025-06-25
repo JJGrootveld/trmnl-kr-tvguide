@@ -51,17 +51,6 @@
           "genre": "교양/정보"
         },
         {
-          "time": "07:30",
-          "title": "생생정보 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
           "time": "07:00",
           "title": "TV 유치원",
           "is_on_air": false,
@@ -71,6 +60,17 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "교육"
+        },
+        {
+          "time": "07:30",
+          "title": "생생정보 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
         },
         {
           "time": "08:10",
@@ -95,18 +95,6 @@
           "genre": "드라마"
         },
         {
-          "time": "10:30",
-          "title": "인간극장 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "시사/다큐"
-        },
-        {
           "time": "10:10",
           "title": "KBS 아침 뉴스타임",
           "is_on_air": false,
@@ -117,6 +105,18 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "뉴스"
+        },
+        {
+          "time": "10:30",
+          "title": "인간극장 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
         },
         {
           "time": "11:10",
@@ -152,15 +152,16 @@
           "genre": "드라마"
         },
         {
-          "time": "15:45",
-          "title": "시간여행자 루크",
+          "time": "15:00",
+          "title": "KBS 뉴스타임",
           "is_on_air": false,
           "icons": [
-            "7세 이상 시청 가능",
+            "전체 시청 가능",
             "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "만화"
+          "genre": "뉴스"
         },
         {
           "time": "15:15",
@@ -175,27 +176,15 @@
           "genre": "뉴스"
         },
         {
-          "time": "15:00",
-          "title": "KBS 뉴스타임",
+          "time": "15:45",
+          "title": "시간여행자 루크",
           "is_on_air": false,
           "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "뉴스"
-        },
-        {
-          "time": "16:30",
-          "title": "누가 누가 잘하나",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
+            "7세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "음악"
+          "genre": "만화"
         },
         {
           "time": "16:00",
@@ -209,6 +198,17 @@
           "genre": "교육"
         },
         {
+          "time": "16:30",
+          "title": "누가 누가 잘하나",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "음악"
+        },
+        {
           "time": "17:30",
           "title": "놓친예능 따라잡기",
           "is_on_air": false,
@@ -220,17 +220,6 @@
           "genre": "연예/오락"
         },
         {
-          "time": "18:35",
-          "title": "2TV 생생정보",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
           "time": "18:00",
           "title": "경제콘서트",
           "is_on_air": false,
@@ -240,6 +229,17 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "뉴스"
+        },
+        {
+          "time": "18:35",
+          "title": "2TV 생생정보",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
         },
         {
           "time": "19:50",
@@ -275,17 +275,6 @@
           "genre": "드라마"
         },
         {
-          "time": "23:30",
-          "title": "가는정 오는정 이민정",
-          "is_on_air": false,
-          "icons": [
-            "19세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
           "time": "23:05",
           "title": "아이 러브 스포츠",
           "is_on_air": false,
@@ -295,10 +284,21 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "스포츠"
+        },
+        {
+          "time": "23:30",
+          "title": "가는정 오는정 이민정",
+          "is_on_air": false,
+          "icons": [
+            "19세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1750868082,
-      "script_run_iso_utc": "2025-06-25T16:14:42.918467+00:00",
+      "script_run_epoch_utc": 1750870068,
+      "script_run_iso_utc": "2025-06-25T16:47:48.789222+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-26."
     }
   ]
