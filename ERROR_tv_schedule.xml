@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <data>
+    <error_entry>
+      <error_summary>Failed to fetch HTML from server.</error_summary>
+      <channel_id_requested>7</channel_id_requested>
+      <date_requested>Current Day (KST approx: 20250626)</date_requested>
+      <script_run_epoch_utc>1750864670</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-25T15:17:50.268608+00:00</script_run_iso_utc>
+    </error_entry>
+  </data>
+</data>
