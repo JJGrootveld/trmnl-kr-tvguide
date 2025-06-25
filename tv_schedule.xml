@@ -192,7 +192,7 @@
         <program>
           <time>16:00</time>
           <title>TV 유치원</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -225,7 +225,7 @@
         <program>
           <time>17:15</time>
           <title>다이노 파워즈 4</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>7세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -322,8 +322,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1750835807</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-25T07:16:47.403742+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1750839765</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-25T08:22:45.490164+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-25.</schedule_context_message>
     </schedule_entry>
   </data>
