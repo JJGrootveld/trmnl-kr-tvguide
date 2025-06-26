@@ -201,7 +201,7 @@
         <program>
           <time>16:30</time>
           <title>누가 누가 잘하나</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -223,7 +223,7 @@
         <program>
           <time>18:00</time>
           <title>경제콘서트</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -298,8 +298,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1750926102</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-26T08:21:42.666259+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1750929461</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-26T09:17:41.671231+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-26.</schedule_context_message>
     </schedule_entry>
   </data>
