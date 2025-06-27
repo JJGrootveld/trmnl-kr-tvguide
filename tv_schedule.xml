@@ -169,7 +169,7 @@
         <program>
           <time>15:15</time>
           <title>어린이 동물티비</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -191,7 +191,7 @@
         <program>
           <time>16:00</time>
           <title>불후의 명곡 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -266,8 +266,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1751005447</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-27T06:24:07.456780+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1751008573</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-27T07:16:13.059593+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-27.</schedule_context_message>
     </schedule_entry>
   </data>
