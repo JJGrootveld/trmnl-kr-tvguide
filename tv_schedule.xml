@@ -123,7 +123,7 @@
         <program>
           <time>14:10</time>
           <title>살림하는 남자들</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -134,7 +134,7 @@
         <program>
           <time>15:25</time>
           <title>가는정 오는정 이민정</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1751091662</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-28T06:21:02.124814+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1751094861</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-28T07:14:21.643368+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-06-28.</schedule_context_message>
     </schedule_entry>
   </data>
