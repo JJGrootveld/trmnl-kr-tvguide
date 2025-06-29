@@ -86,7 +86,7 @@
         {
           "time": "08:30",
           "title": "최수종의 여행사담 2",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -97,7 +97,7 @@
         {
           "time": "09:40",
           "title": "오래된 만남 추구",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -207,8 +207,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1751153805,
-      "script_run_iso_utc": "2025-06-28T23:36:45.022095+00:00",
+      "script_run_epoch_utc": 1751159063,
+      "script_run_iso_utc": "2025-06-29T01:04:23.683538+00:00",
       "schedule_context_message": "Displaying schedule for 2025-06-29."
     }
   ]
