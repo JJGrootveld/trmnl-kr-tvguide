@@ -55,7 +55,7 @@
         <program>
           <time>07:00</time>
           <title>TV 유치원</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -77,7 +77,7 @@
         <program>
           <time>08:10</time>
           <title>무엇이든 물어보세요</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1751321725</script_run_epoch_utc>
-      <script_run_iso_utc>2025-06-30T22:15:25.095983+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1751325294</script_run_epoch_utc>
+      <script_run_iso_utc>2025-06-30T23:14:54.354807+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-01.</schedule_context_message>
     </schedule_entry>
   </data>
