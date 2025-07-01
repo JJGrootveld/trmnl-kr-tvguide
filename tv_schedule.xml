@@ -290,7 +290,7 @@
         <program>
           <time>20:30</time>
           <title>셀럽병사의 비밀 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -301,7 +301,7 @@
         <program>
           <time>21:45</time>
           <title>스모킹 건</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1751373210</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-01T12:33:30.440136+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1751376623</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-01T13:30:23.881496+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-01.</schedule_context_message>
     </schedule_entry>
   </data>
