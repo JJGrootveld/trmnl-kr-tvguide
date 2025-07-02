@@ -22,7 +22,7 @@
         <program>
           <time>00:55</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Sd</icon>
@@ -32,7 +32,7 @@
         <program>
           <time>05:00</time>
           <title>무엇이든 물어보세요 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -97,15 +97,14 @@
         </program>
         <program>
           <time>10:10</time>
-          <title>KBS 아침 뉴스타임</title>
+          <title>팔도밥상 스페셜</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>뉴스</genre>
+          <genre>교양/정보</genre>
         </program>
         <program>
           <time>10:30</time>
@@ -298,8 +297,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1751483544</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-02T19:12:24.041254+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1751487357</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-02T20:15:57.649055+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-03.</schedule_context_message>
     </schedule_entry>
   </data>
