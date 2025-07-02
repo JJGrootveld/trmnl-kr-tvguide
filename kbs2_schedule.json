@@ -96,15 +96,14 @@
         },
         {
           "time": "10:10",
-          "title": "KBS 아침 뉴스타임",
+          "title": "팔도밥상 스페셜",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "뉴스"
+          "genre": "교양/정보"
         },
         {
           "time": "10:30",
@@ -297,8 +296,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1751483338,
-      "script_run_iso_utc": "2025-07-02T19:08:58.725502+00:00",
+      "script_run_epoch_utc": 1751484823,
+      "script_run_iso_utc": "2025-07-02T19:33:43.312885+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-03."
     }
   ]
