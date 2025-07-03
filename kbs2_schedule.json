@@ -120,7 +120,7 @@
         {
           "time": "11:10",
           "title": "방판뮤직 어디든 가요 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -131,7 +131,7 @@
         {
           "time": "12:25",
           "title": "동네 한 바퀴",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -296,8 +296,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1751510933,
-      "script_run_iso_utc": "2025-07-03T02:48:53.195717+00:00",
+      "script_run_epoch_utc": 1751514522,
+      "script_run_iso_utc": "2025-07-03T03:48:42.971739+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-03."
     }
   ]
