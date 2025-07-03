@@ -22,7 +22,7 @@
         <program>
           <time>01:00</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Sd</icon>
@@ -32,7 +32,7 @@
         <program>
           <time>05:00</time>
           <title>무엇이든 물어보세요 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -266,8 +266,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1751569936</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-03T19:12:16.815770+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1751573820</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-03T20:17:00.708430+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-04.</schedule_context_message>
     </schedule_entry>
   </data>
