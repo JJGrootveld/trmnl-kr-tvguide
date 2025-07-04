@@ -168,7 +168,7 @@
         {
           "time": "15:15",
           "title": "어린이 동물티비",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -179,7 +179,7 @@
         {
           "time": "15:45",
           "title": "시간여행자 루크",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "7세 이상 시청 가능",
             "Hd",
@@ -265,8 +265,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1751609870,
-      "script_run_iso_utc": "2025-07-04T06:17:50.871118+00:00",
+      "script_run_epoch_utc": 1751611817,
+      "script_run_iso_utc": "2025-07-04T06:50:17.290365+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-04."
     }
   ]
