@@ -190,7 +190,7 @@
         {
           "time": "16:00",
           "title": "불후의 명곡 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -201,7 +201,7 @@
         {
           "time": "17:05",
           "title": "뮤직뱅크",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -265,8 +265,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1751614795,
-      "script_run_iso_utc": "2025-07-04T07:39:55.381521+00:00",
+      "script_run_epoch_utc": 1751616973,
+      "script_run_iso_utc": "2025-07-04T08:16:13.817264+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-04."
     }
   ]
