@@ -165,7 +165,7 @@
         {
           "time": "18:10",
           "title": "1박 2일",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -176,7 +176,7 @@
         {
           "time": "20:00",
           "title": "주말드라마 독수리 5형제를 부탁해!",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -207,8 +207,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1751798488,
-      "script_run_iso_utc": "2025-07-06T10:41:28.388961+00:00",
+      "script_run_epoch_utc": 1751800220,
+      "script_run_iso_utc": "2025-07-06T11:10:20.735799+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-06."
     }
   ]
