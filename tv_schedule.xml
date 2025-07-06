@@ -121,7 +121,7 @@
         <program>
           <time>12:45</time>
           <title>수목드라마 남주의 첫날밤을 가져버렸다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -133,7 +133,7 @@
         <program>
           <time>14:00</time>
           <title>방판뮤직 어디든 가요 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -208,8 +208,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1751776177</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-06T04:29:37.535170+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1751778961</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-06T05:16:01.923596+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-06.</schedule_context_message>
     </schedule_entry>
   </data>
