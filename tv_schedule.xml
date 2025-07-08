@@ -77,7 +77,7 @@
         <program>
           <time>08:10</time>
           <title>무엇이든 물어보세요</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -99,7 +99,7 @@
         <program>
           <time>10:10</time>
           <title>KBS 아침 뉴스타임</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1751930112</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-07T23:15:12.674549+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1751937499</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-08T01:18:19.772379+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-08.</schedule_context_message>
     </schedule_entry>
   </data>
