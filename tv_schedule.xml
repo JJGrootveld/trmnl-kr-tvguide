@@ -134,7 +134,7 @@
         <program>
           <time>11:20</time>
           <title>신상출시 편스토랑</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>12:50</time>
           <title>한국인의 밥상</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1751944610</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-08T03:16:50.572698+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1751948816</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-08T04:26:56.921256+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-08.</schedule_context_message>
     </schedule_entry>
   </data>
