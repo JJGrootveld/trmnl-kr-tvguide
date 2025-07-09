@@ -247,7 +247,7 @@
         {
           "time": "17:15",
           "title": "다이노 파워즈 4",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "7세 이상 시청 가능",
             "Hd",
@@ -258,7 +258,7 @@
         {
           "time": "17:30",
           "title": "꿀잼 영화가 좋다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -333,8 +333,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1752048998,
-      "script_run_iso_utc": "2025-07-09T08:16:38.102186+00:00",
+      "script_run_epoch_utc": 1752050849,
+      "script_run_iso_utc": "2025-07-09T08:47:29.608398+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-09."
     }
   ]
