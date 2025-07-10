@@ -144,7 +144,7 @@
         <program>
           <time>12:25</time>
           <title>동네 한 바퀴</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -155,7 +155,7 @@
         <program>
           <time>13:30</time>
           <title>일일드라마 여왕의 집 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -298,8 +298,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752121732</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-10T04:28:52.069877+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752124767</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-10T05:19:27.715670+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-10.</schedule_context_message>
     </schedule_entry>
   </data>
