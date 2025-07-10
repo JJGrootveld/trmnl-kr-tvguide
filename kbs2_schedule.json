@@ -266,7 +266,7 @@
         {
           "time": "20:30",
           "title": "옥탑방의 문제아들",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -277,7 +277,7 @@
         {
           "time": "21:50",
           "title": "수목드라마 남주의 첫날밤을 가져버렸다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -297,8 +297,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1752150205,
-      "script_run_iso_utc": "2025-07-10T12:23:25.104163+00:00",
+      "script_run_epoch_utc": 1752152838,
+      "script_run_iso_utc": "2025-07-10T13:07:18.378951+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-10."
     }
   ]
