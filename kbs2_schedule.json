@@ -200,7 +200,7 @@
         {
           "time": "16:00",
           "title": "TV 유치원",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -211,7 +211,7 @@
         {
           "time": "16:30",
           "title": "누가 누가 잘하나",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -297,8 +297,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1752131630,
-      "script_run_iso_utc": "2025-07-10T07:13:50.587013+00:00",
+      "script_run_epoch_utc": 1752133165,
+      "script_run_iso_utc": "2025-07-10T07:39:25.252215+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-10."
     }
   ]
