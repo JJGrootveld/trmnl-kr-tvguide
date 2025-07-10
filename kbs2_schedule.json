@@ -64,7 +64,7 @@
         {
           "time": "07:00",
           "title": "어린이 동물티비",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -75,7 +75,7 @@
         {
           "time": "07:30",
           "title": "생생정보 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -276,8 +276,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1752185486,
-      "script_run_iso_utc": "2025-07-10T22:11:26.542305+00:00",
+      "script_run_epoch_utc": 1752187277,
+      "script_run_iso_utc": "2025-07-10T22:41:17.239901+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-11."
     }
   ]
