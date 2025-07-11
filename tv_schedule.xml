@@ -109,7 +109,7 @@
         <program>
           <time>10:10</time>
           <title>KBS 아침 뉴스타임</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -133,7 +133,7 @@
         <program>
           <time>11:10</time>
           <title>주말드라마 독수리 5형제를 부탁해!</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -277,8 +277,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752196809</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-11T01:20:09.770690+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752204280</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-11T03:24:40.635195+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-11.</schedule_context_message>
     </schedule_entry>
   </data>
