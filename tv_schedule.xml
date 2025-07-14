@@ -214,7 +214,7 @@
         <program>
           <time>17:20</time>
           <title>스튜디오 K 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -225,7 +225,7 @@
         <program>
           <time>18:00</time>
           <title>경제콘서트</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -300,8 +300,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752481477</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-14T08:24:37.208169+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752485063</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-14T09:24:23.125498+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-14.</schedule_context_message>
     </schedule_entry>
   </data>
