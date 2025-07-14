@@ -3,24 +3,13 @@
   <data>
     <schedule_entry>
       <channel_id_requested>7</channel_id_requested>
-      <date_requested>Current Day (KST approx: 20250714)</date_requested>
-      <date_displayed>2025-07-14</date_displayed>
+      <date_requested>Current Day (KST approx: 20250715)</date_requested>
+      <date_displayed>2025-07-15</date_displayed>
       <channel_name>KBS2</channel_name>
       <channel_logo_url>https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png</channel_logo_url>
       <programs>
         <program>
-          <time>00:30</time>
-          <title>스모킹 건</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>15세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>연예/오락</genre>
-        </program>
-        <program>
-          <time>01:30</time>
+          <time>00:55</time>
           <title>KBS 재난방송센터</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -31,7 +20,7 @@
           <genre>교양/정보</genre>
         </program>
         <program>
-          <time>01:40</time>
+          <time>01:05</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -109,7 +98,7 @@
         </program>
         <program>
           <time>10:10</time>
-          <title>중계방송 국회 인사청문회</title>
+          <title>KBS 아침 뉴스타임</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
@@ -120,7 +109,7 @@
           <genre>뉴스</genre>
         </program>
         <program>
-          <time>12:00</time>
+          <time>10:30</time>
           <title>인간극장 스페셜</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -132,8 +121,19 @@
           <genre>시사/다큐</genre>
         </program>
         <program>
-          <time>12:40</time>
-          <title>영화가 좋다</title>
+          <time>11:10</time>
+          <title>생활의 발견 스페셜</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>교양/정보</genre>
+        </program>
+        <program>
+          <time>11:20</time>
+          <title>신상출시 편스토랑</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
@@ -141,6 +141,17 @@
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
           <genre>연예/오락</genre>
+        </program>
+        <program>
+          <time>12:50</time>
+          <title>한국인의 밥상</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>교양/정보</genre>
         </program>
         <program>
           <time>13:50</time>
@@ -201,26 +212,47 @@
         </program>
         <program>
           <time>16:30</time>
-          <title>세상의 모든 다큐</title>
+          <title>어린이 동물티비</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>시사/다큐</genre>
+          <genre>교육</genre>
         </program>
         <program>
-          <time>17:20</time>
-          <title>스튜디오 K 스페셜</title>
+          <time>17:00</time>
+          <title>라이즈맨 2</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>15세 이상 시청 가능</icon>
+            <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>연예/오락</genre>
+          <genre>만화</genre>
+        </program>
+        <program>
+          <time>17:15</time>
+          <title>슈팅스타 캐치 티니핑</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>7세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>만화</genre>
+        </program>
+        <program>
+          <time>17:30</time>
+          <title>트레킹노트 세상을 걷다 스페셜</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>시사/다큐</genre>
         </program>
         <program>
           <time>18:00</time>
@@ -257,7 +289,7 @@
         </program>
         <program>
           <time>20:30</time>
-          <title>박원숙의 같이 삽시다</title>
+          <title>셀럽병사의 비밀 스페셜</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
@@ -267,8 +299,8 @@
           <genre>연예/오락</genre>
         </program>
         <program>
-          <time>21:50</time>
-          <title>오래된 만남 추구</title>
+          <time>21:45</time>
+          <title>스모킹 건</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
@@ -278,9 +310,9 @@
           <genre>연예/오락</genre>
         </program>
         <program>
-          <time>23:15</time>
+          <time>22:45</time>
           <title>아이 러브 스포츠</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -289,8 +321,8 @@
           <genre>스포츠</genre>
         </program>
         <program>
-          <time>23:40</time>
-          <title>더 시즌즈 - 박보검의 칸타빌레 스페셜</title>
+          <time>23:10</time>
+          <title>옥탑방의 문제아들</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
@@ -300,9 +332,9 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752502654</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-14T14:17:34.705119+00:00</script_run_iso_utc>
-      <schedule_context_message>Displaying schedule for 2025-07-14.</schedule_context_message>
+      <script_run_epoch_utc>1752506284</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-14T15:18:04.486758+00:00</script_run_iso_utc>
+      <schedule_context_message>Displaying schedule for 2025-07-15.</schedule_context_message>
     </schedule_entry>
   </data>
 </data>
