@@ -108,18 +108,6 @@
         },
         {
           "time": "10:10",
-          "title": "중계방송 국회 인사청문회",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "뉴스"
-        },
-        {
-          "time": "11:50",
           "title": "인간극장 스페셜",
           "is_on_air": false,
           "icons": [
@@ -131,7 +119,7 @@
           "genre": "시사/다큐"
         },
         {
-          "time": "12:30",
+          "time": "10:50",
           "title": "수목드라마 남주의 첫날밤을 가져버렸다",
           "is_on_air": false,
           "icons": [
@@ -143,7 +131,7 @@
           "genre": "드라마"
         },
         {
-          "time": "13:45",
+          "time": "12:05",
           "title": "수목드라마 남주의 첫날밤을 가져버렸다",
           "is_on_air": false,
           "icons": [
@@ -155,8 +143,19 @@
           "genre": "드라마"
         },
         {
-          "time": "15:00",
-          "title": "KBS 뉴스타임",
+          "time": "13:20",
+          "title": "무엇이든 물어보세요 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
+        },
+        {
+          "time": "14:30",
+          "title": "중계방송 국회 인사청문회",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -165,29 +164,6 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "뉴스"
-        },
-        {
-          "time": "15:15",
-          "title": "월드 24",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "뉴스"
-        },
-        {
-          "time": "15:45",
-          "title": "시간여행자 루크",
-          "is_on_air": false,
-          "icons": [
-            "7세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "만화"
         },
         {
           "time": "16:00",
@@ -311,8 +287,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1752606715,
-      "script_run_iso_utc": "2025-07-15T19:11:55.395135+00:00",
+      "script_run_epoch_utc": 1752608230,
+      "script_run_iso_utc": "2025-07-15T19:37:10.104440+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-16."
     }
   ]
