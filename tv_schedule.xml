@@ -301,7 +301,7 @@
         <program>
           <time>21:45</time>
           <title>스모킹 건</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -323,7 +323,7 @@
         <program>
           <time>23:10</time>
           <title>옥탑방의 문제아들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752586427</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-15T13:33:47.709655+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752588963</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-15T14:16:03.220761+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-15.</schedule_context_message>
     </schedule_entry>
   </data>
