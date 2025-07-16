@@ -98,7 +98,7 @@
         {
           "time": "09:30",
           "title": "일일드라마 여왕의 집",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -133,7 +133,7 @@
         {
           "time": "12:05",
           "title": "수목드라마 남주의 첫날밤을 가져버렸다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -287,8 +287,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1752627635,
-      "script_run_iso_utc": "2025-07-16T01:00:35.874622+00:00",
+      "script_run_epoch_utc": 1752635476,
+      "script_run_iso_utc": "2025-07-16T03:11:16.085507+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-16."
     }
   ]
