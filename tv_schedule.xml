@@ -268,7 +268,7 @@
         <program>
           <time>21:50</time>
           <title>수목드라마 남주의 첫날밤을 가져버렸다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -279,7 +279,7 @@
         <program>
           <time>23:05</time>
           <title>여름특선드라마 디어 엠</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -288,8 +288,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752672872</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-16T13:34:32.745779+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752675347</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-16T14:15:47.479865+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-16.</schedule_context_message>
     </schedule_entry>
   </data>
