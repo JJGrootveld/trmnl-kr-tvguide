@@ -142,7 +142,7 @@
         {
           "time": "12:45",
           "title": "일일드라마 여왕의 집 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -153,7 +153,7 @@
         {
           "time": "14:30",
           "title": "중계방송 국회 인사청문회",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -262,8 +262,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1752729471,
-      "script_run_iso_utc": "2025-07-17T05:17:51.144391+00:00",
+      "script_run_epoch_utc": 1752731177,
+      "script_run_iso_utc": "2025-07-17T05:46:17.746703+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-17."
     }
   ]
