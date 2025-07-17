@@ -199,7 +199,7 @@
         <program>
           <time>18:00</time>
           <title>경제콘서트</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -210,7 +210,7 @@
         <program>
           <time>18:35</time>
           <title>2TV 생생정보</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -263,8 +263,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752744030</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-17T09:20:30.093909+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752747513</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-17T10:18:33.215684+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-17.</schedule_context_message>
     </schedule_entry>
   </data>
