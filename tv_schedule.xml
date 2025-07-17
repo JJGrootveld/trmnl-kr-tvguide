@@ -132,7 +132,7 @@
         <program>
           <time>11:30</time>
           <title>수목드라마 남주의 첫날밤을 가져버렸다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -143,7 +143,7 @@
         <program>
           <time>12:45</time>
           <title>일일드라마 여왕의 집 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -263,8 +263,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752722683</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-17T03:24:43.269179+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752726880</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-17T04:34:40.073333+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-17.</schedule_context_message>
     </schedule_entry>
   </data>
