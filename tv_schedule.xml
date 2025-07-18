@@ -147,7 +147,7 @@
         <program>
           <time>13:50</time>
           <title>스튜디오 K</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -170,7 +170,7 @@
         <program>
           <time>15:15</time>
           <title>어린이 동물티비</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -267,8 +267,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752816156</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-18T05:22:36.221473+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752819909</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-18T06:25:09.198076+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-18.</schedule_context_message>
     </schedule_entry>
   </data>
