@@ -146,7 +146,7 @@
         {
           "time": "13:50",
           "title": "스튜디오 K",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -169,7 +169,7 @@
         {
           "time": "15:15",
           "title": "어린이 동물티비",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -266,8 +266,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1752817671,
-      "script_run_iso_utc": "2025-07-18T05:47:51.289760+00:00",
+      "script_run_epoch_utc": 1752819524,
+      "script_run_iso_utc": "2025-07-18T06:18:44.930978+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-18."
     }
   ]
