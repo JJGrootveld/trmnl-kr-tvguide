@@ -11,7 +11,7 @@
         <program>
           <time>00:10</time>
           <title>개그 콘서트 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -22,7 +22,7 @@
         <program>
           <time>01:25</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Sd</icon>
@@ -208,8 +208,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752941921</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-19T16:18:41.321590+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752945316</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-19T17:15:16.289223+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-20.</schedule_context_message>
     </schedule_entry>
   </data>
