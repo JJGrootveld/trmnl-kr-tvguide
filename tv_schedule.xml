@@ -98,7 +98,7 @@
         <program>
           <time>09:50</time>
           <title>1박 2일 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -109,7 +109,7 @@
         <program>
           <time>11:30</time>
           <title>수목드라마 남주의 첫날밤을 가져버렸다</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -208,8 +208,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1752974926</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-20T01:28:46.578281+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1752982956</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-20T03:42:36.665044+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-20.</schedule_context_message>
     </schedule_entry>
   </data>
