@@ -212,7 +212,7 @@
         {
           "time": "16:00",
           "title": "TV 유치원",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -223,7 +223,7 @@
         {
           "time": "16:30",
           "title": "세상의 모든 다큐",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -321,8 +321,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1753082397,
-      "script_run_iso_utc": "2025-07-21T07:19:57.349217+00:00",
+      "script_run_epoch_utc": 1753083990,
+      "script_run_iso_utc": "2025-07-21T07:46:30.034513+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-21."
     }
   ]
