@@ -33,7 +33,7 @@
         <program>
           <time>01:05</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Sd</icon>
@@ -334,8 +334,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1753197506</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-22T15:18:26.839623+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1753201252</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-22T16:20:52.053820+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-23.</schedule_context_message>
     </schedule_entry>
   </data>
