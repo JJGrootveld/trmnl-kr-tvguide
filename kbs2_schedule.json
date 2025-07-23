@@ -313,7 +313,7 @@
         {
           "time": "21:50",
           "title": "수목드라마 내 여자친구는 상남자",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -324,7 +324,7 @@
         {
           "time": "23:05",
           "title": "여름특선드라마 디어 엠",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -333,8 +333,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1753278734,
-      "script_run_iso_utc": "2025-07-23T13:52:14.835703+00:00",
+      "script_run_epoch_utc": 1753280064,
+      "script_run_iso_utc": "2025-07-23T14:14:24.872466+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-23."
     }
   ]
