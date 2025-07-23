@@ -156,7 +156,7 @@
         {
           "time": "12:35",
           "title": "수목드라마 남주의 첫날밤을 가져버렸다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -168,7 +168,7 @@
         {
           "time": "13:50",
           "title": "무엇이든 물어보세요 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -333,8 +333,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1753243924,
-      "script_run_iso_utc": "2025-07-23T04:12:04.546353+00:00",
+      "script_run_epoch_utc": 1753246626,
+      "script_run_iso_utc": "2025-07-23T04:57:06.287437+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-23."
     }
   ]
