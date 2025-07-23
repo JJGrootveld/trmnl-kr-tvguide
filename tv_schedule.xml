@@ -303,7 +303,7 @@
         <program>
           <time>20:30</time>
           <title>슈퍼맨이 돌아왔다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -314,7 +314,7 @@
         <program>
           <time>21:50</time>
           <title>수목드라마 내 여자친구는 상남자</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -334,8 +334,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1753274145</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-23T12:35:45.104751+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1753277754</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-23T13:35:54.877837+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-23.</schedule_context_message>
     </schedule_entry>
   </data>
