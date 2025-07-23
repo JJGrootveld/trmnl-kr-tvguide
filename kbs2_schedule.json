@@ -302,7 +302,7 @@
         {
           "time": "20:30",
           "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -313,7 +313,7 @@
         {
           "time": "21:50",
           "title": "수목드라마 내 여자친구는 상남자",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -333,8 +333,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1753273473,
-      "script_run_iso_utc": "2025-07-23T12:24:33.403062+00:00",
+      "script_run_epoch_utc": 1753276241,
+      "script_run_iso_utc": "2025-07-23T13:10:41.210164+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-23."
     }
   ]
