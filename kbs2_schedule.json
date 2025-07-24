@@ -75,7 +75,7 @@
         {
           "time": "07:30",
           "title": "생생정보 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -86,7 +86,7 @@
         {
           "time": "08:10",
           "title": "무엇이든 물어보세요",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -276,8 +276,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1753397001,
-      "script_run_iso_utc": "2025-07-24T22:43:21.576449+00:00",
+      "script_run_epoch_utc": 1753398748,
+      "script_run_iso_utc": "2025-07-24T23:12:28.545540+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-25."
     }
   ]
