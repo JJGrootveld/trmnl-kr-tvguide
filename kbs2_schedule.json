@@ -33,7 +33,7 @@
         {
           "time": "05:50",
           "title": "세상의 모든 다큐",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -56,7 +56,7 @@
         {
           "time": "07:10",
           "title": "굿모닝 대한민국",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -199,8 +199,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1753479529,
-      "script_run_iso_utc": "2025-07-25T21:38:49.442507+00:00",
+      "script_run_epoch_utc": 1753481497,
+      "script_run_iso_utc": "2025-07-25T22:11:37.689307+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-26."
     }
   ]
