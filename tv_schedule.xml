@@ -202,7 +202,7 @@
         <program>
           <time>16:00</time>
           <title>불후의 명곡 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -213,7 +213,7 @@
         <program>
           <time>17:05</time>
           <title>뮤직뱅크</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -277,8 +277,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1753427990</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-25T07:19:50.596925+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1753431729</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-25T08:22:09.687201+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-25.</schedule_context_message>
     </schedule_entry>
   </data>
