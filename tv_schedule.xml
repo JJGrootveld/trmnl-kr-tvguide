@@ -21,7 +21,7 @@
         <program>
           <time>05:00</time>
           <title>사랑의 가족</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -34,7 +34,7 @@
         <program>
           <time>05:50</time>
           <title>세상의 모든 다큐</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -200,8 +200,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1753474695</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-25T20:18:15.308640+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1753478153</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-25T21:15:53.499320+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-26.</schedule_context_message>
     </schedule_entry>
   </data>
