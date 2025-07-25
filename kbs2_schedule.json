@@ -20,7 +20,7 @@
         {
           "time": "05:00",
           "title": "사랑의 가족",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -33,7 +33,7 @@
         {
           "time": "05:50",
           "title": "세상의 모든 다큐",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -199,8 +199,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1753476123,
-      "script_run_iso_utc": "2025-07-25T20:42:03.138222+00:00",
+      "script_run_epoch_utc": 1753477880,
+      "script_run_iso_utc": "2025-07-25T21:11:20.250002+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-26."
     }
   ]
