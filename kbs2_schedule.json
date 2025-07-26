@@ -112,7 +112,7 @@
         {
           "time": "14:00",
           "title": "수목드라마 내 여자친구는 상남자",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -124,7 +124,7 @@
         {
           "time": "15:15",
           "title": "신상출시 편스토랑",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -199,8 +199,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1753508655,
-      "script_run_iso_utc": "2025-07-26T05:44:15.048608+00:00",
+      "script_run_epoch_utc": 1753510602,
+      "script_run_iso_utc": "2025-07-26T06:16:42.570339+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-26."
     }
   ]
