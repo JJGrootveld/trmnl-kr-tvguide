@@ -169,7 +169,7 @@
         <program>
           <time>21:20</time>
           <title>살림하는 남자들</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -180,7 +180,7 @@
         <program>
           <time>22:40</time>
           <title>내편하자 4</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -200,8 +200,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1753536416</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-26T13:26:56.835214+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1753539286</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-26T14:14:46.472845+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-26.</schedule_context_message>
     </schedule_entry>
   </data>
