@@ -97,7 +97,7 @@
         {
           "time": "12:40",
           "title": "가는정 오는정 이민정 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -108,7 +108,7 @@
         {
           "time": "14:00",
           "title": "살림하는 남자들",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -183,8 +183,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1753592347,
-      "script_run_iso_utc": "2025-07-27T04:59:07.857412+00:00",
+      "script_run_epoch_utc": 1753593976,
+      "script_run_iso_utc": "2025-07-27T05:26:16.488962+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-27."
     }
   ]
