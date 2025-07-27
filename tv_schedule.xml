@@ -11,7 +11,7 @@
         <program>
           <time>00:30</time>
           <title>스모킹 건</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -33,7 +33,7 @@
         <program>
           <time>01:40</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Sd</icon>
@@ -322,8 +322,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1753633158</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-27T16:19:18.579656+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1753636429</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-27T17:13:49.204451+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-28.</schedule_context_message>
     </schedule_entry>
   </data>
