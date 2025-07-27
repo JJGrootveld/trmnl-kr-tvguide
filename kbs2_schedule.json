@@ -10,7 +10,7 @@
         {
           "time": "00:30",
           "title": "스모킹 건",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -321,8 +321,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1753629070,
-      "script_run_iso_utc": "2025-07-27T15:11:10.429736+00:00",
+      "script_run_epoch_utc": 1753630760,
+      "script_run_iso_utc": "2025-07-27T15:39:20.370700+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-28."
     }
   ]
