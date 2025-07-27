@@ -120,7 +120,7 @@
         <program>
           <time>15:20</time>
           <title>주말드라마 독수리 5형제를 부탁해!</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -131,7 +131,7 @@
         <program>
           <time>16:40</time>
           <title>사장님 귀는 당나귀 귀</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -184,8 +184,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1753600547</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-27T07:15:47.200793+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1753604404</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-27T08:20:04.200925+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-07-27.</schedule_context_message>
     </schedule_entry>
   </data>
