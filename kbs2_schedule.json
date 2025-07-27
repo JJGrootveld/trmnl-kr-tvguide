@@ -32,7 +32,7 @@
         {
           "time": "01:40",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Sd"
@@ -42,7 +42,7 @@
         {
           "time": "05:00",
           "title": "무엇이든 물어보세요 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -321,8 +321,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1753644911,
-      "script_run_iso_utc": "2025-07-27T19:35:11.982120+00:00",
+      "script_run_epoch_utc": 1753647182,
+      "script_run_iso_utc": "2025-07-27T20:13:02.288977+00:00",
       "schedule_context_message": "Displaying schedule for 2025-07-28."
     }
   ]
