@@ -3,24 +3,24 @@
   <data>
     <schedule_entry>
       <channel_id_requested>7</channel_id_requested>
-      <date_requested>Current Day (KST approx: 20250730)</date_requested>
-      <date_displayed>2025-07-30</date_displayed>
+      <date_requested>Current Day (KST approx: 20250731)</date_requested>
+      <date_displayed>2025-07-31</date_displayed>
       <channel_name>KBS2</channel_name>
       <channel_logo_url>https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png</channel_logo_url>
       <programs>
         <program>
-          <time>00:25</time>
-          <title>스튜디오 K 스페셜</title>
+          <time>00:20</time>
+          <title>아이 러브 스포츠</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>15세 이상 시청 가능</icon>
+            <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>연예/오락</genre>
+          <genre>스포츠</genre>
         </program>
         <program>
-          <time>00:55</time>
+          <time>00:45</time>
           <title>KBS 재난방송센터</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -31,7 +31,7 @@
           <genre>교양/정보</genre>
         </program>
         <program>
-          <time>01:05</time>
+          <time>00:55</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -53,15 +53,14 @@
         </program>
         <program>
           <time>06:00</time>
-          <title>걸어서 세계속으로 트래블홀릭</title>
+          <title>굿모닝 대한민국 스페셜</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>시사/다큐</genre>
+          <genre>교양/정보</genre>
         </program>
         <program>
           <time>07:00</time>
@@ -133,49 +132,36 @@
         </program>
         <program>
           <time>11:10</time>
-          <title>생활의 발견 스페셜</title>
+          <title>수목드라마 내 여자친구는 상남자</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
+        </program>
+        <program>
+          <time>12:25</time>
+          <title>동네 한 바퀴</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>교양/정보</genre>
+          <genre>시사/다큐</genre>
         </program>
         <program>
-          <time>11:20</time>
-          <title>수목드라마 내 여자친구는 상남자</title>
+          <time>13:30</time>
+          <title>일일드라마 여왕의 집 스페셜</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
           <genre>드라마</genre>
-        </program>
-        <program>
-          <time>12:35</time>
-          <title>수목드라마 내 여자친구는 상남자</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>15세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>드라마</genre>
-        </program>
-        <program>
-          <time>13:50</time>
-          <title>무엇이든 물어보세요 스페셜</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>교양/정보</genre>
         </program>
         <program>
           <time>15:00</time>
@@ -225,7 +211,18 @@
         </program>
         <program>
           <time>16:30</time>
-          <title>꿀잼 영화가 좋다</title>
+          <title>누가 누가 잘하나</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>음악</genre>
+        </program>
+        <program>
+          <time>17:30</time>
+          <title>놓친예능 따라잡기</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
@@ -233,50 +230,6 @@
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
           <genre>연예/오락</genre>
-        </program>
-        <program>
-          <time>17:00</time>
-          <title>Why?</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>7세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>교양/정보</genre>
-        </program>
-        <program>
-          <time>17:15</time>
-          <title>Why?</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>7세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>교양/정보</genre>
-        </program>
-        <program>
-          <time>17:30</time>
-          <title>다이노 파워즈 4</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>7세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>만화</genre>
-        </program>
-        <program>
-          <time>17:45</time>
-          <title>다이노 파워즈 4</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>7세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>만화</genre>
         </program>
         <program>
           <time>18:00</time>
@@ -313,10 +266,10 @@
         </program>
         <program>
           <time>20:30</time>
-          <title>슈퍼맨이 돌아왔다</title>
+          <title>옥탑방의 문제아들</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>12세 이상 시청 가능</icon>
+            <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
@@ -336,7 +289,7 @@
         <program>
           <time>23:05</time>
           <title>여름특선드라마 디어 엠</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -345,9 +298,9 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1753885060</script_run_epoch_utc>
-      <script_run_iso_utc>2025-07-30T14:17:40.466193+00:00</script_run_iso_utc>
-      <schedule_context_message>Displaying schedule for 2025-07-30.</schedule_context_message>
+      <script_run_epoch_utc>1753888700</script_run_epoch_utc>
+      <script_run_iso_utc>2025-07-30T15:18:20.650230+00:00</script_run_iso_utc>
+      <schedule_context_message>Displaying schedule for 2025-07-31.</schedule_context_message>
     </schedule_entry>
   </data>
 </data>
