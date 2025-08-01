@@ -246,7 +246,7 @@
         <program>
           <time>20:30</time>
           <title>신상출시 편스토랑</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -257,7 +257,7 @@
         <program>
           <time>22:00</time>
           <title>가는정 오는정 이민정</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -277,8 +277,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1754051736</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-01T12:35:36.502910+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1754055296</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-01T13:34:56.085069+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-01.</schedule_context_message>
     </schedule_entry>
   </data>
