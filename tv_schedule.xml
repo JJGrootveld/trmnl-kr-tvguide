@@ -43,7 +43,7 @@
         <program>
           <time>05:40</time>
           <title>생생정보 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -65,7 +65,7 @@
         <program>
           <time>06:55</time>
           <title>영상앨범 산 4부</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -206,8 +206,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1754169294</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-02T21:14:54.966969+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1754172930</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-02T22:15:30.143950+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-03.</schedule_context_message>
     </schedule_entry>
   </data>
