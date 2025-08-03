@@ -97,7 +97,7 @@
         {
           "time": "09:50",
           "title": "1박 2일 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -108,7 +108,7 @@
         {
           "time": "11:30",
           "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -205,8 +205,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1754183287,
-      "script_run_iso_utc": "2025-08-03T01:08:07.292013+00:00",
+      "script_run_epoch_utc": 1754191455,
+      "script_run_iso_utc": "2025-08-03T03:24:15.884690+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-03."
     }
   ]
