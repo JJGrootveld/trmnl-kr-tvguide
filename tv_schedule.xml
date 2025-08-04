@@ -280,7 +280,7 @@
         <program>
           <time>20:30</time>
           <title>박원숙의 같이 삽시다 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -291,7 +291,7 @@
         <program>
           <time>21:50</time>
           <title>오래된 만남 추구</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -322,8 +322,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1754311056</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-04T12:37:36.432323+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1754314734</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-04T13:38:54.012544+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-04.</schedule_context_message>
     </schedule_entry>
   </data>
