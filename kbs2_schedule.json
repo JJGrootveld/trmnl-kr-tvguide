@@ -289,7 +289,7 @@
         {
           "time": "21:50",
           "title": "스모킹 건",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -300,7 +300,7 @@
         {
           "time": "22:50",
           "title": "아이 러브 스포츠",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -320,8 +320,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1754399616,
-      "script_run_iso_utc": "2025-08-05T13:13:36.412126+00:00",
+      "script_run_epoch_utc": 1754402182,
+      "script_run_iso_utc": "2025-08-05T13:56:22.777670+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-05."
     }
   ]
