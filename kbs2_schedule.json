@@ -267,7 +267,7 @@
         {
           "time": "18:20",
           "title": "2025 프로야구 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -278,7 +278,7 @@
         {
           "time": "21:20",
           "title": "놓친예능 따라잡기 <2안포함>",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -320,8 +320,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1754393947,
-      "script_run_iso_utc": "2025-08-05T11:39:07.448295+00:00",
+      "script_run_epoch_utc": 1754396781,
+      "script_run_iso_utc": "2025-08-05T12:26:21.528320+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-05."
     }
   ]
