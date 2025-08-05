@@ -268,7 +268,7 @@
         <program>
           <time>18:20</time>
           <title>2025 프로야구 &lt;2안포함&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -279,7 +279,7 @@
         <program>
           <time>21:20</time>
           <title>놓친예능 따라잡기 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -321,8 +321,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1754392544</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-05T11:15:44.917929+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1754397432</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-05T12:37:12.266610+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-05.</schedule_context_message>
     </schedule_entry>
   </data>
