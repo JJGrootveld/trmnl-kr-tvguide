@@ -134,7 +134,7 @@
         <program>
           <time>11:20</time>
           <title>사장님 귀는 당나귀 귀</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>12:50</time>
           <title>한국인의 밥상</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -321,8 +321,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1754365435</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-05T03:43:55.295595+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1754369012</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-05T04:43:32.382740+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-05.</schedule_context_message>
     </schedule_entry>
   </data>
