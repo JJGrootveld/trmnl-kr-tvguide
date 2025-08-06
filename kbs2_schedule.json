@@ -203,7 +203,7 @@
         {
           "time": "15:45",
           "title": "시간여행자 루크",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "7세 이상 시청 가능",
             "Hd",
@@ -214,7 +214,7 @@
         {
           "time": "16:00",
           "title": "TV 유치원",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -333,8 +333,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1754463351,
-      "script_run_iso_utc": "2025-08-06T06:55:51.160375+00:00",
+      "script_run_epoch_utc": 1754464784,
+      "script_run_iso_utc": "2025-08-06T07:19:44.315459+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-06."
     }
   ]
