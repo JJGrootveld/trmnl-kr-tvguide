@@ -211,7 +211,7 @@
         {
           "time": "16:30",
           "title": "누가 누가 잘하나",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -222,7 +222,7 @@
         {
           "time": "17:30",
           "title": "놓친예능 따라잡기",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -297,8 +297,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1754554662,
-      "script_run_iso_utc": "2025-08-07T08:17:42.069459+00:00",
+      "script_run_epoch_utc": 1754556657,
+      "script_run_iso_utc": "2025-08-07T08:50:57.213371+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-07."
     }
   ]
