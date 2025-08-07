@@ -266,7 +266,7 @@
         {
           "time": "20:30",
           "title": "옥탑방의 문제아들",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -277,7 +277,7 @@
         {
           "time": "21:50",
           "title": "수목드라마 내 여자친구는 상남자",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -297,8 +297,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1754569552,
-      "script_run_iso_utc": "2025-08-07T12:25:52.790456+00:00",
+      "script_run_epoch_utc": 1754572381,
+      "script_run_iso_utc": "2025-08-07T13:13:01.463202+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-07."
     }
   ]
