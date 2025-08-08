@@ -256,7 +256,7 @@
         {
           "time": "22:00",
           "title": "가는정 오는정 이민정",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -267,7 +267,7 @@
         {
           "time": "23:20",
           "title": "더 시즌즈 - 박보검의 칸타빌레 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -276,8 +276,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1754662497,
-      "script_run_iso_utc": "2025-08-08T14:14:57.223651+00:00",
+      "script_run_epoch_utc": 1754664352,
+      "script_run_iso_utc": "2025-08-08T14:45:52.195490+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-08."
     }
   ]
