@@ -2,8 +2,8 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20250809)",
-      "date_displayed": "2025-08-09",
+      "date_requested": "Current Day (KST approx: 20250810)",
+      "date_displayed": "2025-08-10",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
@@ -19,31 +19,6 @@
         },
         {
           "time": "05:00",
-          "title": "사랑의 가족",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "05:50",
-          "title": "세상의 모든 다큐",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "시사/다큐"
-        },
-        {
-          "time": "06:40",
           "title": "트레킹노트 세상을 걷다 스페셜",
           "is_on_air": false,
           "icons": [
@@ -54,7 +29,40 @@
           "genre": "시사/다큐"
         },
         {
-          "time": "07:10",
+          "time": "05:40",
+          "title": "생생정보 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
+        },
+        {
+          "time": "06:45",
+          "title": "KBS 재난방송센터",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
+        },
+        {
+          "time": "06:55",
+          "title": "영상앨범 산 5부",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
+        },
+        {
+          "time": "07:25",
           "title": "굿모닝 대한민국",
           "is_on_air": false,
           "icons": [
@@ -65,7 +73,75 @@
           "genre": "교양/정보"
         },
         {
-          "time": "08:40",
+          "time": "08:30",
+          "title": "살림하는 남자들",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "연예/오락"
+        },
+        {
+          "time": "09:50",
+          "title": "1박 2일 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "연예/오락"
+        },
+        {
+          "time": "11:30",
+          "title": "수목드라마 내 여자친구는 상남자",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "12:45",
+          "title": "수목드라마 내 여자친구는 상남자",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "14:00",
+          "title": "슈퍼맨이 돌아왔다 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "12세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "연예/오락"
+        },
+        {
+          "time": "15:20",
+          "title": "주말드라마 화려한 날들",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "16:40",
           "title": "사장님 귀는 당나귀 귀",
           "is_on_air": false,
           "icons": [
@@ -76,74 +152,8 @@
           "genre": "연예/오락"
         },
         {
-          "time": "10:10",
-          "title": "영화가 좋다",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "11:20",
-          "title": "크레이지 리치 코리안",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "12:40",
-          "title": "오래된 만남 추구",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "14:05",
-          "title": "옥탑방의 문제아들",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "15:25",
-          "title": "가는정 오는정 이민정",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "16:45",
-          "title": "주말드라마 독수리 5형제를 부탁해!",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "드라마"
-        },
-        {
-          "time": "18:05",
-          "title": "불후의 명곡 2부",
+          "time": "18:10",
+          "title": "1박 2일",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -165,7 +175,7 @@
         },
         {
           "time": "21:20",
-          "title": "살림하는 남자들",
+          "title": "크레이지 리치 코리안",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -175,19 +185,8 @@
           "genre": "연예/오락"
         },
         {
-          "time": "22:40",
-          "title": "내편하자 4",
-          "is_on_air": true,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "23:45",
-          "title": "신상출시 편스토랑 스페셜",
+          "time": "23:00",
+          "title": "개그 콘서트",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -197,9 +196,9 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1754750405,
-      "script_run_iso_utc": "2025-08-09T14:40:05.484309+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-08-09."
+      "script_run_epoch_utc": 1754752261,
+      "script_run_iso_utc": "2025-08-09T15:11:01.924760+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-08-10."
     }
   ]
 }
