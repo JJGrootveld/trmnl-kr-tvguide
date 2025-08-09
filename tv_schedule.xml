@@ -134,7 +134,7 @@
         <program>
           <time>16:45</time>
           <title>주말드라마 독수리 5형제를 부탁해!</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>18:05</time>
           <title>불후의 명곡 2부</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1754727581</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-09T08:19:41.128853+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1754730962</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-09T09:16:02.245790+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-09.</schedule_context_message>
     </schedule_entry>
   </data>
