@@ -154,7 +154,7 @@
         {
           "time": "18:10",
           "title": "1박 2일",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -165,7 +165,7 @@
         {
           "time": "20:00",
           "title": "주말드라마 화려한 날들",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -196,8 +196,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1754822557,
-      "script_run_iso_utc": "2025-08-10T10:42:37.304500+00:00",
+      "script_run_epoch_utc": 1754824163,
+      "script_run_iso_utc": "2025-08-10T11:09:23.617368+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-10."
     }
   ]
