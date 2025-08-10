@@ -10,7 +10,7 @@
         {
           "time": "00:30",
           "title": "놓친예능 따라잡기",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -32,7 +32,7 @@
         {
           "time": "01:10",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Sd"
@@ -321,8 +321,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1754840314,
-      "script_run_iso_utc": "2025-08-10T15:38:34.801923+00:00",
+      "script_run_epoch_utc": 1754842404,
+      "script_run_iso_utc": "2025-08-10T16:13:24.429977+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-11."
     }
   ]
