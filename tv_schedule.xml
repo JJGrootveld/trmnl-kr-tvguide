@@ -291,7 +291,7 @@
         <program>
           <time>21:50</time>
           <title>오래된 만남 추구</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -302,7 +302,7 @@
         <program>
           <time>23:15</time>
           <title>아이 러브 스포츠</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -322,8 +322,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1754919303</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-11T13:35:03.983152+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1754921912</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-11T14:18:32.435238+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-11.</schedule_context_message>
     </schedule_entry>
   </data>
