@@ -202,7 +202,7 @@
         <program>
           <time>16:00</time>
           <title>TV 유치원</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -224,7 +224,7 @@
         <program>
           <time>17:00</time>
           <title>2TV 생생정보</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -288,8 +288,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1754983015</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-12T07:16:55.555985+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1754986911</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-12T08:21:51.380153+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-12.</schedule_context_message>
     </schedule_entry>
   </data>
