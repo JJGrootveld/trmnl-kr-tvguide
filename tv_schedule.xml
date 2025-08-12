@@ -257,7 +257,7 @@
         <program>
           <time>21:50</time>
           <title>스모킹 건</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -279,7 +279,7 @@
         <program>
           <time>23:15</time>
           <title>개그 콘서트 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -288,8 +288,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755005487</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-12T13:31:27.902714+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755008182</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-12T14:16:22.864060+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-12.</schedule_context_message>
     </schedule_entry>
   </data>
