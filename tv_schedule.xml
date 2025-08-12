@@ -3,13 +3,24 @@
   <data>
     <schedule_entry>
       <channel_id_requested>7</channel_id_requested>
-      <date_requested>Current Day (KST approx: 20250812)</date_requested>
-      <date_displayed>2025-08-12</date_displayed>
+      <date_requested>Current Day (KST approx: 20250813)</date_requested>
+      <date_displayed>2025-08-13</date_displayed>
       <channel_name>KBS2</channel_name>
       <channel_logo_url>https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png</channel_logo_url>
       <programs>
         <program>
-          <time>00:40</time>
+          <time>00:30</time>
+          <title>스튜디오 K 스페셜</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>연예/오락</genre>
+        </program>
+        <program>
+          <time>01:00</time>
           <title>KBS 재난방송센터</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -20,7 +31,7 @@
           <genre>교양/정보</genre>
         </program>
         <program>
-          <time>00:50</time>
+          <time>01:10</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -87,14 +98,14 @@
         </program>
         <program>
           <time>09:30</time>
-          <title>일일드라마 여왕의 집</title>
+          <title>트레킹노트 세상을 걷다 스페셜 &lt;2안포함&gt;</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>15세 이상 시청 가능</icon>
+            <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>드라마</genre>
+          <genre>시사/다큐</genre>
         </program>
         <program>
           <time>10:10</time>
@@ -133,25 +144,27 @@
         </program>
         <program>
           <time>11:20</time>
-          <title>사장님 귀는 당나귀 귀</title>
+          <title>수목드라마 내 여자친구는 상남자</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>연예/오락</genre>
+          <genre>드라마</genre>
         </program>
         <program>
-          <time>12:50</time>
-          <title>한국인의 밥상</title>
+          <time>12:35</time>
+          <title>수목드라마 내 여자친구는 상남자</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>전체 시청 가능</icon>
+            <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>교양/정보</genre>
+          <genre>드라마</genre>
         </program>
         <program>
           <time>13:50</time>
@@ -212,17 +225,61 @@
         </program>
         <program>
           <time>16:30</time>
-          <title>어린이 동물티비</title>
+          <title>영상앨범 산</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>교육</genre>
+          <genre>시사/다큐</genre>
         </program>
         <program>
           <time>17:00</time>
+          <title>Why?</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>7세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>교양/정보</genre>
+        </program>
+        <program>
+          <time>17:15</time>
+          <title>다이노 파워즈 4</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>7세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>만화</genre>
+        </program>
+        <program>
+          <time>17:30</time>
+          <title>꿀잼 영화가 좋다</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>연예/오락</genre>
+        </program>
+        <program>
+          <time>18:00</time>
+          <title>경제콘서트</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>뉴스</genre>
+        </program>
+        <program>
+          <time>18:35</time>
           <title>2TV 생생정보</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -233,22 +290,22 @@
           <genre>교양/정보</genre>
         </program>
         <program>
-          <time>18:20</time>
-          <title>2025 프로야구 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>스포츠</genre>
-        </program>
-        <program>
-          <time>21:20</time>
-          <title>놓친예능 따라잡기 &lt;2안포함&gt;</title>
+          <time>19:50</time>
+          <title>일일드라마 여왕의 집</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
+        </program>
+        <program>
+          <time>20:30</time>
+          <title>슈퍼맨이 돌아왔다</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
@@ -256,41 +313,30 @@
         </program>
         <program>
           <time>21:50</time>
-          <title>스모킹 건</title>
+          <title>수목드라마 내 여자친구는 상남자</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>연예/오락</genre>
+          <genre>드라마</genre>
         </program>
         <program>
-          <time>22:50</time>
-          <title>아이 러브 스포츠</title>
+          <time>23:05</time>
+          <title>여름특선드라마 디어 엠</title>
           <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>스포츠</genre>
-        </program>
-        <program>
-          <time>23:15</time>
-          <title>개그 콘서트 스페셜</title>
-          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>연예/오락</genre>
+          <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755008182</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-12T14:16:22.864060+00:00</script_run_iso_utc>
-      <schedule_context_message>Displaying schedule for 2025-08-12.</schedule_context_message>
+      <script_run_epoch_utc>1755011860</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-12T15:17:40.041908+00:00</script_run_iso_utc>
+      <schedule_context_message>Displaying schedule for 2025-08-13.</schedule_context_message>
     </schedule_entry>
   </data>
 </data>
