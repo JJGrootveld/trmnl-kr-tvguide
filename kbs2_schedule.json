@@ -245,7 +245,7 @@
         {
           "time": "21:20",
           "title": "놓친예능 따라잡기 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -256,7 +256,7 @@
         {
           "time": "21:50",
           "title": "스모킹 건",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -287,8 +287,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755001390,
-      "script_run_iso_utc": "2025-08-12T12:23:10.160136+00:00",
+      "script_run_epoch_utc": 1755004026,
+      "script_run_iso_utc": "2025-08-12T13:07:06.080206+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-12."
     }
   ]
