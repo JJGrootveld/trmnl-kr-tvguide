@@ -87,7 +87,7 @@
         {
           "time": "09:30",
           "title": "일일드라마 여왕의 집",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -133,7 +133,7 @@
         {
           "time": "11:20",
           "title": "사장님 귀는 당나귀 귀",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -287,8 +287,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1754960243,
-      "script_run_iso_utc": "2025-08-12T00:57:23.864091+00:00",
+      "script_run_epoch_utc": 1754966694,
+      "script_run_iso_utc": "2025-08-12T02:44:54.322792+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-12."
     }
   ]
