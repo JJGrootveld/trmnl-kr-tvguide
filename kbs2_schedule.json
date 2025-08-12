@@ -10,7 +10,7 @@
         {
           "time": "00:30",
           "title": "스튜디오 K 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -333,8 +333,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1755011574,
-      "script_run_iso_utc": "2025-08-12T15:12:54.356871+00:00",
+      "script_run_epoch_utc": 1755013314,
+      "script_run_iso_utc": "2025-08-12T15:41:54.415749+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-13."
     }
   ]
