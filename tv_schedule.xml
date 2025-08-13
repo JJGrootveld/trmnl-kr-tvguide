@@ -169,7 +169,7 @@
         <program>
           <time>13:50</time>
           <title>무엇이든 물어보세요 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -192,7 +192,7 @@
         <program>
           <time>15:15</time>
           <title>월드 24</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -334,8 +334,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755062261</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-13T05:17:41.163747+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755066329</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-13T06:25:29.771819+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-13.</schedule_context_message>
     </schedule_entry>
   </data>
