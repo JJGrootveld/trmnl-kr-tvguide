@@ -177,7 +177,7 @@
         {
           "time": "15:15",
           "title": "월드 24",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -189,7 +189,7 @@
         {
           "time": "15:45",
           "title": "시간여행자 루크",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "7세 이상 시청 가능",
             "Hd",
@@ -297,8 +297,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1755152317,
-      "script_run_iso_utc": "2025-08-14T06:18:37.313418+00:00",
+      "script_run_epoch_utc": 1755154290,
+      "script_run_iso_utc": "2025-08-14T06:51:30.330059+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-14."
     }
   ]
