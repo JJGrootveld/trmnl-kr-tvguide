@@ -211,7 +211,7 @@
         {
           "time": "16:30",
           "title": "누가 누가 잘하나",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -233,7 +233,7 @@
         {
           "time": "18:00",
           "title": "경제콘서트",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -297,8 +297,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1755159426,
-      "script_run_iso_utc": "2025-08-14T08:17:06.314141+00:00",
+      "script_run_epoch_utc": 1755162898,
+      "script_run_iso_utc": "2025-08-14T09:14:58.988412+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-14."
     }
   ]
