@@ -179,7 +179,7 @@
         <program>
           <time>17:40</time>
           <title>광복 80주년 특별 생방송 &lt;우리는 대한민국&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -190,7 +190,7 @@
         <program>
           <time>19:50</time>
           <title>K-히어로, 트웰브 비긴즈</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -243,8 +243,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755253025</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-15T10:17:05.011068+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755256422</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-15T11:13:42.348276+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-15.</schedule_context_message>
     </schedule_entry>
   </data>
