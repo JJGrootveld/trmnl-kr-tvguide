@@ -211,7 +211,7 @@
         {
           "time": "21:00",
           "title": "광복 80주년 경축 공연",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -222,7 +222,7 @@
         {
           "time": "21:45",
           "title": "신상출시 편스토랑",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -242,8 +242,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755260533,
-      "script_run_iso_utc": "2025-08-15T12:22:13.385408+00:00",
+      "script_run_epoch_utc": 1755263059,
+      "script_run_iso_utc": "2025-08-15T13:04:19.177370+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-15."
     }
   ]
