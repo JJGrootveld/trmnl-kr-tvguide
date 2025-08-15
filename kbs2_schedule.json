@@ -178,7 +178,7 @@
         {
           "time": "17:40",
           "title": "광복 80주년 특별 생방송 <우리는 대한민국>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -189,7 +189,7 @@
         {
           "time": "19:50",
           "title": "K-히어로, 트웰브 비긴즈",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -242,8 +242,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755254575,
-      "script_run_iso_utc": "2025-08-15T10:42:55.646119+00:00",
+      "script_run_epoch_utc": 1755256207,
+      "script_run_iso_utc": "2025-08-15T11:10:07.250729+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-15."
     }
   ]
