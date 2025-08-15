@@ -146,7 +146,7 @@
         <program>
           <time>13:20</time>
           <title>1박 2일 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -157,7 +157,7 @@
         <program>
           <time>15:05</time>
           <title>오래된 만남 추구</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -243,8 +243,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755235047</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-15T05:17:27.377569+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755239101</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-15T06:25:01.309240+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-15.</schedule_context_message>
     </schedule_entry>
   </data>
