@@ -112,7 +112,7 @@
         <program>
           <time>12:55</time>
           <title>수목드라마 내 여자친구는 상남자</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -124,7 +124,7 @@
         <program>
           <time>14:10</time>
           <title>수목드라마 내 여자친구는 상남자</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -211,8 +211,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755318050</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-16T04:20:50.127470+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755321321</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-16T05:15:21.347142+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-16.</schedule_context_message>
     </schedule_entry>
   </data>
