@@ -21,7 +21,7 @@
         <program>
           <time>05:00</time>
           <title>트레킹노트 세상을 걷다 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -32,7 +32,7 @@
         <program>
           <time>05:40</time>
           <title>생생정보 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -184,8 +184,8 @@
           <genre>교양/정보</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755375376</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-16T20:16:16.572300+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755378841</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-16T21:14:01.456052+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-17.</schedule_context_message>
     </schedule_entry>
   </data>
