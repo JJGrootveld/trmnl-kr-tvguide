@@ -146,7 +146,7 @@
         {
           "time": "16:45",
           "title": "주말드라마 화려한 날들",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -157,7 +157,7 @@
         {
           "time": "18:05",
           "title": "불후의 명곡",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -210,8 +210,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755333787,
-      "script_run_iso_utc": "2025-08-16T08:43:07.398378+00:00",
+      "script_run_epoch_utc": 1755335492,
+      "script_run_iso_utc": "2025-08-16T09:11:32.450641+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-16."
     }
   ]
