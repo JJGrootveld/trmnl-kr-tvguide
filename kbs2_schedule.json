@@ -78,7 +78,7 @@
         {
           "time": "08:40",
           "title": "사장님 귀는 당나귀 귀",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -100,7 +100,7 @@
         {
           "time": "11:20",
           "title": "크레이지 리치 코리안",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -210,8 +210,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755305751,
-      "script_run_iso_utc": "2025-08-16T00:55:51.896174+00:00",
+      "script_run_epoch_utc": 1755311971,
+      "script_run_iso_utc": "2025-08-16T02:39:31.540070+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-16."
     }
   ]
