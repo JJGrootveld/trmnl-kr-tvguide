@@ -164,7 +164,7 @@
         <program>
           <time>21:20</time>
           <title>크레이지 리치 코리안</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -175,7 +175,7 @@
         <program>
           <time>23:00</time>
           <title>2025 보령머드축제</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -184,8 +184,8 @@
           <genre>교양/정보</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755437090</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-17T13:24:50.287208+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755440046</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-17T14:14:06.662218+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-17.</schedule_context_message>
     </schedule_entry>
   </data>
