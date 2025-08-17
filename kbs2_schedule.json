@@ -86,7 +86,7 @@
         {
           "time": "09:55",
           "title": "2025 MLB 코리안 빅리거 출전경기 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -97,7 +97,7 @@
         {
           "time": "13:00",
           "title": "K-히어로, 트웰브 비긴즈 <2안포함>",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -183,8 +183,8 @@
           "genre": "교양/정보"
         }
       ],
-      "script_run_epoch_utc": 1755400127,
-      "script_run_iso_utc": "2025-08-17T03:08:47.275602+00:00",
+      "script_run_epoch_utc": 1755403526,
+      "script_run_iso_utc": "2025-08-17T04:05:26.689459+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-17."
     }
   ]
