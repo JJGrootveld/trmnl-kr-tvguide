@@ -65,7 +65,7 @@
         <program>
           <time>07:25</time>
           <title>굿모닝 대한민국 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -87,7 +87,7 @@
         <program>
           <time>09:55</time>
           <title>2025 MLB 코리안 빅리거 출전경기 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -184,8 +184,8 @@
           <genre>교양/정보</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755386046</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-16T23:14:06.886120+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755393817</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-17T01:23:37.858862+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-17.</schedule_context_message>
     </schedule_entry>
   </data>
