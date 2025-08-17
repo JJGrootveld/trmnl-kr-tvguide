@@ -153,7 +153,7 @@
         <program>
           <time>20:00</time>
           <title>주말드라마 화려한 날들</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -164,7 +164,7 @@
         <program>
           <time>21:20</time>
           <title>크레이지 리치 코리안</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -184,8 +184,8 @@
           <genre>교양/정보</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755429145</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-17T11:12:25.756891+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755433859</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-17T12:30:59.228349+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-17.</schedule_context_message>
     </schedule_entry>
   </data>
