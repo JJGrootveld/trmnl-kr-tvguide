@@ -163,7 +163,7 @@
         {
           "time": "21:20",
           "title": "크레이지 리치 코리안",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -174,7 +174,7 @@
         {
           "time": "23:00",
           "title": "2025 보령머드축제",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -183,8 +183,8 @@
           "genre": "교양/정보"
         }
       ],
-      "script_run_epoch_utc": 1755438129,
-      "script_run_iso_utc": "2025-08-17T13:42:09.289773+00:00",
+      "script_run_epoch_utc": 1755439807,
+      "script_run_iso_utc": "2025-08-17T14:10:07.760317+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-17."
     }
   ]
