@@ -42,7 +42,7 @@
         {
           "time": "06:05",
           "title": "걸어서 세계속으로 트래블홀릭",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -54,7 +54,7 @@
         {
           "time": "07:00",
           "title": "TV 유치원",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -320,8 +320,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755552956,
-      "script_run_iso_utc": "2025-08-18T21:35:56.682952+00:00",
+      "script_run_epoch_utc": 1755555038,
+      "script_run_iso_utc": "2025-08-18T22:10:38.961133+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-19."
     }
   ]
