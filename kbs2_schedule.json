@@ -10,7 +10,7 @@
         {
           "time": "00:40",
           "title": "KBS 재난방송센터",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -320,8 +320,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1755529995,
-      "script_run_iso_utc": "2025-08-18T15:13:15.916730+00:00",
+      "script_run_epoch_utc": 1755531711,
+      "script_run_iso_utc": "2025-08-18T15:41:51.992659+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-19."
     }
   ]
