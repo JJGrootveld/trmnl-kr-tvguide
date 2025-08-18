@@ -87,7 +87,7 @@
         {
           "time": "09:30",
           "title": "일일드라마 여왕의 집",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -133,7 +133,7 @@
         {
           "time": "11:20",
           "title": "박원숙의 같이 삽시다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -310,8 +310,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755478929,
-      "script_run_iso_utc": "2025-08-18T01:02:09.928357+00:00",
+      "script_run_epoch_utc": 1755486742,
+      "script_run_iso_utc": "2025-08-18T03:12:22.021867+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-18."
     }
   ]
