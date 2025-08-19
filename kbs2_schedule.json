@@ -278,7 +278,7 @@
         {
           "time": "21:20",
           "title": "K-히어로, 트웰브 비긴즈 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -289,7 +289,7 @@
         {
           "time": "21:50",
           "title": "스모킹 건",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -320,8 +320,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755606140,
-      "script_run_iso_utc": "2025-08-19T12:22:20.375230+00:00",
+      "script_run_epoch_utc": 1755608563,
+      "script_run_iso_utc": "2025-08-19T13:02:43.236438+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-19."
     }
   ]
