@@ -10,7 +10,7 @@
         {
           "time": "00:30",
           "title": "K-히어로, 트웰브 비긴즈",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -221,8 +221,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755875500,
-      "script_run_iso_utc": "2025-08-22T15:11:40.855498+00:00",
+      "script_run_epoch_utc": 1755876985,
+      "script_run_iso_utc": "2025-08-22T15:36:25.677847+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-23."
     }
   ]
