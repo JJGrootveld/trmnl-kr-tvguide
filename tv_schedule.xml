@@ -11,7 +11,7 @@
         <program>
           <time>00:30</time>
           <title>K-히어로, 트웰브 비긴즈</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -222,8 +222,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755875750</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-22T15:15:50.417068+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755879503</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-22T16:18:23.202137+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-23.</schedule_context_message>
     </schedule_entry>
   </data>
