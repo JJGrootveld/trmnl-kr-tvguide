@@ -122,7 +122,7 @@
         {
           "time": "11:10",
           "title": "주말드라마 화려한 날들",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -134,7 +134,7 @@
         {
           "time": "12:30",
           "title": "주말드라마 화려한 날들",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -266,8 +266,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1755833233,
-      "script_run_iso_utc": "2025-08-22T03:27:13.620195+00:00",
+      "script_run_epoch_utc": 1755834701,
+      "script_run_iso_utc": "2025-08-22T03:51:41.274186+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-22."
     }
   ]
