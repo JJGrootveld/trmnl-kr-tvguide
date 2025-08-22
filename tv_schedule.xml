@@ -22,7 +22,7 @@
         <program>
           <time>01:30</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Sd</icon>
@@ -32,7 +32,7 @@
         <program>
           <time>05:00</time>
           <title>사랑의 가족</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -222,8 +222,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1755889949</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-22T19:12:29.808522+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1755893821</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-22T20:17:01.523893+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-23.</schedule_context_message>
     </schedule_entry>
   </data>
