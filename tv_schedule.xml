@@ -257,7 +257,7 @@
         <program>
           <time>18:00</time>
           <title>경제콘서트</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -268,7 +268,7 @@
         <program>
           <time>18:20</time>
           <title>2025 프로야구 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -321,8 +321,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1756199850</script_run_epoch_utc>
-      <script_run_iso_utc>2025-08-26T09:17:30.678819+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1756203434</script_run_epoch_utc>
+      <script_run_iso_utc>2025-08-26T10:17:14.961591+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-08-26.</schedule_context_message>
     </schedule_entry>
   </data>
