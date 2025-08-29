@@ -146,7 +146,7 @@
         {
           "time": "13:50",
           "title": "무엇이든 물어보세요 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -169,7 +169,7 @@
         {
           "time": "15:15",
           "title": "어린이 동물티비",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -267,8 +267,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1756445880,
-      "script_run_iso_utc": "2025-08-29T05:38:00.362826+00:00",
+      "script_run_epoch_utc": 1756448218,
+      "script_run_iso_utc": "2025-08-29T06:16:58.043286+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-29."
     }
   ]
