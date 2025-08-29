@@ -169,7 +169,7 @@
         {
           "time": "15:15",
           "title": "어린이 동물티비",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -191,7 +191,7 @@
         {
           "time": "16:00",
           "title": "불후의 명곡 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -267,8 +267,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1756449940,
-      "script_run_iso_utc": "2025-08-29T06:45:40.211527+00:00",
+      "script_run_epoch_utc": 1756451483,
+      "script_run_iso_utc": "2025-08-29T07:11:23.761107+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-29."
     }
   ]
