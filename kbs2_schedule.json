@@ -10,7 +10,7 @@
         {
           "time": "00:45",
           "title": "꿀잼 영화가 좋다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -216,8 +216,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1756568047,
-      "script_run_iso_utc": "2025-08-30T15:34:07.485899+00:00",
+      "script_run_epoch_utc": 1756570294,
+      "script_run_iso_utc": "2025-08-30T16:11:34.587796+00:00",
       "schedule_context_message": "Displaying schedule for 2025-08-31."
     }
   ]
