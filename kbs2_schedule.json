@@ -236,7 +236,7 @@
         {
           "time": "17:00",
           "title": "Why?",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "7세 이상 시청 가능",
             "Hd",
@@ -258,7 +258,7 @@
         {
           "time": "17:30",
           "title": "Why?",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "7세 이상 시청 가능",
             "Hd",
@@ -345,8 +345,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1756887293,
-      "script_run_iso_utc": "2025-09-03T08:14:53.679098+00:00",
+      "script_run_epoch_utc": 1756888952,
+      "script_run_iso_utc": "2025-09-03T08:42:32.099286+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-03."
     }
   ]
