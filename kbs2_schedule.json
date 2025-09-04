@@ -289,7 +289,7 @@
         {
           "time": "21:50",
           "title": "공동여행경비구역 - 중국 샤먼",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -300,7 +300,7 @@
         {
           "time": "23:10",
           "title": "토일 미니시리즈 트웰브",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -310,8 +310,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1756993337,
-      "script_run_iso_utc": "2025-09-04T13:42:17.671788+00:00",
+      "script_run_epoch_utc": 1756995060,
+      "script_run_iso_utc": "2025-09-04T14:11:00.979220+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-04."
     }
   ]
