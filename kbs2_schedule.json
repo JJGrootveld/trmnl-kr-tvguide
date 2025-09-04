@@ -2,15 +2,15 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20250904)",
-      "date_displayed": "2025-09-04",
+      "date_requested": "Current Day (KST approx: 20250905)",
+      "date_displayed": "2025-09-05",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
           "time": "00:10",
           "title": "아이 러브 스포츠",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -30,7 +30,7 @@
           "genre": "연예/오락"
         },
         {
-          "time": "01:15",
+          "time": "01:05",
           "title": "KBS 재난방송센터",
           "is_on_air": false,
           "icons": [
@@ -41,7 +41,7 @@
           "genre": "교양/정보"
         },
         {
-          "time": "01:25",
+          "time": "01:15",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": false,
           "icons": [
@@ -52,7 +52,7 @@
         },
         {
           "time": "05:00",
-          "title": "무엇이든 물어보세요 스페셜",
+          "title": "생생정보 스페셜",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -75,7 +75,7 @@
         },
         {
           "time": "07:00",
-          "title": "TV 유치원",
+          "title": "어린이 동물티비",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -143,36 +143,38 @@
         },
         {
           "time": "11:10",
-          "title": "셀럽병사의 비밀",
+          "title": "주말드라마 화려한 날들",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "드라마"
         },
         {
-          "time": "12:25",
-          "title": "동네 한 바퀴",
+          "time": "12:30",
+          "title": "주말드라마 화려한 날들",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "13:50",
+          "title": "무엇이든 물어보세요 스페셜",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "시사/다큐"
-        },
-        {
-          "time": "13:30",
-          "title": "일일드라마 여왕의 집 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "드라마"
+          "genre": "교양/정보"
         },
         {
           "time": "15:00",
@@ -188,15 +190,14 @@
         },
         {
           "time": "15:15",
-          "title": "월드 24",
+          "title": "어린이 동물티비",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "뉴스"
+          "genre": "교육"
         },
         {
           "time": "15:45",
@@ -211,29 +212,7 @@
         },
         {
           "time": "16:00",
-          "title": "TV 유치원",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교육"
-        },
-        {
-          "time": "16:30",
-          "title": "누가 누가 잘하나",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "음악"
-        },
-        {
-          "time": "17:30",
-          "title": "놓친예능 따라잡기",
+          "title": "불후의 명곡 스페셜",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -243,15 +222,15 @@
           "genre": "연예/오락"
         },
         {
-          "time": "18:00",
-          "title": "경제콘서트",
+          "time": "17:05",
+          "title": "뮤직뱅크",
           "is_on_air": false,
           "icons": [
-            "전체 시청 가능",
+            "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "뉴스"
+          "genre": "음악"
         },
         {
           "time": "18:35",
@@ -277,7 +256,7 @@
         },
         {
           "time": "20:30",
-          "title": "옥탑방의 문제아들",
+          "title": "신상출시 편스토랑",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -287,32 +266,31 @@
           "genre": "연예/오락"
         },
         {
-          "time": "21:50",
-          "title": "공동여행경비구역 - 중국 샤먼",
+          "time": "22:00",
+          "title": "더 시즌즈 - 10CM의 쓰담쓰담",
           "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "23:10",
-          "title": "토일 미니시리즈 트웰브",
-          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "드라마"
+          "genre": "연예/오락"
+        },
+        {
+          "time": "23:50",
+          "title": "개그 콘서트 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1756996758,
-      "script_run_iso_utc": "2025-09-04T14:39:18.698850+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-09-04."
+      "script_run_epoch_utc": 1756998678,
+      "script_run_iso_utc": "2025-09-04T15:11:18.254084+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-09-05."
     }
   ]
 }
