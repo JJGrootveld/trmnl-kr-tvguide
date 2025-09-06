@@ -100,7 +100,7 @@
         {
           "time": "12:20",
           "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -111,7 +111,7 @@
         {
           "time": "13:35",
           "title": "오래된 만남 추구",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -208,8 +208,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1757131956,
-      "script_run_iso_utc": "2025-09-06T04:12:36.910581+00:00",
+      "script_run_epoch_utc": 1757133490,
+      "script_run_iso_utc": "2025-09-06T04:38:10.126974+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-06."
     }
   ]
