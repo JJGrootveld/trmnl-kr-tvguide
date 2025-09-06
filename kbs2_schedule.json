@@ -89,7 +89,7 @@
         {
           "time": "11:20",
           "title": "토일 미니시리즈 트웰브",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -100,7 +100,7 @@
         {
           "time": "12:20",
           "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -208,8 +208,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1757127934,
-      "script_run_iso_utc": "2025-09-06T03:05:34.919138+00:00",
+      "script_run_epoch_utc": 1757130069,
+      "script_run_iso_utc": "2025-09-06T03:41:09.964012+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-06."
     }
   ]
