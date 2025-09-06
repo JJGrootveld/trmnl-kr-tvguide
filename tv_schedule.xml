@@ -57,7 +57,7 @@
         <program>
           <time>07:20</time>
           <title>사장님 귀는 당나귀 귀</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -68,7 +68,7 @@
         <program>
           <time>08:50</time>
           <title>긴머리 휘날리며</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -209,8 +209,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1757113998</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-05T23:13:18.637566+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1757120872</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-06T01:07:52.415884+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-06.</schedule_context_message>
     </schedule_entry>
   </data>
