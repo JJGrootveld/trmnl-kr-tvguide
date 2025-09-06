@@ -43,7 +43,7 @@
         <program>
           <time>05:40</time>
           <title>생생정보 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -65,7 +65,7 @@
         <program>
           <time>06:55</time>
           <title>영상앨범 산</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -217,8 +217,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1757193101</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-06T21:11:41.415381+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1757196766</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-06T22:12:46.008647+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-07.</schedule_context_message>
     </schedule_entry>
   </data>
