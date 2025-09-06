@@ -111,7 +111,7 @@
         {
           "time": "13:35",
           "title": "오래된 만남 추구",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -122,7 +122,7 @@
         {
           "time": "15:00",
           "title": "공동여행경비구역 - 중국 샤먼",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -208,8 +208,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1757136920,
-      "script_run_iso_utc": "2025-09-06T05:35:20.993932+00:00",
+      "script_run_epoch_utc": 1757139266,
+      "script_run_iso_utc": "2025-09-06T06:14:26.978550+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-06."
     }
   ]
