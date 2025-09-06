@@ -178,7 +178,7 @@
         <program>
           <time>21:20</time>
           <title>토일 미니시리즈 트웰브</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -189,7 +189,7 @@
         <program>
           <time>22:20</time>
           <title>살림하는 남자들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -209,8 +209,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1757164647</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-06T13:17:27.536665+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1757167899</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-06T14:11:39.657951+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-06.</schedule_context_message>
     </schedule_entry>
   </data>
