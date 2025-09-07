@@ -152,7 +152,7 @@
         {
           "time": "16:40",
           "title": "사장님 귀는 당나귀 귀",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -163,7 +163,7 @@
         {
           "time": "18:10",
           "title": "1박 2일",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -216,8 +216,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1757236191,
-      "script_run_iso_utc": "2025-09-07T09:09:51.400855+00:00",
+      "script_run_epoch_utc": 1757237579,
+      "script_run_iso_utc": "2025-09-07T09:32:59.583028+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-07."
     }
   ]
