@@ -130,7 +130,7 @@
         {
           "time": "13:25",
           "title": "2025 슈퍼레이스 챔피언십",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -141,7 +141,7 @@
         {
           "time": "15:20",
           "title": "주말드라마 화려한 날들",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -216,8 +216,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1757225675,
-      "script_run_iso_utc": "2025-09-07T06:14:35.075796+00:00",
+      "script_run_epoch_utc": 1757227311,
+      "script_run_iso_utc": "2025-09-07T06:41:51.101322+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-07."
     }
   ]
