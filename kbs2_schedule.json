@@ -236,9 +236,8 @@
           "title": "스컬킹",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+            "7세 이상 시청 가능",
+            "Hd"
           ],
           "genre": "교양/정보"
         },
@@ -321,8 +320,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1757444923,
-      "script_run_iso_utc": "2025-09-09T19:08:43.802274+00:00",
+      "script_run_epoch_utc": 1757446380,
+      "script_run_iso_utc": "2025-09-09T19:33:00.917030+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-10."
     }
   ]
