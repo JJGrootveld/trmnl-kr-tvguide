@@ -300,7 +300,7 @@
         <program>
           <time>21:50</time>
           <title>긴머리 휘날리며</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -311,7 +311,7 @@
         <program>
           <time>23:10</time>
           <title>토일 미니시리즈 트웰브</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -321,8 +321,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1757510600</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-10T13:23:20.540738+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1757513669</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-10T14:14:29.409260+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-10.</schedule_context_message>
     </schedule_entry>
   </data>
