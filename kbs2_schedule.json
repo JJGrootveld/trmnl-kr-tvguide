@@ -8,17 +8,6 @@
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "00:35",
-          "title": "스튜디오 K",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
           "time": "00:10",
           "title": "아이 러브 스포츠",
           "is_on_air": false,
@@ -30,14 +19,15 @@
           "genre": "스포츠"
         },
         {
-          "time": "01:15",
-          "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": true,
+          "time": "00:35",
+          "title": "스튜디오 K",
+          "is_on_air": false,
           "icons": [
-            "전체 시청 가능",
-            "Sd"
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "교양/정보"
+          "genre": "연예/오락"
         },
         {
           "time": "01:05",
@@ -51,9 +41,19 @@
           "genre": "교양/정보"
         },
         {
+          "time": "01:15",
+          "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Sd"
+          ],
+          "genre": "교양/정보"
+        },
+        {
           "time": "05:00",
           "title": "생생정보 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -74,17 +74,6 @@
           "genre": "시사/다큐"
         },
         {
-          "time": "07:30",
-          "title": "굿모닝 대한민국",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
           "time": "07:00",
           "title": "어린이 동물티비",
           "is_on_air": false,
@@ -94,6 +83,17 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "교육"
+        },
+        {
+          "time": "07:30",
+          "title": "굿모닝 대한민국",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
         },
         {
           "time": "08:50",
@@ -118,18 +118,6 @@
           "genre": "드라마"
         },
         {
-          "time": "10:30",
-          "title": "인간극장 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "시사/다큐"
-        },
-        {
           "time": "10:10",
           "title": "KBS 아침 뉴스타임",
           "is_on_air": false,
@@ -140,6 +128,18 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "뉴스"
+        },
+        {
+          "time": "10:30",
+          "title": "인간극장 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
         },
         {
           "time": "11:10",
@@ -254,8 +254,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1757619155,
-      "script_run_iso_utc": "2025-09-11T19:32:35.503201+00:00",
+      "script_run_epoch_utc": 1757621419,
+      "script_run_iso_utc": "2025-09-11T20:10:19.511961+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-12."
     }
   ]
