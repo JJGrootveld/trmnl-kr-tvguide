@@ -210,7 +210,7 @@
         {
           "time": "18:00",
           "title": "경제콘서트",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -221,7 +221,7 @@
         {
           "time": "18:35",
           "title": "2TV 생생정보",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -275,8 +275,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1757581912,
-      "script_run_iso_utc": "2025-09-11T09:11:52.245464+00:00",
+      "script_run_epoch_utc": 1757583381,
+      "script_run_iso_utc": "2025-09-11T09:36:21.773995+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-11."
     }
   ]
