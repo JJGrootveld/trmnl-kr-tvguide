@@ -255,7 +255,7 @@
         <program>
           <time>21:50</time>
           <title>공동여행경비구역 - 중국 샤먼</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -266,7 +266,7 @@
         <program>
           <time>23:10</time>
           <title>토일 미니시리즈 트웰브</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -276,8 +276,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1757596867</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-11T13:21:07.805499+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1757600116</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-11T14:15:16.343613+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-11.</schedule_context_message>
     </schedule_entry>
   </data>
