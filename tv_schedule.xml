@@ -110,7 +110,7 @@
         <program>
           <time>09:30</time>
           <title>일일드라마 여왕의 집</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>11:10</time>
           <title>주말드라마 화려한 날들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -255,8 +255,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1757639249</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-12T01:07:29.058707+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1757645511</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-12T02:51:51.138490+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-12.</schedule_context_message>
     </schedule_entry>
   </data>
