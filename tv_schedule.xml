@@ -169,7 +169,7 @@
         <program>
           <time>13:50</time>
           <title>2025 광주 양궁 세계선수권대회</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -180,7 +180,7 @@
         <program>
           <time>16:00</time>
           <title>불후의 명곡 스페셜 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -255,8 +255,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1757658141</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-12T06:22:21.338929+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1757661245</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-12T07:14:05.589288+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-12.</schedule_context_message>
     </schedule_entry>
   </data>
