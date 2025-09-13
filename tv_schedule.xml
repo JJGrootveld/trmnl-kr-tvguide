@@ -123,7 +123,7 @@
         <program>
           <time>14:55</time>
           <title>긴머리 휘날리며</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>16:45</time>
           <title>주말드라마 화려한 날들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -209,8 +209,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1757747525</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-13T07:12:05.824077+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1757751452</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-13T08:17:32.434693+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-13.</schedule_context_message>
     </schedule_entry>
   </data>
