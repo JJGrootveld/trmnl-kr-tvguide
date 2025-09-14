@@ -98,7 +98,7 @@
         <program>
           <time>09:50</time>
           <title>2025 MLB 코리안 빅리거 출전경기 &lt;2안포함&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -109,7 +109,7 @@
         <program>
           <time>13:00</time>
           <title>토일 미니시리즈 트웰브 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -206,8 +206,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1757820897</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-14T03:34:57.005529+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1757823445</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-14T04:17:25.658706+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-14.</schedule_context_message>
     </schedule_entry>
   </data>
