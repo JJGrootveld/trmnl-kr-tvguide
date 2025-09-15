@@ -268,7 +268,7 @@
         {
           "time": "20:30",
           "title": "박원숙의 같이 삽시다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -279,7 +279,7 @@
         {
           "time": "21:50",
           "title": "살림하는 남자들",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -310,8 +310,8 @@
           "genre": "교양/정보"
         }
       ],
-      "script_run_epoch_utc": 1757938935,
-      "script_run_iso_utc": "2025-09-15T12:22:15.550638+00:00",
+      "script_run_epoch_utc": 1757941345,
+      "script_run_iso_utc": "2025-09-15T13:02:25.148208+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-15."
     }
   ]
