@@ -278,7 +278,7 @@
         <program>
           <time>19:50</time>
           <title>일일드라마 여왕의 집</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -289,7 +289,7 @@
         <program>
           <time>20:30</time>
           <title>슈퍼맨이 돌아왔다</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -321,8 +321,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1758107548</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-17T11:12:28.631206+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1758112302</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-17T12:31:42.232577+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-17.</schedule_context_message>
     </schedule_entry>
   </data>
