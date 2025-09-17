@@ -277,7 +277,7 @@
         {
           "time": "19:50",
           "title": "일일드라마 여왕의 집",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -288,7 +288,7 @@
         {
           "time": "20:30",
           "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -320,8 +320,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1758107338,
-      "script_run_iso_utc": "2025-09-17T11:08:58.165644+00:00",
+      "script_run_epoch_utc": 1758108807,
+      "script_run_iso_utc": "2025-09-17T11:33:27.643871+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-17."
     }
   ]
