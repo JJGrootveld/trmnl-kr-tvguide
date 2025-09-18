@@ -267,7 +267,7 @@
         <program>
           <time>20:30</time>
           <title>옥탑방의 문제아들</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -278,7 +278,7 @@
         <program>
           <time>21:50</time>
           <title>공동여행경비구역 - 중국 샤먼</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -299,8 +299,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1758198642</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-18T12:30:42.449321+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1758201859</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-18T13:24:19.997594+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-18.</schedule_context_message>
     </schedule_entry>
   </data>
