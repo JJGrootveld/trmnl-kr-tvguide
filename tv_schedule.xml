@@ -65,7 +65,7 @@
         <program>
           <time>06:05</time>
           <title>걸어서 세계속으로 트래블홀릭</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -77,7 +77,7 @@
         <program>
           <time>07:00</time>
           <title>어린이 동물티비</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -289,8 +289,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1758230031</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-18T21:13:51.363836+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1758233557</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-18T22:12:37.782458+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-19.</schedule_context_message>
     </schedule_entry>
   </data>
