@@ -77,7 +77,7 @@
         <program>
           <time>07:00</time>
           <title>어린이 동물티비</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -88,7 +88,7 @@
         <program>
           <time>07:30</time>
           <title>굿모닝 대한민국</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -289,8 +289,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1758233557</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-18T22:12:37.782458+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1758237215</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-18T23:13:35.010374+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-19.</schedule_context_message>
     </schedule_entry>
   </data>
