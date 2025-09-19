@@ -34,7 +34,7 @@
         <program>
           <time>05:50</time>
           <title>세상의 모든 다큐</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -57,7 +57,7 @@
         <program>
           <time>07:10</time>
           <title>박원숙의 같이 삽시다</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -176,8 +176,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1758316387</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-19T21:13:07.206504+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1758320018</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-19T22:13:38.935892+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-20.</schedule_context_message>
     </schedule_entry>
   </data>
