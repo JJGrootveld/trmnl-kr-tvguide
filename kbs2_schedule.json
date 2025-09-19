@@ -257,7 +257,7 @@
         {
           "time": "20:30",
           "title": "신상출시 편스토랑",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -268,7 +268,7 @@
         {
           "time": "22:00",
           "title": "더 시즌즈 - 10CM의 쓰담쓰담",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -288,8 +288,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1758286848,
-      "script_run_iso_utc": "2025-09-19T13:00:48.075566+00:00",
+      "script_run_epoch_utc": 1758289284,
+      "script_run_iso_utc": "2025-09-19T13:41:24.094734+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-19."
     }
   ]
