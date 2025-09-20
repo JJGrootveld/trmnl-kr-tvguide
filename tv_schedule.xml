@@ -101,7 +101,7 @@
         <program>
           <time>14:15</time>
           <title>사장님 귀는 당나귀 귀 &lt;2안포함&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -112,7 +112,7 @@
         <program>
           <time>15:45</time>
           <title>토일 미니시리즈 트웰브</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -176,8 +176,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1758349220</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-20T06:20:20.326825+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1758352402</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-20T07:13:22.969066+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-20.</schedule_context_message>
     </schedule_entry>
   </data>
