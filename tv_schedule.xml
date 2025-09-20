@@ -156,7 +156,7 @@
         <program>
           <time>21:20</time>
           <title>토일 미니시리즈 은수 좋은 날</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -167,7 +167,7 @@
         <program>
           <time>22:45</time>
           <title>살림하는 남자들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -176,8 +176,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1758374338</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-20T13:18:58.094127+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1758377534</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-20T14:12:14.731312+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-20.</schedule_context_message>
     </schedule_entry>
   </data>
