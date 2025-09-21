@@ -97,7 +97,7 @@
         {
           "time": "10:10",
           "title": "토일 미니시리즈 은수 좋은 날",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -108,7 +108,7 @@
         {
           "time": "11:35",
           "title": "살림하는 남자들",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -205,8 +205,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1758421670,
-      "script_run_iso_utc": "2025-09-21T02:27:50.944496+00:00",
+      "script_run_epoch_utc": 1758425191,
+      "script_run_iso_utc": "2025-09-21T03:26:31.084645+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-21."
     }
   ]
