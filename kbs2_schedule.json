@@ -185,7 +185,7 @@
         {
           "time": "21:20",
           "title": "토일 미니시리즈 은수 좋은 날",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -196,7 +196,7 @@
         {
           "time": "22:45",
           "title": "개그 콘서트",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -205,8 +205,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1758461733,
-      "script_run_iso_utc": "2025-09-21T13:35:33.240610+00:00",
+      "script_run_epoch_utc": 1758463715,
+      "script_run_iso_utc": "2025-09-21T14:08:35.575264+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-21."
     }
   ]
