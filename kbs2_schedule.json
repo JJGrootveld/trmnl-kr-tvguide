@@ -311,7 +311,7 @@
         {
           "time": "21:45",
           "title": "스모킹 건",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -333,7 +333,7 @@
         {
           "time": "23:10",
           "title": "더 시즌즈 - 10CM의 쓰담쓰담 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -342,8 +342,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1758635001,
-      "script_run_iso_utc": "2025-09-23T13:43:21.080295+00:00",
+      "script_run_epoch_utc": 1758636695,
+      "script_run_iso_utc": "2025-09-23T14:11:35.168163+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-23."
     }
   ]
