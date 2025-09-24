@@ -223,7 +223,7 @@
         {
           "time": "17:00",
           "title": "Why?",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "7세 이상 시청 가능",
             "Hd",
@@ -244,7 +244,7 @@
         {
           "time": "17:30",
           "title": "꿀잼 영화가 좋다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -330,8 +330,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1758701751,
-      "script_run_iso_utc": "2025-09-24T08:15:51.818537+00:00",
+      "script_run_epoch_utc": 1758703452,
+      "script_run_iso_utc": "2025-09-24T08:44:12.598746+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-24."
     }
   ]
