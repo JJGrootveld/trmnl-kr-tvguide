@@ -190,7 +190,7 @@
         {
           "time": "15:45",
           "title": "주디세이",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -201,7 +201,7 @@
         {
           "time": "16:00",
           "title": "TV 유치원",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -330,8 +330,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1758696374,
-      "script_run_iso_utc": "2025-09-24T06:46:14.194752+00:00",
+      "script_run_epoch_utc": 1758697915,
+      "script_run_iso_utc": "2025-09-24T07:11:55.143885+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-24."
     }
   ]
