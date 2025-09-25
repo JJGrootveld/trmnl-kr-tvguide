@@ -134,7 +134,7 @@
         <program>
           <time>12:25</time>
           <title>동네 한 바퀴</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>13:30</time>
           <title>일일드라마 친밀한 리플리 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -290,8 +290,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1758773885</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-25T04:18:05.666122+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1758777301</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-25T05:15:01.306460+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-25.</schedule_context_message>
     </schedule_entry>
   </data>
