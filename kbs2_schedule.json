@@ -21,7 +21,7 @@
         {
           "time": "01:05",
           "title": "KBS 재난방송센터",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -32,7 +32,7 @@
         {
           "time": "01:15",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Sd"
@@ -277,8 +277,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1758816825,
-      "script_run_iso_utc": "2025-09-25T16:13:45.194534+00:00",
+      "script_run_epoch_utc": 1758818634,
+      "script_run_iso_utc": "2025-09-25T16:43:54.126843+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-26."
     }
   ]
