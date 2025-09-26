@@ -213,7 +213,7 @@
         {
           "time": "17:05",
           "title": "뮤직뱅크",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -224,7 +224,7 @@
         {
           "time": "18:35",
           "title": "2TV 생생정보",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -277,8 +277,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1758877947,
-      "script_run_iso_utc": "2025-09-26T09:12:27.864294+00:00",
+      "script_run_epoch_utc": 1758879430,
+      "script_run_iso_utc": "2025-09-26T09:37:10.820338+00:00",
       "schedule_context_message": "Displaying schedule for 2025-09-26."
     }
   ]
