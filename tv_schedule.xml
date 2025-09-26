@@ -158,7 +158,7 @@
         <program>
           <time>13:50</time>
           <title>무엇이든 물어보세요 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -181,7 +181,7 @@
         <program>
           <time>15:15</time>
           <title>어린이 동물티비</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -278,8 +278,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1758863685</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-26T05:14:45.438947+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1758867772</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-26T06:22:52.311818+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-26.</schedule_context_message>
     </schedule_entry>
   </data>
