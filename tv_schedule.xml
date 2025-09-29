@@ -291,7 +291,7 @@
         <program>
           <time>21:50</time>
           <title>살림하는 남자들</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -302,7 +302,7 @@
         <program>
           <time>23:10</time>
           <title>아이 러브 스포츠</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -322,8 +322,8 @@
           <genre>교양/정보</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759152376</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-29T13:26:16.338363+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759155332</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-29T14:15:32.316159+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-09-29.</schedule_context_message>
     </schedule_entry>
   </data>
