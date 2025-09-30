@@ -4,9 +4,9 @@
     <error_entry>
       <error_summary>Failed to fetch HTML from server.</error_summary>
       <channel_id_requested>7</channel_id_requested>
-      <date_requested>Current Day (KST approx: 20250926)</date_requested>
-      <script_run_epoch_utc>1758857461</script_run_epoch_utc>
-      <script_run_iso_utc>2025-09-26T03:31:01.319193+00:00</script_run_iso_utc>
+      <date_requested>Current Day (KST approx: 20250930)</date_requested>
+      <script_run_epoch_utc>1759209315</script_run_epoch_utc>
+      <script_run_iso_utc>2025-09-30T05:15:15.274230+00:00</script_run_iso_utc>
     </error_entry>
   </data>
 </data>
