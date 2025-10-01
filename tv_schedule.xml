@@ -278,7 +278,7 @@
         <program>
           <time>19:50</time>
           <title>일일드라마 친밀한 리플리</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -289,7 +289,7 @@
         <program>
           <time>20:30</time>
           <title>슈퍼맨이 돌아왔다</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759317199</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-01T11:13:19.223967+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759322016</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-01T12:33:36.088035+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-01.</schedule_context_message>
     </schedule_entry>
   </data>
