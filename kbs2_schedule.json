@@ -87,7 +87,7 @@
         {
           "time": "09:30",
           "title": "일일드라마 친밀한 리플리",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -122,7 +122,7 @@
         {
           "time": "11:10",
           "title": "셀럽병사의 비밀",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -299,8 +299,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1759366296,
-      "script_run_iso_utc": "2025-10-02T00:51:36.101923+00:00",
+      "script_run_epoch_utc": 1759371335,
+      "script_run_iso_utc": "2025-10-02T02:15:35.620676+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-02."
     }
   ]
