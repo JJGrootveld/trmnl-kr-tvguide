@@ -200,7 +200,7 @@
         {
           "time": "22:00",
           "title": "추석특집 <조용필, 이 순간을 영원히> 프리퀄",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -211,7 +211,7 @@
         {
           "time": "23:30",
           "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -220,8 +220,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1759500630,
-      "script_run_iso_utc": "2025-10-03T14:10:30.976688+00:00",
+      "script_run_epoch_utc": 1759502310,
+      "script_run_iso_utc": "2025-10-03T14:38:30.750848+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-03."
     }
   ]
