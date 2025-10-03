@@ -33,7 +33,7 @@
         {
           "time": "05:50",
           "title": "세상의 모든 다큐",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -45,7 +45,7 @@
         {
           "time": "06:40",
           "title": "트레킹노트 세상을 걷다 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -186,8 +186,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1759527167,
-      "script_run_iso_utc": "2025-10-03T21:32:47.726472+00:00",
+      "script_run_epoch_utc": 1759529392,
+      "script_run_iso_utc": "2025-10-03T22:09:52.850811+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-04."
     }
   ]
