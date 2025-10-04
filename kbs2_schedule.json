@@ -75,7 +75,7 @@
         {
           "time": "07:25",
           "title": "굿모닝 대한민국 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -86,7 +86,7 @@
         {
           "time": "08:30",
           "title": "추석특집 <조용필, 이 순간을 영원히> 프리퀄",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -205,8 +205,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1759619407,
-      "script_run_iso_utc": "2025-10-04T23:10:07.406844+00:00",
+      "script_run_epoch_utc": 1759620787,
+      "script_run_iso_utc": "2025-10-04T23:33:07.984652+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-05."
     }
   ]
