@@ -89,7 +89,7 @@
         {
           "time": "11:20",
           "title": "은수 좋은 날 몰아보는 날",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -100,7 +100,7 @@
         {
           "time": "12:40",
           "title": "개그 콘서트",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -186,8 +186,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1759549171,
-      "script_run_iso_utc": "2025-10-04T03:39:31.819109+00:00",
+      "script_run_epoch_utc": 1759551154,
+      "script_run_iso_utc": "2025-10-04T04:12:34.992925+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-04."
     }
   ]
