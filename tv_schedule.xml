@@ -11,7 +11,7 @@
         <program>
           <time>00:15</time>
           <title>토일 미니시리즈 은수 좋은 날</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -231,8 +231,8 @@
           <genre>영화</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759677183</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-05T15:13:03.579334+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759680972</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-05T16:16:12.405751+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-06.</schedule_context_message>
     </schedule_entry>
   </data>
