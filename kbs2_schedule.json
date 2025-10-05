@@ -2,13 +2,13 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20251005)",
-      "date_displayed": "2025-10-05",
+      "date_requested": "Current Day (KST approx: 20251006)",
+      "date_displayed": "2025-10-06",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "00:05",
+          "time": "00:15",
           "title": "토일 미니시리즈 은수 좋은 날",
           "is_on_air": false,
           "icons": [
@@ -19,39 +19,7 @@
           "genre": "드라마"
         },
         {
-          "time": "01:30",
-          "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Sd"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "05:00",
-          "title": "트레킹노트 세상을 걷다 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "시사/다큐"
-        },
-        {
-          "time": "05:40",
-          "title": "생생정보 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "06:45",
+          "time": "01:40",
           "title": "KBS 재난방송센터",
           "is_on_air": false,
           "icons": [
@@ -62,19 +30,18 @@
           "genre": "교양/정보"
         },
         {
-          "time": "06:55",
-          "title": "영상앨범 산",
+          "time": "01:50",
+          "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+            "Sd"
           ],
-          "genre": "시사/다큐"
+          "genre": "교양/정보"
         },
         {
-          "time": "07:25",
-          "title": "굿모닝 대한민국 스페셜",
+          "time": "05:00",
+          "title": "무엇이든 물어보세요 스페셜",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -84,7 +51,64 @@
           "genre": "교양/정보"
         },
         {
-          "time": "08:30",
+          "time": "06:05",
+          "title": "걸어서 세계속으로 트래블홀릭",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
+        },
+        {
+          "time": "07:00",
+          "title": "TV 유치원",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교육"
+        },
+        {
+          "time": "07:30",
+          "title": "굿모닝 대한민국",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
+        },
+        {
+          "time": "08:50",
+          "title": "생생정보 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
+        },
+        {
+          "time": "09:30",
+          "title": "인간극장 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
+        },
+        {
+          "time": "10:10",
           "title": "추석특집 <조용필, 이 순간을 영원히> 프리퀄",
           "is_on_air": false,
           "icons": [
@@ -95,7 +119,18 @@
           "genre": "연예/오락"
         },
         {
-          "time": "10:00",
+          "time": "11:40",
+          "title": "추석 특선다큐 바닷속 스파이",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
+        },
+        {
+          "time": "12:40",
           "title": "1박 2일 스페셜",
           "is_on_air": false,
           "icons": [
@@ -106,8 +141,8 @@
           "genre": "연예/오락"
         },
         {
-          "time": "11:40",
-          "title": "토일 미니시리즈 은수 좋은 날",
+          "time": "14:20",
+          "title": "주말드라마 화려한 날들",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -117,7 +152,18 @@
           "genre": "드라마"
         },
         {
-          "time": "13:05",
+          "time": "15:40",
+          "title": "주말드라마 화려한 날들",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "17:00",
           "title": "살림하는 남자들",
           "is_on_air": false,
           "icons": [
@@ -128,86 +174,65 @@
           "genre": "연예/오락"
         },
         {
-          "time": "14:25",
-          "title": "신상출시 편스토랑 스페셜",
+          "time": "18:20",
+          "title": "추석 특선다큐 떡의 나라",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
+        },
+        {
+          "time": "19:20",
+          "title": "광복80주년 KBS대기획 <조용필, 이 순간을 영원히>...",
+          "is_on_air": false,
+          "icons": [
+            "12세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "연예/오락"
         },
         {
-          "time": "15:20",
-          "title": "주말드라마 화려한 날들",
+          "time": "20:25",
+          "title": "광복80주년 KBS대기획 <조용필, 이 순간을 영원히>...",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "드라마"
-        },
-        {
-          "time": "16:40",
-          "title": "사장님 귀는 당나귀 귀",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
+            "12세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "연예/오락"
         },
         {
-          "time": "18:10",
-          "title": "1박 2일",
+          "time": "21:25",
+          "title": "광복80주년 KBS대기획 <조용필, 이 순간을 영원히>...",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "12세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "연예/오락"
         },
         {
-          "time": "20:00",
-          "title": "주말드라마 화려한 날들",
+          "time": "22:20",
+          "title": "추석 특선영화 히트맨 2",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "드라마"
-        },
-        {
-          "time": "21:20",
-          "title": "토일 미니시리즈 은수 좋은 날",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "드라마"
-        },
-        {
-          "time": "22:45",
-          "title": "개그 콘서트",
-          "is_on_air": true,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
+          "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1759674833,
-      "script_run_iso_utc": "2025-10-05T14:33:53.146947+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-10-05."
+      "script_run_epoch_utc": 1759676960,
+      "script_run_iso_utc": "2025-10-05T15:09:20.071400+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-10-06."
     }
   ]
 }
