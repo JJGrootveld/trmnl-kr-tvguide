@@ -76,7 +76,7 @@
         {
           "time": "07:30",
           "title": "굿모닝 대한민국",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -98,7 +98,7 @@
         {
           "time": "09:30",
           "title": "인간극장 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -230,8 +230,8 @@
           "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1759707163,
-      "script_run_iso_utc": "2025-10-05T23:32:43.431267+00:00",
+      "script_run_epoch_utc": 1759711990,
+      "script_run_iso_utc": "2025-10-06T00:53:10.996311+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-06."
     }
   ]
