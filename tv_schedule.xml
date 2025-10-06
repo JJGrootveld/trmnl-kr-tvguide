@@ -188,7 +188,7 @@
         <program>
           <time>19:20</time>
           <title>광복80주년 KBS대기획 &lt;조용필, 이 순간을 영원히&gt;...</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -210,7 +210,7 @@
         <program>
           <time>21:25</time>
           <title>광복80주년 KBS대기획 &lt;조용필, 이 순간을 영원히&gt;...</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -231,8 +231,8 @@
           <genre>영화</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759749160</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-06T11:12:40.590290+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759753934</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-06T12:32:14.817156+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-06.</schedule_context_message>
     </schedule_entry>
   </data>
