@@ -10,7 +10,7 @@
         {
           "time": "00:35",
           "title": "고소영의 펍스토랑",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "19세 이상 시청 가능",
             "Hd",
@@ -219,8 +219,8 @@
           "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1759763492,
-      "script_run_iso_utc": "2025-10-06T15:11:32.108681+00:00",
+      "script_run_epoch_utc": 1759765061,
+      "script_run_iso_utc": "2025-10-06T15:37:41.987278+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-07."
     }
   ]
