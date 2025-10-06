@@ -98,7 +98,7 @@
         {
           "time": "09:30",
           "title": "인간극장 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -110,7 +110,7 @@
         {
           "time": "10:10",
           "title": "추석특집 <조용필, 이 순간을 영원히> 프리퀄",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -230,8 +230,8 @@
           "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1759711990,
-      "script_run_iso_utc": "2025-10-06T00:53:10.996311+00:00",
+      "script_run_epoch_utc": 1759717166,
+      "script_run_iso_utc": "2025-10-06T02:19:26.357092+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-06."
     }
   ]
