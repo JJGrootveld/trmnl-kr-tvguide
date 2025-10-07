@@ -3,24 +3,24 @@
   <data>
     <schedule_entry>
       <channel_id_requested>7</channel_id_requested>
-      <date_requested>Current Day (KST approx: 20251007)</date_requested>
-      <date_displayed>2025-10-07</date_displayed>
+      <date_requested>Current Day (KST approx: 20251008)</date_requested>
+      <date_displayed>2025-10-08</date_displayed>
       <channel_name>KBS2</channel_name>
       <channel_logo_url>https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png</channel_logo_url>
       <programs>
         <program>
-          <time>00:35</time>
-          <title>고소영의 펍스토랑</title>
+          <time>00:30</time>
+          <title>놓친예능 따라잡기</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>19세 이상 시청 가능</icon>
+            <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>교양/정보</genre>
+          <genre>연예/오락</genre>
         </program>
         <program>
-          <time>01:05</time>
+          <time>01:00</time>
           <title>KBS 재난방송센터</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -31,7 +31,7 @@
           <genre>교양/정보</genre>
         </program>
         <program>
-          <time>01:15</time>
+          <time>01:10</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -134,7 +134,76 @@
         </program>
         <program>
           <time>12:10</time>
-          <title>슈퍼맨이 돌아왔다 스페셜</title>
+          <title>추석 특선영화 시민덕희</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>영화</genre>
+        </program>
+        <program>
+          <time>14:20</time>
+          <title>토일 미니시리즈 은수 좋은 날</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
+        </program>
+        <program>
+          <time>15:45</time>
+          <title>토일 미니시리즈 은수 좋은 날</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
+        </program>
+        <program>
+          <time>17:10</time>
+          <title>박원숙의 같이 삽시다</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>연예/오락</genre>
+        </program>
+        <program>
+          <time>18:30</time>
+          <title>사장님 귀는 당나귀 귀</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>연예/오락</genre>
+        </program>
+        <program>
+          <time>20:00</time>
+          <title>&lt;조용필, 이 순간을 영원히&gt; 그날의 기록</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>연예/오락</genre>
+        </program>
+        <program>
+          <time>21:00</time>
+          <title>광복80주년 KBS대기획 &lt;조용필, 이 순간을 영원히&gt;...</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
@@ -144,88 +213,31 @@
           <genre>연예/오락</genre>
         </program>
         <program>
-          <time>13:40</time>
-          <title>개그 콘서트</title>
+          <time>22:05</time>
+          <title>광복80주년 KBS대기획 &lt;조용필, 이 순간을 영원히&gt;...</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>15세 이상 시청 가능</icon>
+            <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
           <genre>연예/오락</genre>
         </program>
         <program>
-          <time>15:10</time>
-          <title>일일드라마 친밀한 리플리 스페셜</title>
+          <time>23:05</time>
+          <title>광복80주년 KBS대기획 &lt;조용필, 이 순간을 영원히&gt;...</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>15세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>드라마</genre>
-        </program>
-        <program>
-          <time>16:25</time>
-          <title>신상출시 편스토랑 스페셜</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>15세 이상 시청 가능</icon>
+            <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
           <genre>연예/오락</genre>
-        </program>
-        <program>
-          <time>17:20</time>
-          <title>옥탑방의 문제아들</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>15세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>연예/오락</genre>
-        </program>
-        <program>
-          <time>18:40</time>
-          <title>추석 특선다큐 떡의 나라</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>시사/다큐</genre>
-        </program>
-        <program>
-          <time>19:40</time>
-          <title>불후의 명곡 &lt;그댈 위한 멜로디, 임영웅&gt;</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>15세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>연예/오락</genre>
-        </program>
-        <program>
-          <time>22:10</time>
-          <title>추석 특선영화 야당</title>
-          <is_on_air>True</is_on_air>
-          <icons>
-            <icon>19세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>영화</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759846574</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-07T14:16:14.134103+00:00</script_run_iso_utc>
-      <schedule_context_message>Displaying schedule for 2025-10-07.</schedule_context_message>
+      <script_run_epoch_utc>1759850204</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-07T15:16:44.876983+00:00</script_run_iso_utc>
+      <schedule_context_message>Displaying schedule for 2025-10-08.</schedule_context_message>
     </schedule_entry>
   </data>
 </data>
