@@ -202,7 +202,7 @@
         <program>
           <time>19:40</time>
           <title>불후의 명곡 &lt;그댈 위한 멜로디, 임영웅&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -213,7 +213,7 @@
         <program>
           <time>22:10</time>
           <title>추석 특선영화 야당</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>19세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -223,8 +223,8 @@
           <genre>영화</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759840351</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-07T12:32:31.302124+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759843567</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-07T13:26:07.989800+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-07.</schedule_context_message>
     </schedule_entry>
   </data>
