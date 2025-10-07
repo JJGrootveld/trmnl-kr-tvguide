@@ -190,7 +190,7 @@
         <program>
           <time>18:40</time>
           <title>추석 특선다큐 떡의 나라</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -202,7 +202,7 @@
         <program>
           <time>19:40</time>
           <title>불후의 명곡 &lt;그댈 위한 멜로디, 임영웅&gt;</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -223,8 +223,8 @@
           <genre>영화</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759832179</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-07T10:16:19.617596+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759835563</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-07T11:12:43.333417+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-07.</schedule_context_message>
     </schedule_entry>
   </data>
