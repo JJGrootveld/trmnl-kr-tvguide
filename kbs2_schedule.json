@@ -178,7 +178,7 @@
         {
           "time": "17:20",
           "title": "옥탑방의 문제아들",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -189,7 +189,7 @@
         {
           "time": "18:40",
           "title": "추석 특선다큐 떡의 나라",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -222,8 +222,8 @@
           "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1759829860,
-      "script_run_iso_utc": "2025-10-07T09:37:40.651965+00:00",
+      "script_run_epoch_utc": 1759831913,
+      "script_run_iso_utc": "2025-10-07T10:11:53.772186+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-07."
     }
   ]
