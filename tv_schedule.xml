@@ -99,7 +99,7 @@
         <program>
           <time>09:30</time>
           <title>인간극장 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -123,7 +123,7 @@
         <program>
           <time>11:10</time>
           <title>추석 특선다큐 떡의 나라</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -223,8 +223,8 @@
           <genre>영화</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759799374</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-07T01:09:34.138340+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759805687</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-07T02:54:47.146351+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-07.</schedule_context_message>
     </schedule_entry>
   </data>
