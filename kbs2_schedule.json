@@ -98,7 +98,7 @@
         {
           "time": "09:30",
           "title": "인간극장 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -122,7 +122,7 @@
         {
           "time": "11:10",
           "title": "추석 특선다큐 떡의 나라",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -222,8 +222,8 @@
           "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1759798329,
-      "script_run_iso_utc": "2025-10-07T00:52:09.693993+00:00",
+      "script_run_epoch_utc": 1759803404,
+      "script_run_iso_utc": "2025-10-07T02:16:44.355871+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-07."
     }
   ]
