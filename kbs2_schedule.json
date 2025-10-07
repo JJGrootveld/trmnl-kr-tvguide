@@ -134,7 +134,7 @@
         {
           "time": "12:10",
           "title": "슈퍼맨이 돌아왔다 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -145,7 +145,7 @@
         {
           "time": "13:40",
           "title": "개그 콘서트",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -222,8 +222,8 @@
           "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1759811974,
-      "script_run_iso_utc": "2025-10-07T04:39:34.201926+00:00",
+      "script_run_epoch_utc": 1759813863,
+      "script_run_iso_utc": "2025-10-07T05:11:03.955983+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-07."
     }
   ]
