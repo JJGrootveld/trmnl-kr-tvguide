@@ -122,7 +122,7 @@
         {
           "time": "11:10",
           "title": "추석 특선다큐 떡의 나라",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -134,7 +134,7 @@
         {
           "time": "12:10",
           "title": "추석 특선영화 시민덕희",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -234,8 +234,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1759892933,
-      "script_run_iso_utc": "2025-10-08T03:08:53.761347+00:00",
+      "script_run_epoch_utc": 1759895055,
+      "script_run_iso_utc": "2025-10-08T03:44:15.984789+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-08."
     }
   ]
