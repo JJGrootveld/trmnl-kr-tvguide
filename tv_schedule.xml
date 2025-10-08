@@ -171,7 +171,7 @@
         <program>
           <time>17:10</time>
           <title>박원숙의 같이 삽시다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -182,7 +182,7 @@
         <program>
           <time>18:30</time>
           <title>사장님 귀는 당나귀 귀</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -235,8 +235,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759915005</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-08T09:16:45.820642+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759918567</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-08T10:16:07.213856+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-08.</schedule_context_message>
     </schedule_entry>
   </data>
