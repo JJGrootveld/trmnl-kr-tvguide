@@ -11,7 +11,7 @@
         <program>
           <time>00:00</time>
           <title>스튜디오 K</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -22,7 +22,7 @@
         <program>
           <time>01:10</time>
           <title>KBS 재난방송센터</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -221,8 +221,8 @@
           <genre>영화</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759936587</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-08T15:16:27.901453+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759940352</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-08T16:19:12.668988+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-09.</schedule_context_message>
     </schedule_entry>
   </data>
