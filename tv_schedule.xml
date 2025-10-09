@@ -123,7 +123,7 @@
         <program>
           <time>11:10</time>
           <title>불후의 명곡 &lt;그댈 위한 멜로디, 임영웅&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -134,7 +134,7 @@
         <program>
           <time>13:40</time>
           <title>신상출시 편스토랑</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -221,8 +221,8 @@
           <genre>영화</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1759980719</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-09T03:31:59.505012+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1759986909</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-09T05:15:09.727520+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-09.</schedule_context_message>
     </schedule_entry>
   </data>
