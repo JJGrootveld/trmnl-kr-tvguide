@@ -199,7 +199,7 @@
         {
           "time": "20:30",
           "title": "개는 훌륭하다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -210,7 +210,7 @@
         {
           "time": "22:00",
           "title": "추석 특선영화 파묘",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -220,8 +220,8 @@
           "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1760012535,
-      "script_run_iso_utc": "2025-10-09T12:22:15.729342+00:00",
+      "script_run_epoch_utc": 1760015014,
+      "script_run_iso_utc": "2025-10-09T13:03:34.100612+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-09."
     }
   ]
