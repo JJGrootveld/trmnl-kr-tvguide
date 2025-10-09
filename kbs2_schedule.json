@@ -144,7 +144,7 @@
         {
           "time": "15:10",
           "title": "셀럽병사의 비밀",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -155,7 +155,7 @@
         {
           "time": "16:25",
           "title": "개그 콘서트",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -220,8 +220,8 @@
           "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1759993890,
-      "script_run_iso_utc": "2025-10-09T07:11:30.520515+00:00",
+      "script_run_epoch_utc": 1759995267,
+      "script_run_iso_utc": "2025-10-09T07:34:27.577591+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-09."
     }
   ]
