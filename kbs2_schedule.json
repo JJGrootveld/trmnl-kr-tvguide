@@ -133,7 +133,7 @@
         {
           "time": "13:40",
           "title": "신상출시 편스토랑",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -144,7 +144,7 @@
         {
           "time": "15:10",
           "title": "셀럽병사의 비밀",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -220,8 +220,8 @@
           "genre": "영화"
         }
       ],
-      "script_run_epoch_utc": 1759988291,
-      "script_run_iso_utc": "2025-10-09T05:38:11.912902+00:00",
+      "script_run_epoch_utc": 1759990655,
+      "script_run_iso_utc": "2025-10-09T06:17:35.782248+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-09."
     }
   ]
