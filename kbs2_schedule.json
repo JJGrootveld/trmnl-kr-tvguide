@@ -2,24 +2,24 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20251009)",
-      "date_displayed": "2025-10-09",
+      "date_requested": "Current Day (KST approx: 20251010)",
+      "date_displayed": "2025-10-10",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "00:00",
-          "title": "스튜디오 K",
-          "is_on_air": false,
+          "time": "00:25",
+          "title": "고소영의 펍스토랑",
+          "is_on_air": true,
           "icons": [
-            "15세 이상 시청 가능",
+            "19세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "교양/정보"
         },
         {
-          "time": "01:10",
+          "time": "00:55",
           "title": "KBS 재난방송센터",
           "is_on_air": false,
           "icons": [
@@ -30,7 +30,7 @@
           "genre": "교양/정보"
         },
         {
-          "time": "01:20",
+          "time": "01:05",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": false,
           "icons": [
@@ -41,7 +41,7 @@
         },
         {
           "time": "05:00",
-          "title": "무엇이든 물어보세요 스페셜",
+          "title": "생생정보 스페셜",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -64,7 +64,7 @@
         },
         {
           "time": "07:00",
-          "title": "TV 유치원",
+          "title": "어린이 동물티비",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -109,84 +109,6 @@
         },
         {
           "time": "10:10",
-          "title": "추석 특선다큐 바닷속 스파이",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "11:10",
-          "title": "불후의 명곡 <그댈 위한 멜로디, 임영웅>",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "13:40",
-          "title": "신상출시 편스토랑",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "15:10",
-          "title": "셀럽병사의 비밀",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "16:25",
-          "title": "개그 콘서트",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "18:00",
-          "title": "슈퍼맨이 돌아왔다 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "12세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "18:35",
-          "title": "2TV 생생정보",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "19:50",
           "title": "일일드라마 친밀한 리플리",
           "is_on_air": false,
           "icons": [
@@ -197,7 +119,42 @@
           "genre": "드라마"
         },
         {
-          "time": "20:30",
+          "time": "10:50",
+          "title": "주말드라마 화려한 날들",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "12:10",
+          "title": "주말드라마 화려한 날들",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "13:30",
+          "title": "무엇이든 물어보세요 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "교양/정보"
+        },
+        {
+          "time": "14:40",
           "title": "개는 훌륭하다",
           "is_on_air": false,
           "icons": [
@@ -208,21 +165,53 @@
           "genre": "연예/오락"
         },
         {
-          "time": "22:00",
-          "title": "추석 특선영화 파묘",
-          "is_on_air": true,
+          "time": "16:10",
+          "title": "뮤직뱅크 인 리스본",
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "영화"
+          "genre": "음악"
+        },
+        {
+          "time": "18:15",
+          "title": "2025 프로야구 <2안포함>",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "스포츠"
+        },
+        {
+          "time": "21:50",
+          "title": "신상출시 편스토랑",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "연예/오락"
+        },
+        {
+          "time": "23:20",
+          "title": "더 시즌즈 - 10CM의 쓰담쓰담",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1760021438,
-      "script_run_iso_utc": "2025-10-09T14:50:38.026867+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-10-09."
+      "script_run_epoch_utc": 1760023624,
+      "script_run_iso_utc": "2025-10-09T15:27:04.182865+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-10-10."
     }
   ]
 }
