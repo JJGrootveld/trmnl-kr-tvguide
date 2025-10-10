@@ -168,7 +168,7 @@
         <program>
           <time>16:10</time>
           <title>뮤직뱅크 인 리스본</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -179,7 +179,7 @@
         <program>
           <time>18:15</time>
           <title>2025 프로야구 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -210,8 +210,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1760084419</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-10T08:20:19.774265+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1760087833</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-10T09:17:13.042398+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-10.</schedule_context_message>
     </schedule_entry>
   </data>
