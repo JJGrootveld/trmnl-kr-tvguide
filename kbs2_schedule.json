@@ -8,18 +8,7 @@
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "01:20",
-          "title": "스모킹 건",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "02:20",
+          "time": "00:50",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": true,
           "icons": [
@@ -66,7 +55,7 @@
         },
         {
           "time": "07:20",
-          "title": "사장님 귀는 당나귀 귀",
+          "title": "개는 훌륭하다",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -76,8 +65,8 @@
           "genre": "연예/오락"
         },
         {
-          "time": "08:50",
-          "title": "개는 훌륭하다",
+          "time": "08:40",
+          "title": "추석특집 <조용필, 이 순간을 영원히> 프리퀄",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -99,7 +88,7 @@
         },
         {
           "time": "11:20",
-          "title": "토일 미니시리즈 은수 좋은 날",
+          "title": "토일 미니시리즈 은수 좋은 날 <2안포함>",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -110,18 +99,7 @@
         },
         {
           "time": "12:45",
-          "title": "토일 미니시리즈 은수 좋은 날",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "드라마"
-        },
-        {
-          "time": "14:10",
-          "title": "살림하는 남자들",
+          "title": "신상출시 편스토랑 스페셜 <2안포함>",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -131,8 +109,19 @@
           "genre": "연예/오락"
         },
         {
-          "time": "15:30",
-          "title": "셀럽병사의 비밀",
+          "time": "13:40",
+          "title": "2025 프로야구 <2안포함>",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "스포츠"
+        },
+        {
+          "time": "17:00",
+          "title": "놓친예능 따라잡기 <2안포함>",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -142,15 +131,15 @@
           "genre": "연예/오락"
         },
         {
-          "time": "16:45",
-          "title": "주말드라마 화려한 날들",
+          "time": "17:30",
+          "title": "슈퍼맨이 돌아왔다 스페셜 <2안포함>",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "12세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "드라마"
+          "genre": "연예/오락"
         },
         {
           "time": "18:05",
@@ -197,8 +186,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1760123324,
-      "script_run_iso_utc": "2025-10-10T19:08:44.083580+00:00",
+      "script_run_epoch_utc": 1760124773,
+      "script_run_iso_utc": "2025-10-10T19:32:53.944440+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-11."
     }
   ]
