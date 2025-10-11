@@ -100,7 +100,7 @@
         {
           "time": "12:45",
           "title": "신상출시 편스토랑 스페셜 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -111,7 +111,7 @@
         {
           "time": "13:40",
           "title": "2025 프로야구 <2안포함>",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -186,8 +186,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1760157471,
-      "script_run_iso_utc": "2025-10-11T04:37:51.142158+00:00",
+      "script_run_epoch_utc": 1760159444,
+      "script_run_iso_utc": "2025-10-11T05:10:44.785838+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-11."
     }
   ]
