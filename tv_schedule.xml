@@ -123,7 +123,7 @@
         <program>
           <time>17:00</time>
           <title>놓친예능 따라잡기 &lt;2안포함&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>18:05</time>
           <title>불후의 명곡</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -187,8 +187,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1760170661</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-11T08:17:41.134274+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1760174029</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-11T09:13:49.217472+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-11.</schedule_context_message>
     </schedule_entry>
   </data>
