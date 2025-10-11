@@ -101,7 +101,7 @@
         <program>
           <time>12:45</time>
           <title>신상출시 편스토랑 스페셜 &lt;2안포함&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -112,7 +112,7 @@
         <program>
           <time>13:40</time>
           <title>2025 프로야구 &lt;2안포함&gt;</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -187,8 +187,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1760156229</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-11T04:17:09.718556+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1760159606</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-11T05:13:26.543640+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-11.</schedule_context_message>
     </schedule_entry>
   </data>
