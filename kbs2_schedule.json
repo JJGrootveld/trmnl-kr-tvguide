@@ -133,7 +133,7 @@
         {
           "time": "17:30",
           "title": "슈퍼맨이 돌아왔다 스페셜 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -144,7 +144,7 @@
         {
           "time": "18:05",
           "title": "불후의 명곡",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -186,8 +186,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1760171934,
-      "script_run_iso_utc": "2025-10-11T08:38:54.933950+00:00",
+      "script_run_epoch_utc": 1760173793,
+      "script_run_iso_utc": "2025-10-11T09:09:53.395451+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-11."
     }
   ]
