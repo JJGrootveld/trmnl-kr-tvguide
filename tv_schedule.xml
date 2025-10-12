@@ -109,7 +109,7 @@
         <program>
           <time>11:35</time>
           <title>살림하는 남자들</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -120,7 +120,7 @@
         <program>
           <time>12:55</time>
           <title>신상출시 편스토랑 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -206,8 +206,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1760240159</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-12T03:35:59.010519+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1760242651</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-12T04:17:31.626241+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-12.</schedule_context_message>
     </schedule_entry>
   </data>
