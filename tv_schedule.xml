@@ -76,7 +76,7 @@
         <program>
           <time>07:25</time>
           <title>굿모닝 대한민국 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -98,7 +98,7 @@
         <program>
           <time>10:10</time>
           <title>토일 미니시리즈 은수 좋은 날</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -206,8 +206,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1760224391</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-11T23:13:11.825641+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1760231605</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-12T01:13:25.655077+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-12.</schedule_context_message>
     </schedule_entry>
   </data>
