@@ -289,7 +289,7 @@
         <program>
           <time>20:30</time>
           <title>슈퍼맨이 돌아왔다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -300,7 +300,7 @@
         <program>
           <time>21:50</time>
           <title>배달왔수다</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -321,8 +321,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1760531627</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-15T12:33:47.087748+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1760534927</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-15T13:28:47.224539+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-15.</schedule_context_message>
     </schedule_entry>
   </data>
