@@ -212,7 +212,7 @@
         {
           "time": "16:30",
           "title": "영상앨범 산",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -234,7 +234,7 @@
         {
           "time": "17:15",
           "title": "스컬킹",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "7세 이상 시청 가능",
             "Hd"
@@ -320,8 +320,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1760513802,
-      "script_run_iso_utc": "2025-10-15T07:36:42.499476+00:00",
+      "script_run_epoch_utc": 1760516214,
+      "script_run_iso_utc": "2025-10-15T08:16:54.653773+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-15."
     }
   ]
