@@ -42,7 +42,7 @@
         {
           "time": "05:00",
           "title": "생생정보 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -53,7 +53,7 @@
         {
           "time": "06:05",
           "title": "걸어서 세계속으로 트래블홀릭",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -277,8 +277,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1760647097,
-      "script_run_iso_utc": "2025-10-16T20:38:17.553856+00:00",
+      "script_run_epoch_utc": 1760649012,
+      "script_run_iso_utc": "2025-10-16T21:10:12.242234+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-17."
     }
   ]
