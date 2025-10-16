@@ -278,7 +278,7 @@
         {
           "time": "21:50",
           "title": "개는 훌륭하다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -289,7 +289,7 @@
         {
           "time": "23:10",
           "title": "토일 미니시리즈 은수 좋은 날",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -299,8 +299,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1760622348,
-      "script_run_iso_utc": "2025-10-16T13:45:48.621095+00:00",
+      "script_run_epoch_utc": 1760623911,
+      "script_run_iso_utc": "2025-10-16T14:11:51.446874+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-16."
     }
   ]
