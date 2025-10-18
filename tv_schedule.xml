@@ -101,7 +101,7 @@
         <program>
           <time>12:40</time>
           <title>배달왔수다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -112,7 +112,7 @@
         <program>
           <time>14:00</time>
           <title>제106회 전국체육대회</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -187,8 +187,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1760761044</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-18T04:17:24.183922+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1760764429</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-18T05:13:49.076973+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-18.</schedule_context_message>
     </schedule_entry>
   </data>
