@@ -10,7 +10,7 @@
         {
           "time": "00:15",
           "title": "토일 미니시리즈 은수 좋은 날",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -32,7 +32,7 @@
         {
           "time": "01:50",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Sd"
@@ -299,8 +299,8 @@
           "genre": "교양/정보"
         }
       ],
-      "script_run_epoch_utc": 1760892003,
-      "script_run_iso_utc": "2025-10-19T16:40:03.200384+00:00",
+      "script_run_epoch_utc": 1760893734,
+      "script_run_iso_utc": "2025-10-19T17:08:54.872969+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-20."
     }
   ]
