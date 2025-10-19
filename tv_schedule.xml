@@ -66,7 +66,7 @@
         <program>
           <time>07:00</time>
           <title>TV 유치원</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -77,7 +77,7 @@
         <program>
           <time>07:30</time>
           <title>굿모닝 대한민국</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -300,8 +300,8 @@
           <genre>교양/정보</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1760912014</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-19T22:13:34.952304+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1760915604</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-19T23:13:24.273120+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-20.</schedule_context_message>
     </schedule_entry>
   </data>
