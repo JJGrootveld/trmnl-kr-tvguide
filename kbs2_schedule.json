@@ -2,26 +2,15 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20251020)",
-      "date_displayed": "2025-10-20",
+      "date_requested": "Current Day (KST approx: 20251021)",
+      "date_displayed": "2025-10-21",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "00:15",
-          "title": "토일 미니시리즈 은수 좋은 날",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "드라마"
-        },
-        {
-          "time": "01:40",
+          "time": "00:05",
           "title": "KBS 재난방송센터",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -30,7 +19,7 @@
           "genre": "교양/정보"
         },
         {
-          "time": "01:50",
+          "time": "01:15",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": false,
           "icons": [
@@ -97,14 +86,14 @@
         },
         {
           "time": "09:30",
-          "title": "일일드라마 친밀한 리플리",
+          "title": "트레킹노트 세상을 걷다 스페셜 <2안포함>",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "드라마"
+          "genre": "시사/다큐"
         },
         {
           "time": "10:10",
@@ -143,7 +132,7 @@
         },
         {
           "time": "11:20",
-          "title": "박원숙의 같이 삽시다",
+          "title": "사장님 귀는 당나귀 귀",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -153,15 +142,15 @@
           "genre": "연예/오락"
         },
         {
-          "time": "12:40",
-          "title": "영화가 좋다",
+          "time": "12:50",
+          "title": "한국인의 밥상",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "교양/정보"
         },
         {
           "time": "13:50",
@@ -222,26 +211,47 @@
         },
         {
           "time": "16:30",
-          "title": "세상의 모든 다큐",
+          "title": "어린이 동물티비",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "시사/다큐"
+          "genre": "교육"
         },
         {
-          "time": "17:20",
-          "title": "스튜디오 K 스페셜",
+          "time": "17:00",
+          "title": "라이즈맨 2",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "12세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "만화"
+        },
+        {
+          "time": "17:15",
+          "title": "그라운드크루 토토",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "만화"
+        },
+        {
+          "time": "17:30",
+          "title": "트레킹노트 세상을 걷다 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
         },
         {
           "time": "18:00",
@@ -255,19 +265,30 @@
           "genre": "뉴스"
         },
         {
-          "time": "18:15",
-          "title": "2025 프로야구 <2안포함>",
+          "time": "18:35",
+          "title": "2TV 생생정보",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "스포츠"
+          "genre": "교양/정보"
         },
         {
-          "time": "21:50",
-          "title": "살림하는 남자들",
+          "time": "19:50",
+          "title": "일일드라마 친밀한 리플리",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "드라마"
+        },
+        {
+          "time": "20:30",
+          "title": "셀럽병사의 비밀",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -277,7 +298,18 @@
           "genre": "연예/오락"
         },
         {
-          "time": "23:10",
+          "time": "21:45",
+          "title": "스모킹 건",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "연예/오락"
+        },
+        {
+          "time": "22:45",
           "title": "아이 러브 스포츠",
           "is_on_air": false,
           "icons": [
@@ -288,20 +320,20 @@
           "genre": "스포츠"
         },
         {
-          "time": "23:35",
-          "title": "고소영의 펍스토랑",
-          "is_on_air": true,
+          "time": "23:10",
+          "title": "APEC 뮤직 페스타",
+          "is_on_air": false,
           "icons": [
-            "19세 이상 시청 가능",
+            "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "교양/정보"
+          "genre": "음악"
         }
       ],
-      "script_run_epoch_utc": 1760971229,
-      "script_run_iso_utc": "2025-10-20T14:40:29.090561+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-10-20."
+      "script_run_epoch_utc": 1760973105,
+      "script_run_iso_utc": "2025-10-20T15:11:45.803136+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-10-21."
     }
   ]
 }
