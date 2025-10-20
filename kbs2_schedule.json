@@ -19,7 +19,7 @@
           "genre": "교양/정보"
         },
         {
-          "time": "01:15",
+          "time": "00:15",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": true,
           "icons": [
@@ -86,14 +86,14 @@
         },
         {
           "time": "09:30",
-          "title": "트레킹노트 세상을 걷다 스페셜 <2안포함>",
+          "title": "일일드라마 친밀한 리플리",
           "is_on_air": false,
           "icons": [
-            "전체 시청 가능",
+            "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "시사/다큐"
+          "genre": "드라마"
         },
         {
           "time": "10:10",
@@ -265,37 +265,15 @@
           "genre": "뉴스"
         },
         {
-          "time": "18:35",
-          "title": "2TV 생생정보",
+          "time": "18:15",
+          "title": "2025 프로야구 <2안포함>",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "19:50",
-          "title": "일일드라마 친밀한 리플리",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "드라마"
-        },
-        {
-          "time": "20:30",
-          "title": "셀럽병사의 비밀",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "연예/오락"
+          "genre": "스포츠"
         },
         {
           "time": "21:45",
@@ -331,8 +309,8 @@
           "genre": "음악"
         }
       ],
-      "script_run_epoch_utc": 1760987373,
-      "script_run_iso_utc": "2025-10-20T19:09:33.663112+00:00",
+      "script_run_epoch_utc": 1760988826,
+      "script_run_iso_utc": "2025-10-20T19:33:46.142967+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-21."
     }
   ]
