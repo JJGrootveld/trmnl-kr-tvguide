@@ -3,13 +3,13 @@
   <data>
     <schedule_entry>
       <channel_id_requested>7</channel_id_requested>
-      <date_requested>Current Day (KST approx: 20251021)</date_requested>
-      <date_displayed>2025-10-21</date_displayed>
+      <date_requested>Current Day (KST approx: 20251022)</date_requested>
+      <date_displayed>2025-10-22</date_displayed>
       <channel_name>KBS2</channel_name>
       <channel_logo_url>https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png</channel_logo_url>
       <programs>
         <program>
-          <time>00:05</time>
+          <time>00:50</time>
           <title>KBS 재난방송센터</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -20,7 +20,7 @@
           <genre>교양/정보</genre>
         </program>
         <program>
-          <time>00:15</time>
+          <time>01:00</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -87,14 +87,14 @@
         </program>
         <program>
           <time>09:30</time>
-          <title>일일드라마 친밀한 리플리</title>
+          <title>트레킹노트 세상을 걷다 스페셜 &lt;2안포함&gt;</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>15세 이상 시청 가능</icon>
+            <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>드라마</genre>
+          <genre>시사/다큐</genre>
         </program>
         <program>
           <time>10:10</time>
@@ -122,18 +122,18 @@
         </program>
         <program>
           <time>11:10</time>
-          <title>생활의 발견 스페셜</title>
+          <title>슈퍼맨이 돌아왔다</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>전체 시청 가능</icon>
+            <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>교양/정보</genre>
+          <genre>연예/오락</genre>
         </program>
         <program>
-          <time>11:20</time>
-          <title>사장님 귀는 당나귀 귀</title>
+          <time>12:30</time>
+          <title>개는 훌륭하다</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
@@ -141,17 +141,6 @@
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
           <genre>연예/오락</genre>
-        </program>
-        <program>
-          <time>12:50</time>
-          <title>한국인의 밥상</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>교양/정보</genre>
         </program>
         <program>
           <time>13:50</time>
@@ -212,40 +201,7 @@
         </program>
         <program>
           <time>16:30</time>
-          <title>어린이 동물티비</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>교육</genre>
-        </program>
-        <program>
-          <time>17:00</time>
-          <title>라이즈맨 2</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>12세 이상 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>만화</genre>
-        </program>
-        <program>
-          <time>17:15</time>
-          <title>그라운드크루 토토</title>
-          <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>만화</genre>
-        </program>
-        <program>
-          <time>17:30</time>
-          <title>트레킹노트 세상을 걷다 스페셜</title>
+          <title>영상앨범 산</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
@@ -253,6 +209,38 @@
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
           <genre>시사/다큐</genre>
+        </program>
+        <program>
+          <time>17:00</time>
+          <title>Why?</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>7세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>교양/정보</genre>
+        </program>
+        <program>
+          <time>17:15</time>
+          <title>스컬킹</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>7세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+          </icons>
+          <genre>교양/정보</genre>
+        </program>
+        <program>
+          <time>17:30</time>
+          <title>꿀잼 영화가 좋다</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>연예/오락</genre>
         </program>
         <program>
           <time>18:00</time>
@@ -266,53 +254,65 @@
           <genre>뉴스</genre>
         </program>
         <program>
-          <time>18:15</time>
-          <title>2025 프로야구 &lt;2안포함&gt;</title>
+          <time>18:35</time>
+          <title>2TV 생생정보</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>스포츠</genre>
+          <genre>교양/정보</genre>
         </program>
         <program>
-          <time>21:45</time>
-          <title>스모킹 건</title>
+          <time>19:50</time>
+          <title>일일드라마 친밀한 리플리</title>
           <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
+        </program>
+        <program>
+          <time>20:30</time>
+          <title>슈퍼맨이 돌아왔다</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
           <genre>연예/오락</genre>
         </program>
         <program>
-          <time>22:45</time>
-          <title>아이 러브 스포츠</title>
+          <time>21:50</time>
+          <title>배달왔수다</title>
           <is_on_air>False</is_on_air>
-          <icons>
-            <icon>전체 시청 가능</icon>
-            <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
-          </icons>
-          <genre>스포츠</genre>
-        </program>
-        <program>
-          <time>23:10</time>
-          <title>APEC 뮤직 페스타</title>
-          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>음악</genre>
+          <genre>교양/정보</genre>
+        </program>
+        <program>
+          <time>23:10</time>
+          <title>토일 미니시리즈 은수 좋은 날</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>15세 이상 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761056087</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-21T14:14:47.931840+00:00</script_run_iso_utc>
-      <schedule_context_message>Displaying schedule for 2025-10-21.</schedule_context_message>
+      <script_run_epoch_utc>1761059775</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-21T15:16:15.229788+00:00</script_run_iso_utc>
+      <schedule_context_message>Displaying schedule for 2025-10-22.</schedule_context_message>
     </schedule_entry>
   </data>
 </data>
