@@ -87,7 +87,7 @@
         {
           "time": "09:30",
           "title": "일일드라마 친밀한 리플리",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -133,7 +133,7 @@
         {
           "time": "11:20",
           "title": "사장님 귀는 당나귀 귀",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -309,8 +309,8 @@
           "genre": "음악"
         }
       ],
-      "script_run_epoch_utc": 1761008106,
-      "script_run_iso_utc": "2025-10-21T00:55:06.720218+00:00",
+      "script_run_epoch_utc": 1761013412,
+      "script_run_iso_utc": "2025-10-21T02:23:32.195237+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-21."
     }
   ]
