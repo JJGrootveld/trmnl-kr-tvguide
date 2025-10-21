@@ -212,7 +212,7 @@
         {
           "time": "16:30",
           "title": "어린이 동물티비",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -234,7 +234,7 @@
         {
           "time": "17:15",
           "title": "그라운드크루 토토",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -309,8 +309,8 @@
           "genre": "음악"
         }
       ],
-      "script_run_epoch_utc": 1761032189,
-      "script_run_iso_utc": "2025-10-21T07:36:29.634289+00:00",
+      "script_run_epoch_utc": 1761034600,
+      "script_run_iso_utc": "2025-10-21T08:16:40.434725+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-21."
     }
   ]
