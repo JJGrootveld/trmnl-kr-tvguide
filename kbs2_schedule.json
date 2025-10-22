@@ -87,7 +87,7 @@
         {
           "time": "09:30",
           "title": "트레킹노트 세상을 걷다 스페셜 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -122,7 +122,7 @@
         {
           "time": "11:10",
           "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -309,8 +309,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1761094567,
-      "script_run_iso_utc": "2025-10-22T00:56:07.430802+00:00",
+      "script_run_epoch_utc": 1761100031,
+      "script_run_iso_utc": "2025-10-22T02:27:11.023103+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-22."
     }
   ]
