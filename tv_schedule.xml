@@ -99,7 +99,7 @@
         <program>
           <time>10:10</time>
           <title>KBS 아침 뉴스타임</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -123,7 +123,7 @@
         <program>
           <time>11:10</time>
           <title>슈퍼맨이 돌아왔다</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -310,8 +310,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761095684</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-22T01:14:44.366498+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761102449</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-22T03:07:29.638540+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-22.</schedule_context_message>
     </schedule_entry>
   </data>
