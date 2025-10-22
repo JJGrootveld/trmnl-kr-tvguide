@@ -134,7 +134,7 @@
         <program>
           <time>12:30</time>
           <title>개는 훌륭하다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>13:50</time>
           <title>무엇이든 물어보세요 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -310,8 +310,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761106725</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-22T04:18:45.396316+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761110140</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-22T05:15:40.517690+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-22.</schedule_context_message>
     </schedule_entry>
   </data>
