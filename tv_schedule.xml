@@ -224,7 +224,7 @@
         <program>
           <time>17:15</time>
           <title>스컬킹</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>7세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -245,7 +245,7 @@
         <program>
           <time>18:00</time>
           <title>경제콘서트</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -310,8 +310,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761121373</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-22T08:22:53.064220+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761124694</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-22T09:18:14.151607+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-22.</schedule_context_message>
     </schedule_entry>
   </data>
