@@ -99,7 +99,7 @@
         <program>
           <time>09:30</time>
           <title>일일드라마 친밀한 리플리</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -134,7 +134,7 @@
         <program>
           <time>11:10</time>
           <title>주말드라마 화려한 날들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -277,8 +277,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761268150</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-24T01:09:10.524697+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761274626</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-24T02:57:06.783921+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-24.</schedule_context_message>
     </schedule_entry>
   </data>
