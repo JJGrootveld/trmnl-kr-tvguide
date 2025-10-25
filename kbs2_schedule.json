@@ -78,7 +78,7 @@
         {
           "time": "10:10",
           "title": "영화가 좋다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -89,7 +89,7 @@
         {
           "time": "11:20",
           "title": "토일 미니시리즈 은수 좋은 날",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -186,8 +186,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1761358792,
-      "script_run_iso_utc": "2025-10-25T02:19:52.057036+00:00",
+      "script_run_epoch_utc": 1761362045,
+      "script_run_iso_utc": "2025-10-25T03:14:05.091913+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-25."
     }
   ]
