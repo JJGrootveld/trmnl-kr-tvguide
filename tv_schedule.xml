@@ -33,7 +33,7 @@
         <program>
           <time>01:05</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Sd</icon>
@@ -322,8 +322,8 @@
           <genre>교양/정보</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761491627</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-26T15:13:47.808997+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761495444</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-26T16:17:24.650697+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-27.</schedule_context_message>
     </schedule_entry>
   </data>
