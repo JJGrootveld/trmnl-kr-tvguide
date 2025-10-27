@@ -332,8 +332,8 @@
           <genre>음악</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761585239</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-27T17:13:59.406028+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761589400</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-27T18:23:20.351834+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-28.</schedule_context_message>
     </schedule_entry>
   </data>
