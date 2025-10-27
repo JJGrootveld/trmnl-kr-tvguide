@@ -268,7 +268,7 @@
         {
           "time": "19:50",
           "title": "일일드라마 친밀한 리플리",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -279,7 +279,7 @@
         {
           "time": "20:30",
           "title": "박원숙의 같이 삽시다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -321,8 +321,8 @@
           "genre": "교양/정보"
         }
       ],
-      "script_run_epoch_utc": 1761563432,
-      "script_run_iso_utc": "2025-10-27T11:10:32.351672+00:00",
+      "script_run_epoch_utc": 1761564942,
+      "script_run_iso_utc": "2025-10-27T11:35:42.535273+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-27."
     }
   ]
