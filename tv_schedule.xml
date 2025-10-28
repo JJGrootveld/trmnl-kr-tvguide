@@ -134,7 +134,7 @@
         <program>
           <time>11:10</time>
           <title>누난 내게 여자야</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>12:50</time>
           <title>한국인의 밥상</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>음악</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761620660</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-28T03:04:20.661444+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761625110</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-28T04:18:30.038202+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-28.</schedule_context_message>
     </schedule_entry>
   </data>
