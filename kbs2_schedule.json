@@ -2,14 +2,14 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20251028)",
-      "date_displayed": "2025-10-28",
+      "date_requested": "Current Day (KST approx: 20251029)",
+      "date_displayed": "2025-10-29",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "00:20",
-          "title": "스모킹 건",
+          "time": "00:25",
+          "title": "스튜디오 K 스페셜",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -19,7 +19,7 @@
           "genre": "연예/오락"
         },
         {
-          "time": "01:20",
+          "time": "00:55",
           "title": "KBS 재난방송센터",
           "is_on_air": false,
           "icons": [
@@ -30,7 +30,7 @@
           "genre": "교양/정보"
         },
         {
-          "time": "01:30",
+          "time": "01:05",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": false,
           "icons": [
@@ -108,7 +108,18 @@
         },
         {
           "time": "10:10",
-          "title": "KBS 아침 뉴스타임",
+          "title": "트레킹노트 세상을 걷다 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
+        },
+        {
+          "time": "10:30",
+          "title": "중계방송 이태원 참사 3주기 기억식",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -116,10 +127,10 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "뉴스"
+          "genre": "교양/정보"
         },
         {
-          "time": "10:30",
+          "time": "11:35",
           "title": "인간극장 스페셜",
           "is_on_air": false,
           "icons": [
@@ -131,8 +142,8 @@
           "genre": "시사/다큐"
         },
         {
-          "time": "11:10",
-          "title": "누난 내게 여자야",
+          "time": "12:15",
+          "title": "놓친예능 따라잡기",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -142,18 +153,18 @@
           "genre": "연예/오락"
         },
         {
-          "time": "12:50",
-          "title": "한국인의 밥상",
+          "time": "12:45",
+          "title": "개는 훌륭하다",
           "is_on_air": false,
           "icons": [
-            "전체 시청 가능",
+            "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "교양/정보"
+          "genre": "연예/오락"
         },
         {
-          "time": "13:50",
+          "time": "14:05",
           "title": "무엇이든 물어보세요 스페셜",
           "is_on_air": false,
           "icons": [
@@ -162,18 +173,6 @@
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "교양/정보"
-        },
-        {
-          "time": "15:00",
-          "title": "KBS 뉴스타임",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "뉴스"
         },
         {
           "time": "15:15",
@@ -189,14 +188,14 @@
         },
         {
           "time": "15:45",
-          "title": "주디세이",
+          "title": "캐리야 학교 가자",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "만화"
+          "genre": "연예/오락"
         },
         {
           "time": "16:00",
@@ -211,40 +210,7 @@
         },
         {
           "time": "16:30",
-          "title": "어린이 동물티비",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교육"
-        },
-        {
-          "time": "17:00",
-          "title": "라이즈맨 2",
-          "is_on_air": false,
-          "icons": [
-            "12세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "만화"
-        },
-        {
-          "time": "17:15",
-          "title": "그라운드크루 토토",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "만화"
-        },
-        {
-          "time": "17:30",
-          "title": "트레킹노트 세상을 걷다 스페셜",
+          "title": "영상앨범 산",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -254,15 +220,36 @@
           "genre": "시사/다큐"
         },
         {
-          "time": "18:00",
-          "title": "경제콘서트",
+          "time": "17:00",
+          "title": "Why?",
           "is_on_air": false,
           "icons": [
-            "전체 시청 가능",
+            "7세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "뉴스"
+          "genre": "교양/정보"
+        },
+        {
+          "time": "17:15",
+          "title": "스컬킹",
+          "is_on_air": false,
+          "icons": [
+            "7세 이상 시청 가능",
+            "Hd"
+          ],
+          "genre": "교양/정보"
+        },
+        {
+          "time": "17:30",
+          "title": "APEC 뮤직 페스타 스페셜",
+          "is_on_air": false,
+          "icons": [
+            "15세 이상 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "음악"
         },
         {
           "time": "18:35",
@@ -288,52 +275,42 @@
         },
         {
           "time": "20:30",
-          "title": "셀럽병사의 비밀",
+          "title": "슈퍼맨이 돌아왔다",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "12세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "연예/오락"
         },
         {
-          "time": "21:45",
-          "title": "스모킹 건",
+          "time": "21:50",
+          "title": "배달왔수다",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
-        },
-        {
-          "time": "22:45",
-          "title": "아이 러브 스포츠",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "스포츠"
+          "genre": "교양/정보"
         },
         {
           "time": "23:10",
-          "title": "스테이지 W 충남",
-          "is_on_air": true,
+          "title": "토일 미니시리즈 은수 좋은 날",
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "음악"
+          "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1761662562,
-      "script_run_iso_utc": "2025-10-28T14:42:42.417782+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-10-28."
+      "script_run_epoch_utc": 1761664374,
+      "script_run_iso_utc": "2025-10-28T15:12:54.103599+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-10-29."
     }
   ]
 }
