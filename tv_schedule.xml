@@ -202,7 +202,7 @@
         <program>
           <time>16:00</time>
           <title>TV 유치원</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -235,7 +235,7 @@
         <program>
           <time>17:15</time>
           <title>그라운드크루 토토</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>음악</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761635742</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-28T07:15:42.182985+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761639701</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-28T08:21:41.824659+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-28.</schedule_context_message>
     </schedule_entry>
   </data>
