@@ -2,24 +2,24 @@
   "data": [
     {
       "channel_id_requested": "7",
-      "date_requested": "Current Day (KST approx: 20251029)",
-      "date_displayed": "2025-10-29",
+      "date_requested": "Current Day (KST approx: 20251030)",
+      "date_displayed": "2025-10-30",
       "channel_name": "KBS2",
       "channel_logo_url": "https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png",
       "programs": [
         {
-          "time": "00:25",
-          "title": "스튜디오 K 스페셜",
+          "time": "00:35",
+          "title": "아이 러브 스포츠",
           "is_on_air": false,
           "icons": [
-            "15세 이상 시청 가능",
+            "전체 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "스포츠"
         },
         {
-          "time": "00:55",
+          "time": "01:00",
           "title": "KBS 재난방송센터",
           "is_on_air": false,
           "icons": [
@@ -30,7 +30,7 @@
           "genre": "교양/정보"
         },
         {
-          "time": "01:05",
+          "time": "01:10",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
           "is_on_air": false,
           "icons": [
@@ -119,18 +119,6 @@
         },
         {
           "time": "10:30",
-          "title": "중계방송 이태원 참사 3주기 기억식",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_sign.png)",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "11:35",
           "title": "인간극장 스페셜",
           "is_on_air": false,
           "icons": [
@@ -142,8 +130,8 @@
           "genre": "시사/다큐"
         },
         {
-          "time": "12:15",
-          "title": "놓친예능 따라잡기",
+          "time": "11:10",
+          "title": "셀럽병사의 비밀",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
@@ -153,19 +141,30 @@
           "genre": "연예/오락"
         },
         {
-          "time": "12:45",
-          "title": "개는 훌륭하다",
+          "time": "12:25",
+          "title": "동네 한 바퀴",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "시사/다큐"
+        },
+        {
+          "time": "13:30",
+          "title": "일일드라마 친밀한 리플리 스페셜",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "연예/오락"
+          "genre": "드라마"
         },
         {
-          "time": "14:05",
-          "title": "무엇이든 물어보세요 스페셜",
+          "time": "15:00",
+          "title": "생활의 발견 스페셜",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
@@ -210,95 +209,52 @@
         },
         {
           "time": "16:30",
-          "title": "영상앨범 산",
+          "title": "누가 누가 잘하나",
           "is_on_air": false,
           "icons": [
             "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "시사/다큐"
-        },
-        {
-          "time": "17:00",
-          "title": "Why?",
-          "is_on_air": false,
-          "icons": [
-            "7세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "17:15",
-          "title": "스컬킹",
-          "is_on_air": false,
-          "icons": [
-            "7세 이상 시청 가능",
-            "Hd"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "17:30",
-          "title": "APEC 뮤직 페스타 스페셜",
-          "is_on_air": false,
-          "icons": [
-            "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "음악"
         },
         {
-          "time": "18:35",
-          "title": "2TV 생생정보",
-          "is_on_air": false,
-          "icons": [
-            "전체 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "교양/정보"
-        },
-        {
-          "time": "19:50",
-          "title": "일일드라마 친밀한 리플리",
+          "time": "17:30",
+          "title": "놓친예능 따라잡기",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
-            "Hd",
-            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
-          ],
-          "genre": "드라마"
-        },
-        {
-          "time": "20:30",
-          "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": false,
-          "icons": [
-            "12세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
           "genre": "연예/오락"
         },
         {
+          "time": "18:10",
+          "title": "2025 프로야구 <2안포함>",
+          "is_on_air": false,
+          "icons": [
+            "전체 시청 가능",
+            "Hd",
+            "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
+          ],
+          "genre": "스포츠"
+        },
+        {
           "time": "21:50",
-          "title": "배달왔수다",
+          "title": "개는 훌륭하다",
           "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
             "Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)"
           ],
-          "genre": "교양/정보"
+          "genre": "연예/오락"
         },
         {
           "time": "23:10",
           "title": "토일 미니시리즈 은수 좋은 날",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -308,9 +264,9 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1761748976,
-      "script_run_iso_utc": "2025-10-29T14:42:56.461498+00:00",
-      "schedule_context_message": "Displaying schedule for 2025-10-29."
+      "script_run_epoch_utc": 1761750783,
+      "script_run_iso_utc": "2025-10-29T15:13:03.658476+00:00",
+      "schedule_context_message": "Displaying schedule for 2025-10-30."
     }
   ]
 }
