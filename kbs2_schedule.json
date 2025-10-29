@@ -132,7 +132,7 @@
         {
           "time": "11:35",
           "title": "인간극장 스페셜",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -144,7 +144,7 @@
         {
           "time": "12:15",
           "title": "놓친예능 따라잡기",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -308,8 +308,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1761705774,
-      "script_run_iso_utc": "2025-10-29T02:42:54.294200+00:00",
+      "script_run_epoch_utc": 1761709370,
+      "script_run_iso_utc": "2025-10-29T03:42:50.126328+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-29."
     }
   ]
