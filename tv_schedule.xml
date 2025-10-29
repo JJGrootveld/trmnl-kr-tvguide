@@ -234,7 +234,7 @@
         <program>
           <time>17:15</time>
           <title>스컬킹</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>7세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -244,7 +244,7 @@
         <program>
           <time>17:30</time>
           <title>APEC 뮤직 페스타 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -309,8 +309,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761726125</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-29T08:22:05.957551+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761729419</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-29T09:16:59.185501+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-29.</schedule_context_message>
     </schedule_entry>
   </data>
