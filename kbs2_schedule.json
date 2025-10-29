@@ -233,7 +233,7 @@
         {
           "time": "17:15",
           "title": "스컬킹",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "7세 이상 시청 가능",
             "Hd"
@@ -243,7 +243,7 @@
         {
           "time": "17:30",
           "title": "APEC 뮤직 페스타 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -308,8 +308,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1761725808,
-      "script_run_iso_utc": "2025-10-29T08:16:48.655279+00:00",
+      "script_run_epoch_utc": 1761727544,
+      "script_run_iso_utc": "2025-10-29T08:45:44.210779+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-29."
     }
   ]
