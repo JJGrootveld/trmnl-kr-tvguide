@@ -10,7 +10,7 @@
         {
           "time": "00:40",
           "title": "아이 러브 스포츠",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -21,7 +21,7 @@
         {
           "time": "01:05",
           "title": "KBS 재난방송센터",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -264,8 +264,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1761838898,
-      "script_run_iso_utc": "2025-10-30T15:41:38.006290+00:00",
+      "script_run_epoch_utc": 1761840903,
+      "script_run_iso_utc": "2025-10-30T16:15:03.829075+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-31."
     }
   ]
