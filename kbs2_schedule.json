@@ -176,7 +176,7 @@
         {
           "time": "15:15",
           "title": "월드 24",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -188,7 +188,7 @@
         {
           "time": "15:45",
           "title": "캐리야 학교 가자",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -264,8 +264,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1761805054,
-      "script_run_iso_utc": "2025-10-30T06:17:34.576515+00:00",
+      "script_run_epoch_utc": 1761806866,
+      "script_run_iso_utc": "2025-10-30T06:47:46.806856+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-30."
     }
   ]
