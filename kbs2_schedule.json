@@ -232,7 +232,7 @@
         {
           "time": "18:10",
           "title": "2025 프로야구 <2안포함>",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -243,7 +243,7 @@
         {
           "time": "21:50",
           "title": "개는 훌륭하다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -264,8 +264,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1761826957,
-      "script_run_iso_utc": "2025-10-30T12:22:37.266534+00:00",
+      "script_run_epoch_utc": 1761829518,
+      "script_run_iso_utc": "2025-10-30T13:05:18.014841+00:00",
       "schedule_context_message": "Displaying schedule for 2025-10-30."
     }
   ]
