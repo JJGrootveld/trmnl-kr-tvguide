@@ -234,7 +234,7 @@
         <program>
           <time>20:30</time>
           <title>신상출시 편스토랑</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -245,7 +245,7 @@
         <program>
           <time>22:00</time>
           <title>더 시즌즈 - 10CM의 쓰담쓰담</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -265,8 +265,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761913988</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-31T12:33:08.492528+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761917219</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-31T13:26:59.618108+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-31.</schedule_context_message>
     </schedule_entry>
   </data>
