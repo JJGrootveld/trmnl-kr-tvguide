@@ -99,7 +99,7 @@
         <program>
           <time>09:30</time>
           <title>리얼 카메라 진실의 눈 &lt;2안포함&gt;</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -122,7 +122,7 @@
         <program>
           <time>11:10</time>
           <title>주말드라마 화려한 날들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -265,8 +265,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761873230</script_run_epoch_utc>
-      <script_run_iso_utc>2025-10-31T01:13:50.400072+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761880045</script_run_epoch_utc>
+      <script_run_iso_utc>2025-10-31T03:07:25.535251+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-10-31.</schedule_context_message>
     </schedule_entry>
   </data>
