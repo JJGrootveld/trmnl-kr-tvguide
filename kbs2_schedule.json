@@ -53,7 +53,7 @@
         {
           "time": "06:55",
           "title": "영상앨범 산",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -64,7 +64,7 @@
         {
           "time": "07:25",
           "title": "굿모닝 대한민국 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -194,8 +194,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1762034987,
-      "script_run_iso_utc": "2025-11-01T22:09:47.236007+00:00",
+      "script_run_epoch_utc": 1762036569,
+      "script_run_iso_utc": "2025-11-01T22:36:09.205466+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-02."
     }
   ]
