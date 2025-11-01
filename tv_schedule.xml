@@ -134,7 +134,7 @@
         <program>
           <time>16:45</time>
           <title>주말드라마 화려한 날들</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -145,7 +145,7 @@
         <program>
           <time>18:05</time>
           <title>불후의 명곡</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761985112</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-01T08:18:32.491225+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761988487</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-01T09:14:47.182606+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-01.</schedule_context_message>
     </schedule_entry>
   </data>
