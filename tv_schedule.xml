@@ -167,7 +167,7 @@
         <program>
           <time>21:20</time>
           <title>토일 미니시리즈 마지막 썸머</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -178,7 +178,7 @@
         <program>
           <time>22:35</time>
           <title>살림하는 남자들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1762003243</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-01T13:20:43.441648+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1762006376</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-01T14:12:56.711451+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-01.</schedule_context_message>
     </schedule_entry>
   </data>
