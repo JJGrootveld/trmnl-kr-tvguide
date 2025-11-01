@@ -112,7 +112,7 @@
         <program>
           <time>14:05</time>
           <title>2025 슈퍼레이스 챔피언십</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -123,7 +123,7 @@
         <program>
           <time>15:45</time>
           <title>신상출시 편스토랑 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1761978059</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-01T06:20:59.567630+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1761981237</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-01T07:13:57.682511+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-01.</schedule_context_message>
     </schedule_entry>
   </data>
