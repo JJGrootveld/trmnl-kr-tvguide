@@ -10,7 +10,7 @@
         {
           "time": "00:05",
           "title": "토일 미니시리즈 마지막 썸머",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -32,7 +32,7 @@
         {
           "time": "01:30",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Sd"
@@ -288,8 +288,8 @@
           "genre": "교양/정보"
         }
       ],
-      "script_run_epoch_utc": 1762099936,
-      "script_run_iso_utc": "2025-11-02T16:12:16.251234+00:00",
+      "script_run_epoch_utc": 1762101608,
+      "script_run_iso_utc": "2025-11-02T16:40:08.992552+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-03."
     }
   ]
