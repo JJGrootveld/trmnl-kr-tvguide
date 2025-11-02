@@ -153,7 +153,7 @@
         <program>
           <time>18:10</time>
           <title>1박 2일</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -164,7 +164,7 @@
         <program>
           <time>20:00</time>
           <title>주말드라마 화려한 날들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -195,8 +195,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1762078470</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-02T10:14:30.831404+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1762081887</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-02T11:11:27.351835+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-02.</schedule_context_message>
     </schedule_entry>
   </data>
