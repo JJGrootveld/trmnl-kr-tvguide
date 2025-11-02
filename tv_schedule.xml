@@ -120,7 +120,7 @@
         <program>
           <time>13:25</time>
           <title>2025 슈퍼레이스 챔피언십</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -131,7 +131,7 @@
         <program>
           <time>15:20</time>
           <title>주말드라마 화려한 날들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -195,8 +195,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1762060505</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-02T05:15:05.956450+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1762064530</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-02T06:22:10.530845+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-02.</schedule_context_message>
     </schedule_entry>
   </data>
