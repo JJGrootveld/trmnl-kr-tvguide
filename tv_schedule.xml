@@ -236,7 +236,7 @@
         <program>
           <time>19:50</time>
           <title>일일드라마 친밀한 리플리</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -247,7 +247,7 @@
         <program>
           <time>20:30</time>
           <title>신상출시 편스토랑</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -278,8 +278,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1762514013</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-07T11:13:33.969226+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1762518731</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-07T12:32:11.811921+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-07.</schedule_context_message>
     </schedule_entry>
   </data>
