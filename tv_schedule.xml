@@ -57,7 +57,7 @@
         <program>
           <time>07:20</time>
           <title>개는 훌륭하다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -68,7 +68,7 @@
         <program>
           <time>08:40</time>
           <title>사장님 귀는 당나귀 귀</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1762557255</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-07T23:14:15.888701+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1762564248</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-08T01:10:48.504845+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-08.</schedule_context_message>
     </schedule_entry>
   </data>
