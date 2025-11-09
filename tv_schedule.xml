@@ -98,7 +98,7 @@
         <program>
           <time>11:30</time>
           <title>토일 미니시리즈 마지막 썸머</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -109,7 +109,7 @@
         <program>
           <time>12:45</time>
           <title>신상출시 편스토랑 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -195,8 +195,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1762657806</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-09T03:10:06.314238+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1762661901</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-09T04:18:21.383239+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-09.</schedule_context_message>
     </schedule_entry>
   </data>
