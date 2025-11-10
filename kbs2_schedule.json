@@ -279,7 +279,7 @@
         {
           "time": "20:30",
           "title": "박원숙의 같이 삽시다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -290,7 +290,7 @@
         {
           "time": "21:50",
           "title": "누난 내게 여자야",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -321,8 +321,8 @@
           "genre": "교양/정보"
         }
       ],
-      "script_run_epoch_utc": 1762777424,
-      "script_run_iso_utc": "2025-11-10T12:23:44.721244+00:00",
+      "script_run_epoch_utc": 1762779944,
+      "script_run_iso_utc": "2025-11-10T13:05:44.897351+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-10."
     }
   ]
