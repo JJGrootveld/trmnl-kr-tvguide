@@ -312,7 +312,7 @@
         <program>
           <time>21:45</time>
           <title>스모킹 건</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -334,7 +334,7 @@
         <program>
           <time>23:10</time>
           <title>스튜디오 K</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -343,8 +343,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1762867645</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-11T13:27:25.527750+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1762870573</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-11T14:16:13.891743+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-11.</schedule_context_message>
     </schedule_entry>
   </data>
