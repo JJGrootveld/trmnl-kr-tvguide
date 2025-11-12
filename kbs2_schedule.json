@@ -245,7 +245,7 @@
         {
           "time": "17:30",
           "title": "꿀잼 영화가 좋다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -256,7 +256,7 @@
         {
           "time": "18:00",
           "title": "경제콘서트",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -321,8 +321,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1762937204,
-      "script_run_iso_utc": "2025-11-12T08:46:44.625792+00:00",
+      "script_run_epoch_utc": 1762938825,
+      "script_run_iso_utc": "2025-11-12T09:13:45.631616+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-12."
     }
   ]
