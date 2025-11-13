@@ -278,7 +278,7 @@
         {
           "time": "21:50",
           "title": "개는 훌륭하다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -289,7 +289,7 @@
         {
           "time": "23:10",
           "title": "토일 미니시리즈 마지막 썸머",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -299,8 +299,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1763041679,
-      "script_run_iso_utc": "2025-11-13T13:47:59.822693+00:00",
+      "script_run_epoch_utc": 1763043129,
+      "script_run_iso_utc": "2025-11-13T14:12:09.574650+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-13."
     }
   ]
