@@ -67,7 +67,7 @@
         {
           "time": "08:40",
           "title": "사장님 귀는 당나귀 귀",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -89,7 +89,7 @@
         {
           "time": "11:20",
           "title": "배달왔수다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -197,8 +197,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1763168110,
-      "script_run_iso_utc": "2025-11-15T00:55:10.798724+00:00",
+      "script_run_epoch_utc": 1763173402,
+      "script_run_iso_utc": "2025-11-15T02:23:22.176520+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-15."
     }
   ]
