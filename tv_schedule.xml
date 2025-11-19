@@ -235,7 +235,7 @@
         <program>
           <time>17:15</time>
           <title>강치 아일랜드</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -257,7 +257,7 @@
         <program>
           <time>18:00</time>
           <title>경제콘서트</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -322,8 +322,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1763540536</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-19T08:22:16.248079+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1763543914</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-19T09:18:34.362507+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-19.</schedule_context_message>
     </schedule_entry>
   </data>
