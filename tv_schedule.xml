@@ -290,7 +290,7 @@
         <program>
           <time>20:30</time>
           <title>제46회 청룡영화상 시상식 1부</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -301,7 +301,7 @@
         <program>
           <time>21:50</time>
           <title>제46회 청룡영화상 시상식 2부</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -322,8 +322,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1763555687</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-19T12:34:47.483782+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1763558932</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-19T13:28:52.414172+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-19.</schedule_context_message>
     </schedule_entry>
   </data>
