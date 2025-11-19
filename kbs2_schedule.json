@@ -10,7 +10,7 @@
         {
           "time": "00:25",
           "title": "아이 러브 스포츠",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -299,8 +299,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1763565159,
-      "script_run_iso_utc": "2025-11-19T15:12:39.863319+00:00",
+      "script_run_epoch_utc": 1763566699,
+      "script_run_iso_utc": "2025-11-19T15:38:19.162512+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-20."
     }
   ]
