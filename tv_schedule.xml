@@ -109,7 +109,7 @@
         <program>
           <time>12:45</time>
           <title>옥탑방의 문제아들</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -120,7 +120,7 @@
         <program>
           <time>14:05</time>
           <title>토일 미니시리즈 마지막 썸머</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -195,8 +195,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1763872188</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-23T04:29:48.057328+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1763874893</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-23T05:14:53.533531+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-23.</schedule_context_message>
     </schedule_entry>
   </data>
