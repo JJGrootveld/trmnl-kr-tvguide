@@ -65,7 +65,7 @@
         <program>
           <time>07:25</time>
           <title>굿모닝 대한민국 스페셜</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -87,7 +87,7 @@
         <program>
           <time>09:50</time>
           <title>1박 2일 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -195,8 +195,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1763853290</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-22T23:14:50.345211+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1763861092</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-23T01:24:52.701017+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-23.</schedule_context_message>
     </schedule_entry>
   </data>
