@@ -247,7 +247,7 @@
         <program>
           <time>18:00</time>
           <title>경제콘서트</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -269,7 +269,7 @@
         <program>
           <time>19:50</time>
           <title>일일드라마 친밀한 리플리</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -322,8 +322,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1763976017</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-24T09:20:17.326540+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1763982884</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-24T11:14:44.252931+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-24.</schedule_context_message>
     </schedule_entry>
   </data>
