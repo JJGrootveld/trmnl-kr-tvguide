@@ -9,7 +9,18 @@
       <channel_logo_url>https://tv.kt.com/relatedmaterial/ch_logo/skylife/a813974300226102119.png</channel_logo_url>
       <programs>
         <program>
-          <time>00:20</time>
+          <time>00:05</time>
+          <title>아이 러브 스포츠</title>
+          <is_on_air>False</is_on_air>
+          <icons>
+            <icon>전체 시청 가능</icon>
+            <icon>Hd</icon>
+            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
+          </icons>
+          <genre>스포츠</genre>
+        </program>
+        <program>
+          <time>00:30</time>
           <title>트레킹노트 세상을 걷다 스페셜</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -20,7 +31,7 @@
           <genre>시사/다큐</genre>
         </program>
         <program>
-          <time>00:50</time>
+          <time>01:00</time>
           <title>KBS 재난방송센터</title>
           <is_on_air>False</is_on_air>
           <icons>
@@ -31,9 +42,9 @@
           <genre>교양/정보</genre>
         </program>
         <program>
-          <time>01:00</time>
+          <time>01:10</time>
           <title>방송 시간이 아닙니다(5시부터 방송 예정)</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Sd</icon>
@@ -43,7 +54,7 @@
         <program>
           <time>05:00</time>
           <title>무엇이든 물어보세요 스페셜</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -311,19 +322,18 @@
         </program>
         <program>
           <time>23:10</time>
-          <title>토일 미니시리즈 마지막 썸머</title>
+          <title>추모특선 국민배우 이순재</title>
           <is_on_air>False</is_on_air>
           <icons>
-            <icon>15세 이상 시청 가능</icon>
+            <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
-            <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_desc.png)</icon>
             <icon>Icon (src: /src/images/kt_tv/icons/icon_18x18_cap.png)</icon>
           </icons>
-          <genre>드라마</genre>
+          <genre>시사/다큐</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1764098032</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-25T19:13:52.126058+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1764101909</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-25T20:18:29.654663+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-26.</schedule_context_message>
     </schedule_entry>
   </data>
