@@ -65,7 +65,7 @@
         {
           "time": "07:00",
           "title": "TV 유치원",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -76,7 +76,7 @@
         {
           "time": "07:30",
           "title": "굿모닝 대한민국",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -300,8 +300,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1764195088,
-      "script_run_iso_utc": "2025-11-26T22:11:28.673407+00:00",
+      "script_run_epoch_utc": 1764196733,
+      "script_run_iso_utc": "2025-11-26T22:38:53.120769+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-27."
     }
   ]
