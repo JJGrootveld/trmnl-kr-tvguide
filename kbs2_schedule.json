@@ -223,7 +223,7 @@
         {
           "time": "16:30",
           "title": "영상앨범 산",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -245,7 +245,7 @@
         {
           "time": "17:15",
           "title": "강치 아일랜드",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -331,8 +331,8 @@
           "genre": "시사/다큐"
         }
       ],
-      "script_run_epoch_utc": 1764142635,
-      "script_run_iso_utc": "2025-11-26T07:37:15.269709+00:00",
+      "script_run_epoch_utc": 1764145031,
+      "script_run_iso_utc": "2025-11-26T08:17:11.155065+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-26."
     }
   ]
