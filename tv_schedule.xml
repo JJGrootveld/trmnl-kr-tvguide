@@ -213,7 +213,7 @@
         <program>
           <time>16:00</time>
           <title>TV 유치원</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -246,7 +246,7 @@
         <program>
           <time>17:15</time>
           <title>강치 아일랜드</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -332,8 +332,8 @@
           <genre>시사/다큐</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1764141381</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-26T07:16:21.200117+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1764145348</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-26T08:22:28.344580+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-26.</schedule_context_message>
     </schedule_entry>
   </data>
