@@ -87,7 +87,7 @@
         {
           "time": "07:30",
           "title": "굿모닝 대한민국",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -109,7 +109,7 @@
         {
           "time": "09:30",
           "title": "일일드라마 친밀한 리플리",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -331,8 +331,8 @@
           "genre": "시사/다큐"
         }
       ],
-      "script_run_epoch_utc": 1764113761,
-      "script_run_iso_utc": "2025-11-25T23:36:01.919214+00:00",
+      "script_run_epoch_utc": 1764118586,
+      "script_run_iso_utc": "2025-11-26T00:56:26.348507+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-26."
     }
   ]
