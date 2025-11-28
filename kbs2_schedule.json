@@ -98,7 +98,7 @@
         {
           "time": "09:30",
           "title": "일일드라마 친밀한 리플리",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -133,7 +133,7 @@
         {
           "time": "11:10",
           "title": "주말드라마 화려한 날들",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -277,8 +277,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1764291274,
-      "script_run_iso_utc": "2025-11-28T00:54:34.557430+00:00",
+      "script_run_epoch_utc": 1764296767,
+      "script_run_iso_utc": "2025-11-28T02:26:07.612916+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-28."
     }
   ]
