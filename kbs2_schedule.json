@@ -10,7 +10,7 @@
         {
           "time": "01:10",
           "title": "방송 시간이 아닙니다(5시부터 방송 예정)",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "전체 시청 가능",
             "Sd"
@@ -197,8 +197,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1764344279,
-      "script_run_iso_utc": "2025-11-28T15:37:59.331705+00:00",
+      "script_run_epoch_utc": 1764346456,
+      "script_run_iso_utc": "2025-11-28T16:14:16.324047+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-29."
     }
   ]
