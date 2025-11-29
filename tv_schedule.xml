@@ -123,7 +123,7 @@
         <program>
           <time>15:25</time>
           <title>슈퍼맨이 돌아왔다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>12세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -134,7 +134,7 @@
         <program>
           <time>16:45</time>
           <title>주말드라마 화려한 날들</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1764400473</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-29T07:14:33.138079+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1764404424</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-29T08:20:24.245356+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-29.</schedule_context_message>
     </schedule_entry>
   </data>
