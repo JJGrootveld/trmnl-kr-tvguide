@@ -79,7 +79,7 @@
         <program>
           <time>10:10</time>
           <title>영화가 좋다</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -90,7 +90,7 @@
         <program>
           <time>11:20</time>
           <title>배달왔수다</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>15세 이상 시청 가능</icon>
             <icon>Hd</icon>
@@ -198,8 +198,8 @@
           <genre>드라마</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1764378833</script_run_epoch_utc>
-      <script_run_iso_utc>2025-11-29T01:13:53.446185+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1764385704</script_run_epoch_utc>
+      <script_run_iso_utc>2025-11-29T03:08:24.416584+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-11-29.</schedule_context_message>
     </schedule_entry>
   </data>
