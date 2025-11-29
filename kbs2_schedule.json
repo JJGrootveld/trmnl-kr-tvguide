@@ -122,7 +122,7 @@
         {
           "time": "15:25",
           "title": "슈퍼맨이 돌아왔다",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "12세 이상 시청 가능",
             "Hd",
@@ -133,7 +133,7 @@
         {
           "time": "16:45",
           "title": "주말드라마 화려한 날들",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -197,8 +197,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1764401644,
-      "script_run_iso_utc": "2025-11-29T07:34:04.795834+00:00",
+      "script_run_epoch_utc": 1764404117,
+      "script_run_iso_utc": "2025-11-29T08:15:17.833720+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-29."
     }
   ]
