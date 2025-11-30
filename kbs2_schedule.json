@@ -75,7 +75,7 @@
         {
           "time": "08:30",
           "title": "살림하는 남자들",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -86,7 +86,7 @@
         {
           "time": "09:50",
           "title": "1박 2일 스페셜",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -194,8 +194,8 @@
           "genre": "연예/오락"
         }
       ],
-      "script_run_epoch_utc": 1764459284,
-      "script_run_iso_utc": "2025-11-29T23:34:44.835132+00:00",
+      "script_run_epoch_utc": 1764464605,
+      "script_run_iso_utc": "2025-11-30T01:03:25.813568+00:00",
       "schedule_context_message": "Displaying schedule for 2025-11-30."
     }
   ]
