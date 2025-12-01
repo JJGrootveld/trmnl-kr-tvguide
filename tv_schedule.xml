@@ -190,7 +190,7 @@
         <program>
           <time>15:15</time>
           <title>월드 24</title>
-          <is_on_air>True</is_on_air>
+          <is_on_air>False</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -213,7 +213,7 @@
         <program>
           <time>16:00</time>
           <title>TV 유치원</title>
-          <is_on_air>False</is_on_air>
+          <is_on_air>True</is_on_air>
           <icons>
             <icon>전체 시청 가능</icon>
             <icon>Hd</icon>
@@ -322,8 +322,8 @@
           <genre>연예/오락</genre>
         </program>
       </programs>
-      <script_run_epoch_utc>1764570453</script_run_epoch_utc>
-      <script_run_iso_utc>2025-12-01T06:27:33.218732+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1764573598</script_run_epoch_utc>
+      <script_run_iso_utc>2025-12-01T07:19:58.815900+00:00</script_run_iso_utc>
       <schedule_context_message>Displaying schedule for 2025-12-01.</schedule_context_message>
     </schedule_entry>
   </data>
