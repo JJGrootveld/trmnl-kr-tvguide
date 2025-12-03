@@ -233,7 +233,7 @@
         {
           "time": "17:15",
           "title": "강치 아일랜드",
-          "is_on_air": true,
+          "is_on_air": false,
           "icons": [
             "전체 시청 가능",
             "Hd",
@@ -244,7 +244,7 @@
         {
           "time": "17:30",
           "title": "꿀잼 영화가 좋다",
-          "is_on_air": false,
+          "is_on_air": true,
           "icons": [
             "15세 이상 시청 가능",
             "Hd",
@@ -320,8 +320,8 @@
           "genre": "드라마"
         }
       ],
-      "script_run_epoch_utc": 1764749855,
-      "script_run_iso_utc": "2025-12-03T08:17:35.818626+00:00",
+      "script_run_epoch_utc": 1764751745,
+      "script_run_iso_utc": "2025-12-03T08:49:05.693761+00:00",
       "schedule_context_message": "Displaying schedule for 2025-12-03."
     }
   ]
