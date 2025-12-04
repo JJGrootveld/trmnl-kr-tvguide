@@ -2,15 +2,11 @@
 <data>
   <data>
     <error_entry>
+      <error_summary>Failed to fetch HTML from server.</error_summary>
       <channel_id_requested>7</channel_id_requested>
       <date_requested>Current Day (KST approx: 20251205)</date_requested>
-      <error_summary>Core schedule structure (date or table) not found in HTML.</error_summary>
-      <date_displayed>N/A (parsing error)</date_displayed>
-      <channel_name>Channel ID: 7</channel_name>
-      <channel_logo_url/>
-      <programs/>
-      <script_run_epoch_utc>1764872839</script_run_epoch_utc>
-      <script_run_iso_utc>2025-12-04T18:27:19.827250+00:00</script_run_iso_utc>
+      <script_run_epoch_utc>1764875748</script_run_epoch_utc>
+      <script_run_iso_utc>2025-12-04T19:15:48.884091+00:00</script_run_iso_utc>
     </error_entry>
   </data>
 </data>
