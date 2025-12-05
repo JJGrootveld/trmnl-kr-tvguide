@@ -4,8 +4,8 @@
       "error_summary": "Failed to fetch HTML from server.",
       "channel_id_requested": "7",
       "date_requested": "Current Day (KST approx: 20251205)",
-      "script_run_epoch_utc": 1764927624,
-      "script_run_iso_utc": "2025-12-05T09:40:24.459847+00:00"
+      "script_run_epoch_utc": 1764929600,
+      "script_run_iso_utc": "2025-12-05T10:13:20.771717+00:00"
     }
   ]
 }
